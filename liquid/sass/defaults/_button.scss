@@ -1,0 +1,26 @@
+/***Button***/
+.btn-1{
+	display: inline-block;
+	text-transform: uppercase;
+	border: 1px solid $primary-color;
+	color: #fff;
+	font-weight: 300;
+	font-size: 16px;
+	padding: 15px 40px;
+	border-radius: 3px;
+	&:hover{
+		background:$primary-color;
+		color: #fff;
+	}
+}
+.btn-2{
+	color: #fff;
+	display: inline-block;
+	padding: 10px 22px;
+	background: #607a89;
+	border-radius: 3px;
+	&:hover{
+		background:$primary-color;
+		color: #fff;
+	}
+}

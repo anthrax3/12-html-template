@@ -1,0 +1,304 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .main-header-area .main-header .mainmenu ul li {
+    padding: 30px 8px;
+  }
+  .header-middle .header-middle-right ul li{
+  	font-size: 16px;
+  }
+  .main-header-area .main-header .search-area ul li:first-child input {
+    width: 120px;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+	header{
+		display:none;
+	}
+	.js .slicknav_menu {
+		display:block;
+	}
+	.slider .item-content .item-slider .content-slider .content-all a{
+		margin-bottom: 10px;
+	}
+	.about-area .image-action{
+		margin: 50px 20% 0 0;
+    	text-align: center;
+	}
+	.about-area .image-action a .list-action{
+		width: 150px;
+		height: 150px;
+	}
+	.about-area .image-action a:first-child{
+		margin-right: 100px;
+		margin-left: 45px;
+	}
+	.about-area .content-about:before{
+		right: 0;
+	}
+	.about-area .content-about .action-content h1{
+		padding: 15px;
+	}
+	.testimonial-area .content-testimonial{
+		padding-top: 0;
+	}
+	.testimonial-area .content-testimonial .testimonial .testimonial-list .testimonial-content .list-testmonial{
+		width: auto;
+		padding: 20px;
+	}
+	.testimonial-area .content-testimonial .testimonial .testimonial-list .testimonial-content .bg-list{
+		display: none;
+	}
+	.reservation-area .article {
+		text-align: center;
+	}
+	.table-tickets{
+		overflow-x: scroll;
+	}
+	.reservation-area .reservation-content{
+		padding-top: 20px;
+	}
+	footer .footer-top .footer-input{
+		padding-top: 50px;
+	}
+	.slider .item-content .item-slider .content-slider .content-all {
+		height: 460px;
+	}
+	
+	.testimonial-area .thumb-testimonial .thumb-list {
+		margin-top: 35px;
+	}
+	.video-area .video {
+		margin-top: 30px;
+	}
+	.group-event-area .group-img::before {
+		display: none;
+	}
+	.about-area .image-action a:first-child .list-action {
+		width: 190px;
+		height: 180px;
+	}
+}
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+	.slider .item-content .item-slider .content-slider {
+		width: 100%;
+	}
+	.slider .item-content .item-slider .image-slider{
+		display: none;
+	}
+	.gallery-area .gallery{
+		text-align: center;
+	}
+	.gallery-area .gallery figure{
+		display: block;
+	}
+	.testimonial-area .content-testimonial{
+		height: auto;
+	}
+	.testimonial-area .bx-wrapper{
+		padding: 0;
+		margin: 0 0 100px;
+	}
+	.testimonial-area .content-testimonial .testimonial .testimonial-list .testimonial-image{
+		width: 33%;
+		padding-right: 3%;
+	}
+	.testimonial-area .content-testimonial .testimonial .testimonial-list .testimonial-content{
+		width: 67%;
+	}
+	.video-area .video{
+		text-align: center;
+		display: inline-block;
+		padding-top: 20px;
+	}
+	.partner-area .partner-list figure{
+		float: inherit;
+	}
+	footer .footer-top{
+		padding: 50px 0;
+	}
+	footer .footer-last .copyright-content,
+	footer .footer-last .footer-social{
+		text-align: center;
+	}
+	.reservation-area .article .clander .pickmeup .pmu-instance {
+		width: 100%;
+	}
+	.slider .item-content .item-slider .content-slider .content-all h1{
+		font-size: 48px;
+		text-align: center;
+	}
+	.slider .item-content .item-slider .content-slider .content-all p{
+		text-align: center;
+		margin: 0 0 40px;
+	}
+	.slider .item-content .item-slider .content-slider{
+		text-align: center;
+	}
+	.slider .item-thumbnail{
+		text-align: center;
+		left: 0;
+		right: 0;
+	}
+	.about-area .content-about .action-content h1{
+		font-size: 30px;
+	}
+	.events-area{
+		padding: 50px 0;
+	}
+}
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 767px) {
+	footer .footer-top .footer-day{
+		padding-top: 50px;
+	}
+	.section-heading h1 {
+		font-size: 27px;
+	}
+	.about-area .image-action {
+		margin: 50px 35% 0 0;
+	}
+	.group-event-area .group-content .group-form form ul li ul li span {
+		left: 88%;
+	}
+	.group-event-area .group-content .group-form form ul li ul li {
+		width: 100%;
+	}
+	.group-event-area .group-content .group-form form ul li ul li:last-child {
+		padding: 0;
+		padding-right: 10px;
+	}
+	.reservation-content {
+		padding-left: 0px;
+	}
+	.reservation-area .reservation-content ul li span {
+		margin: 5px 10px 0;
+		display: inline-block;
+	}
+	footer .footer-top .footer-day table tr td {
+		padding: 10px;
+	}
+	.events-area .pagein ul li {
+		padding: 0 5px;
+	}
+	.services-area,
+	.services-area:before{
+		height: 740px;
+	}
+	.services-area .services-list{
+		padding: 20px 0;
+	}
+	.search-faq .search-content #custom-search-form .search-query{
+		width: 100%;
+		
+	}
+	.search-faq .search-content #custom-search-form button{
+		position: absolute;
+        right: 10px;
+        top: 10px;
+        left: inherit;
+	}
+	.faq-area .faq h2,
+	.search-faq .search-content h1{
+		font-size: 30px;
+	}
+	.faq-area .faq .panel-group .panel-default .panel-heading h4.panel-title a::after {
+		position: absolute;
+		right: 15px;
+	}
+	.faq-area .faq .panel-group .panel-default .panel-heading h4.panel-title a {
+		padding: 16px 40px 16px 10px !important;
+	}
+	.testimonial-area{
+		margin: 0 0 120px;
+	}
+	.video-area .video-content h1{
+		font-size: 24px;
+	}
+}
+@media only screen and (max-width: 480px) {
+	.testimonial-area .bx-wrapper{
+		padding: 0;
+		margin: 0 0 150px;
+	}
+	.about-area .content-about .action-content{
+		padding-top: 10px;
+	}
+	.testimonial-area .thumb-testimonial .thumb-list {
+		margin-top: 160px;
+	}
+	.about-area .image-action {
+		margin:50px 0 0px -8%;
+		text-align: left;
+	}
+	.about-area .content-about {
+		top: 220px;
+	}
+	.about-area .image-action a .list-action {
+		width: 120px;
+		height: 120px;
+	}
+	.services-area, .services-area::before {
+		height: 800px;
+	}
+	span.textcolor {
+		padding: 7px 0 7px 15px;
+	}	
+	hr {
+		width: 80%;
+		margin-top: 5px;
+	}	
+	.section-heading p {
+		margin: 8px 0 0;
+	}	
+	.testimonial-area .content-testimonial .testimonial .testimonial-list .testimonial-image {
+		width: 100%;
+		text-align: center !important;
+		margin-bottom: 10px;
+	}
+	.testimonial-area .content-testimonial .testimonial .testimonial-list .testimonial-content {
+		width: 100%;
+	}
+	.testimonial-area .thumb-testimonial .thumb-list a {
+		margin-bottom: 10px;
+	}
+	.testimonial-area {
+		margin: 0 0 360px;
+	}	
+	.contact-area.twwoo .contact-content {
+		padding-left: 0px;
+	}
+	.dining-information-area .info-dining .dining-catagori ul.nav-dining li, .dining-information-area .info-dining .dining-catagori ul.nav-dining li:first-child {
+		padding: 0 0px 0 10px;
+	}	
+	.dining-information-area .info-dining .dining-catagori .tab-content {
+		padding: 40px 10px;
+	}
+	.about-area .content-about .action-content h1 {
+		margin: 0 0 10px;
+	}
+	.testimonial-area hr , .events-area hr {
+		margin-top: 25px;
+	}
+	.faq-area .faq h2,
+	.search-faq .search-content h1{
+		font-size: 24px;
+	}
+	.testimonial-area .thumb-testimonial .thumb-list{
+		margin-top: 122px;
+	}
+}
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 320px) {
+	.slider .item-thumbnail {
+		bottom: -6%;
+	} 
+	.about-area .content-about .action-content h1 {
+		font-size: 28px;
+		margin: 0 0  60px;
+	}
+}

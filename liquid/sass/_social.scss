@@ -1,0 +1,39 @@
+.social-media{
+	margin: 50px 0;
+	.social-con{
+		h1{
+			color: #3c3e44;
+			font-weight: 400;
+			margin: 0 0 5px;
+		}
+		h2{
+			font-size: 36px;
+			font-weight: 300;
+			color: #3c3e44;
+		}
+		ul{
+			li{
+				padding: 0 20px;
+				a{
+					display: block;
+					border-radius: 100%;
+					width: 92px;
+					height: 92px;
+					text-align: center;
+					color: #fff;
+					font-size: 48px;
+					padding: 25px 0;
+					&.facebook{
+						background: #344c8a;
+					}
+					&.twitter{
+						background: #4abafc;
+					}
+					&.google-plus{
+						background: #c83b29;
+					}
+				}
+			}
+		}
+	}
+}

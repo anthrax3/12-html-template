@@ -1,0 +1,813 @@
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1169px) {
+  header .main-header ul li a {
+    padding: 20px 15px;
+  }
+  .home-plan-area .section-title h2:before,
+  .home-plan-area .section-title h2:after {
+    width: 140px;
+  }
+  .our-live-camp-area .total-camp .owl-item {
+    width: 350px !important;
+  }
+  .our-live-camp-area .total-camp .single-camp ul li {
+    width: 200px;
+  }
+  .our-live-camp-area .our-live-camp-title h1 {
+    font-size: 60px;
+  }
+  .our-live-camp-area .our-live-camp-title h1 img {
+    width: 50px;
+    height: 50px;
+    margin-top: -15px;
+  }
+  .under-camp-area .single-under-camp {
+    height: 435px;
+  }
+  .our-animal-area .section-title h2:before,
+  .our-animal-area .section-title h2:after {
+    width: 200px;
+  }
+  .our-animal-area .total-area .owl-controls .owl-buttons .owl-next,
+  .map-of-the-zoo-area .total-area .owl-controls .owl-buttons .owl-next {
+    right: -50px;
+  }
+  .our-animal-area .total-area .owl-controls .owl-buttons .owl-prev,
+  .map-of-the-zoo-area .total-area .owl-controls .owl-buttons .owl-prev {
+    left: -50px;
+  }
+  .our-video-content-area .latest-news .section-title h2:before,
+  .our-video-content-area .latest-news .section-title h2:after {
+    width: 200px;
+  }
+  .zooks-connact-area .section-title h2:before,
+  .zooks-connact-area .section-title h2:after {
+    width: 200px;
+  }
+  .openning-area .section-title h2:before,
+  .openning-area .section-title h2:after {
+    width: 200px;
+  }
+  .map-of-the-zoo-area .section-title h2:before,
+  .map-of-the-zoo-area .section-title h2:after {
+    width: 200px;
+  }
+  .remember-area .section-title h2:before,
+  .remember-area .section-title h2:after {
+    width: 200px;
+  }
+  .online-book-save-area .section-title h2:before,
+  .online-book-save-area .section-title h2:after {
+    width: 200px;
+  }
+  .under-camp-area .section-title h2:before,
+  .under-camp-area .section-title h2:after {
+    width: 200px;
+  }
+  .contact-form .section-title h2:before,
+  .contact-form .section-title h2:after {
+    width: 140px;
+  }
+  .where-we-area .section-title h2:before,
+  .where-we-area .section-title h2:after{
+     width: 32%;
+  }
+  .our-latest-video-area .video-tab ul li {
+    width: 16%;
+  }
+  .our-video-content-area .single-video a iframe {
+    width: 450px;
+    height: 278px;
+  }
+  .animal-details .image-content h1{
+    font-size: 35px;
+  }
+  .twitter-post-area .single-post .overley .services-details p{
+		font-size: 15px;
+		line-height: 16px;
+		margin-bottom: 5px;
+  }
+  .twitter-post-area .single-post .overley .services-details span::before{
+	  top: -2px;
+  }
+  .twitter-post-area .single-post{
+	  width:33.33%;
+  }
+  .ticket-area .ticket{
+	  width: 80%;
+  }
+}
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .home-plan-area .single-plan {
+    margin: 0 0 30px;
+  }
+  .home-plan-area .section-title h2 {
+    font-size: 35px;
+  }
+  .home-plan-area .section-title h2:before,
+  .home-plan-area .section-title h2:after {
+    width: 110px;
+  }
+  .our-live-camp-area .total-camp .owl-item {
+    width: 725px !important;
+  }
+  .our-live-camp-area .total-camp .single-camp ul li {
+    margin-right: 10px;
+  }
+  .our-live-camp-area .total-camp .single-camp ul li.margin-none {
+    margin-right: 10px;
+  }
+  .our-live-camp-area .our-live-camp-title h1 {
+    font-size: 60px;
+  }
+  .our-live-camp-area .our-live-camp-title h1 img {
+    width: 50px;
+    height: 50px;
+    margin-top: -15px;
+  }
+  .our-live-camp-area .our-live-camp-title {
+    text-align: center;
+    padding: 50px 50px;
+  }
+  .under-camp-area .single-under-camp {
+    height: 435px;
+  }
+  .our-animal-area .section-title h2 {
+    font-size: 35px;
+  }
+  .our-animal-area .section-title h2:before,
+  .our-animal-area .section-title h2:after {
+    width: 150px;
+  }
+  .our-animal-area .total-area .owl-controls .owl-buttons .owl-next,
+  .map-of-the-zoo-area .total-area .owl-controls .owl-buttons .owl-next {
+    right: 20px;
+  }
+  .our-animal-area .total-area .owl-controls .owl-buttons .owl-prev,
+  .map-of-the-zoo-area .total-area .owl-controls .owl-buttons .owl-prev {
+    left: 20px;
+  }
+  .our-latest-video-area .video-tab ul li {
+    margin: 0 0 5px;
+  }
+  .our-video-content-area .save-the-lion-area {
+    padding: 180px 0;
+  }
+  .our-video-content-area .latest-news .section-title h2 {
+    font-size: 35px;
+  }
+  .our-video-content-area .latest-news .section-title h2:before,
+  .our-video-content-area .latest-news .section-title h2:after {
+    width: 150px;
+  }
+  .our-video-content-area .latest-news .single-news-area .media .pull-left {
+    width: 100%;
+  }
+  .our-video-content-area .save-the-lion-area p {
+    margin: 0;
+  }
+  .zooks-connact-area .section-title h2 {
+    font-size: 35px;
+  }
+  .zooks-connact-area .section-title h2:before,
+  .zooks-connact-area .section-title h2:after {
+    width: 22%;
+	top: 19px;
+  }
+  footer .footer-top .footer-top-content {
+    padding: 0 0 50px;
+    text-align: center;
+  }
+  .openning-area .section-title h2 {
+    font-size: 35px;
+  }
+  .openning-area .section-title h2:before,
+  .openning-area .section-title h2:after {
+    width: 150px;
+  }
+  .map-of-the-zoo-area .section-title h2 {
+    font-size: 35px;
+  }
+  .map-of-the-zoo-area .section-title h2:before,
+  .map-of-the-zoo-area .section-title h2:after {
+    width: 150px;
+  }
+  .adversite-area .ad-content p {
+    margin-right: 0;
+  }
+  .remember-area .section-title h2 {
+    font-size: 30px;
+  }
+  .remember-area .section-title h2::before, .remember-area .section-title h2::after {
+    width: 30%;
+	top:15px;
+  }
+  .online-book-save-area .section-title h2:before,
+  .online-book-save-area .section-title h2:after {
+    width: 30%;
+  }
+  .under-camp-area .section-title h2 {
+    font-size: 35px;
+  }
+  .under-camp-area .section-title h2:before,
+  .under-camp-area .section-title h2:after {
+    width: 30%;
+	top:15px;
+  }
+  .contact-form .section-title h2 {
+    font-size: 35px;
+  }
+  .contact-form .section-title h2:before,
+  .contact-form .section-title h2:after {
+    display: none;
+  }
+  .where-we-area .section-title h2{
+    font-size: 35px;
+  }
+  .where-we-area .section-title h2:before,
+  .where-we-area .section-title h2:after{
+    display: none;
+  }
+  .contact-form .contact {
+    padding: 0 50px;
+  }
+  .our-video-content-area .videos {
+    margin: 0 0 50px;
+  }
+  .our-latest-video-area .video-tab ul li {
+    width: auto;
+  }
+  .our-video-content-area .single-video a iframe {
+    width: 450px;
+    height: 278px;
+  }
+  .remember-area .image .image-content{
+    top: 51%
+  }
+  .remember-area .image .image-content h1{
+    font-size: 38px;
+  }
+  .ticket-area .ticket{
+	  width: 85%;
+  }
+  .single-under-camp{
+	  margin-bottom:20px;
+  }
+  .widget {
+	margin-bottom: 30px;
+  }
+  .animal-live-area .section-title h2 {
+	  font-size: 35px;
+  }
+  .animal-live-area .section-title h2::before , .animal-live-area .section-title h2::after {
+	  width: 22%;
+  }
+  .animal-live-area .location.threee .animal-over {
+	  left: auto;
+	  right: 10%;
+  }
+  .twitter-post-area .single-post {
+	  width: 33.33%;
+  }
+  .planning-list-area {
+	padding: 70px 0 20px;
+  }
+  .planning-list-area .section-title h2 {
+	  margin-bottom: 30px;
+  }
+}
+/* Large Mobile :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  header .header-top {
+    margin: 0;
+  }
+  header .header-top .logo-area,
+  header .header-top .header-top-right,
+  header .main-header {
+    display: none;
+  }
+  .mobile-menu-area {
+    display: block;
+  }
+  .slider-area {
+    text-align: center;
+  }
+  .slider-area .slide-one,
+  .slider-area .slide-two {
+    padding: 150px 0;
+  }
+  .slider-area .slide-one h2,
+  .slider-area .slide-two h2 {
+    font-size: 80px;
+  }
+  .slider-area .slide-one h2:after,
+  .slider-area .slide-two h2:after {
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .home-plan-area .single-plan {
+    margin: 0 0 30px;
+  }
+  .home-plan-area .section-title h2 {
+    font-size: 60px;
+  }
+  .home-plan-area .section-title h2:before,
+  .home-plan-area .section-title h2:after {
+    display: none;
+  }
+  .our-live-camp-area .total-camp .single-camp ul {
+    text-align: center;
+    width: 100%;
+  }
+  .our-live-camp-area .total-camp .single-camp ul li {
+    padding: 5px;
+    margin-right: 0;
+    width: 50%;
+  }
+  .our-live-camp-area .total-camp .single-camp ul li.margin-none {
+    margin-right: 0;
+  }
+  .our-live-camp-area .our-live-camp-title h1 {
+    font-size: 40px;
+  }
+  .our-live-camp-area .our-live-camp-title h1 img {
+    width: 35px;
+    height: 35px;
+    margin-top: -12px;
+  }
+  .our-live-camp-area .our-live-camp-title {
+    text-align: center;
+    padding: 50px 50px;
+  }
+  .about-us-area {
+    background: white;
+  }
+  .about-us-area .about-content h2 {
+    font-size: 36px;
+  }
+  .our-animal-area .section-title h2 {
+    font-size: 60px;
+  }
+  .our-animal-area .total-area .owl-controls .owl-buttons .owl-next,
+  .map-of-the-zoo-area .total-area .owl-controls .owl-buttons .owl-next {
+    right: 20px;
+  }
+  .our-animal-area .total-area .owl-controls .owl-buttons .owl-prev,
+  .map-of-the-zoo-area .total-area .owl-controls .owl-buttons .owl-prev {
+    left: 20px;
+  }
+  .our-latest-video-area .video-tab ul li {
+    margin: 0 0 5px;
+  }
+  .our-video-content-area .save-the-lion-area {
+    padding: 180px 0;
+  }
+  .our-video-content-area .save-the-lion-area p {
+    margin: 0;
+  }
+  .zooks-connact-area p {
+    padding: 0 20px;
+  }
+  .twitter-post-area .single-post {
+    width: 50%;
+  }
+  footer .footer-top .footer-top-content {
+    padding: 0 0 50px;
+    text-align: center;
+  }
+  footer .footer-bottom .widget {
+    text-align: center;
+  }
+  .map-of-the-zoo-area .map-content {
+    bottom: 30px;
+    left: 30px;
+    width: 80%;
+  }
+  .map-of-the-zoo-area .map-content h2 {
+    font-size: 24px;
+  }
+  .map-of-the-zoo-area .map-content p {
+    margin: 0;
+  }
+  .breadcumb-area {
+    padding: 200px 0 20px;
+  }
+  .breadcumb-area .breadcumb {
+    padding-left: 30px;
+  }
+  .adversite-area .ad-content p {
+    margin-right: 0;
+  }
+  .online-book-save-area .section-title p {
+    padding: 0 10%;
+  }
+  .donate-area .donate-content {
+    text-align: center;
+  }
+  .contact-form .contact {
+    padding: 0 50px;
+  }
+  .map-of-the-zoo-area .map-image .price-content img {
+    width: 100px;
+    height: 100px;
+  }
+  .map-of-the-zoo-area .map-image .price-content h2 {
+    font-size: 20px;
+  }
+  .our-video-content-area .videos {
+    margin: 0 0 50px;
+  }
+  .our-latest-video-area .video-tab ul li {
+    width: auto;
+  }
+  .our-video-content-area .single-video a iframe {
+    width: 350px;
+    height: 220px;
+  }
+  .remember-area .image .image-content{
+    left: 40%;
+    right: 0;
+  }
+  .contact-form .contact{
+    padding: 0;
+  }
+  footer .footer-top .apps-area img{
+	  position:static;
+  }
+  .ticket-area .ticket{
+	  width: 100%;
+  }
+  .single-under-camp{
+	  margin-bottom:20px;
+  }
+  .widget {
+	margin-bottom: 30px;
+  }
+  .section-title h2{
+	  font-size: 30px;
+  }
+  .section-title h2::before , .section-title h2::after{
+	  display: none !important;
+  }
+  .animal-live-area .location.threee .animal-over {
+	  left: auto;
+	  right: 10%;
+  }
+  .planning-list-area {
+	padding: 40px 0 20px;
+  }
+  .planning-list-area .section-title h2 {
+	  margin: 30px 0px;
+  }
+  footer .main-footer{
+    text-align: center;
+  }
+  .about-us-area{
+    padding: 50px 0;
+  }
+}
+/* Lagge mobile :479px. */
+
+@media (max-width: 479px) {
+  header .header-top {
+    margin: 0;
+  }
+  header .header-top .logo-area,
+  header .header-top .header-top-right,
+  header .main-header {
+    display: none;
+  }
+  .donate-area .donate-content h4{
+	  font-size:20px;
+  }
+  .ticket-area .ticket{
+	  width: 100%;
+  }
+  .mobile-menu-area {
+    display: block;
+  }
+  .slider-area {
+    text-align: center;
+  }
+  .slider-area .slide-one,
+  .slider-area .slide-two {
+    padding: 150px 0;
+  }
+  .slider-area .slide-one h2,
+  .slider-area .slide-two h2 {
+    font-size: 80px;
+  }
+  .slider-area .slide-one h2:after,
+  .slider-area .slide-two h2:after {
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .home-plan-area .single-plan {
+    margin: 0 0 30px;
+  }
+  .section-title h2 {
+    font-size: 25px;
+  }
+  .our-live-camp-area .total-camp .single-camp ul {
+    text-align: center;
+    width: 100%;
+  }
+  .our-live-camp-area .total-camp .single-camp ul li {
+    padding: 5px;
+    margin-right: 0;
+    width: 50%;
+  }
+  .our-live-camp-area .total-camp .single-camp ul li.margin-none {
+    margin-right: 0;
+  }
+  .our-live-camp-area .our-live-camp-title h1 {
+    font-size: 35px;
+  }
+  .our-live-camp-area .our-live-camp-title h1 i {
+		font-size: 30px;
+	}
+  .our-live-camp-area .our-live-camp-title h1 img {
+    width: 30px;
+    height: 30px;
+    margin-top: -10px;
+  }
+  .our-live-camp-area .our-live-camp-title {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  .about-us-area {
+    background: white;
+  }
+  .about-us-area .about-content h2 {
+    font-size: 36px;
+  }
+  .our-animal-area .section-title h2:before,
+  .our-animal-area .section-title h2:after {
+    display: none;
+  }
+  .our-animal-area .total-area .owl-controls .owl-buttons .owl-next,
+  .map-of-the-zoo-area .total-area .owl-controls .owl-buttons .owl-next {
+    right: 20px;
+  }
+  .our-animal-area .total-area .owl-controls .owl-buttons .owl-prev,
+  .map-of-the-zoo-area .total-area .owl-controls .owl-buttons .owl-prev {
+    left: 20px;
+  }
+  .our-latest-video-area .video-tab ul li {
+    margin: 0 0 5px;
+  }
+  .our-video-content-area .save-the-lion-area {
+    padding: 180px 0;
+  }
+  .our-video-content-area .save-the-lion-area h2 {
+    font-size: 36px;
+  }
+  .our-video-content-area .save-the-lion-area .button a {
+    font-size: 30px;
+  }
+  .our-video-content-area .latest-news .single-news-area .media .pull-left {
+    width: 100%;
+  }
+  .our-video-content-area .save-the-lion-area p {
+    margin: 0;
+  }
+  .zooks-connact-area p {
+    padding: 0 20px;
+  }
+  .twitter-post-area .single-post {
+    width: 100%;
+  }
+  footer .footer-top .footer-top-content {
+    padding: 0 0 50px;
+    text-align: center;
+  }
+  footer .footer-bottom .widget {
+    text-align: center;
+  }
+  .map-of-the-zoo-area .map-content {
+    bottom: 30px;
+    left: 30px;
+    width: 80%;
+  }
+  .map-of-the-zoo-area .map-content h2 {
+    font-size: 24px;
+  }
+  .map-of-the-zoo-area .map-content p {
+    margin: 0;
+  }
+  .map-of-the-zoo-area .map-image,
+  .map-of-the-zoo-area .map-image img {
+    height: 200px;
+  }
+  .breadcumb-area .breadcumb {
+    padding-left: 30px;
+  }
+  .adversite-area .ad-content p {
+    margin-right:0 !important;
+  }
+  .online-book-save-area .section-title p {
+    padding: 0 10%;
+  }
+  .contact-form .contact {
+    padding: 0 50px;
+  }
+  .map-of-the-zoo-area .map-image .price-content img {
+    width: 70px;
+    height: 70px;
+  }
+  .map-of-the-zoo-area .map-image .price-content h2 {
+    font-size: 14px;
+  }
+  .our-video-content-area .videos {
+    margin: 0 0 50px;
+  }
+  .our-latest-video-area .video-tab ul li {
+    width: auto;
+  }
+  .our-video-content-area .single-video a iframe {
+    width: 300px;
+    height: 180px;
+  }
+  .remember-area .image,
+  .animal-details .image{
+    display: none;
+  }
+  .contact-form .contact{
+    padding: 0;
+  }
+  footer .footer-top .apps-area img{
+	  position:static;
+  }
+  .faq-area .faq-area .panel-group .panel-default .panel-heading h4.panel-title a.collapsed, .faq-area .faq-area .panel-group .panel-default .panel-heading h4.panel-title a{
+	  padding: 25px 14% 25px 25px;
+  }
+  .faq-area .faq-area .panel-group .panel-default .panel-heading h4.panel-title a::after, 
+  .faq-area .faq-area .panel-group .panel-default .panel-heading h4.panel-title a.collapsed::after{
+	  right: 8%;
+  }
+	.openning-area .opening-hours {
+	 padding: 50px 0px;
+	}
+	.openning-area .opening-hours ul li b{
+	   font-size:15px;
+	}
+	.single-under-camp{
+	  margin-bottom:20px;
+	}
+	.widget {
+		margin-bottom: 30px;
+	}
+	.section-title h2::before , .section-title h2::after {
+	  background: none !important;
+	}
+	.animal-details .animal-content .statas ul.statas-list li:last-child {
+	  font-size: 14px;
+	  padding: 10px 0px 10px 20px;
+	}
+	.animal-details .animal-content .statas ul.statas-list li {
+	  font-size: 14px;
+	  padding:4px 0px 4px 15px;
+	}
+	.under-camp-area .single-under-camp .image .price-camp {
+		top: 5%;
+		left: 10%;
+	}
+	.under-camp-area .single-under-camp .image .price-camp img {
+		height: 95px;
+		width: 95px;
+	}
+	.contact-form .contact fieldset .btn-send.threee{
+		padding: 9px 12%;
+	}
+	.section-title h2{
+		font-size:28px;
+	}
+	.sponser-area .single-sponser .media .pull-left a i{
+		font-size: 50px;
+	}
+	.animal-live-area .location.threee .animal-over {
+	  left: auto;
+	  right: 0%;
+	  top: -5%;
+	  padding: 5px 10px;
+	}
+	.animal-live-area .location.threee .animal-over h3 {
+		margin-bottom: 5px;
+	}
+	.animal-live-area .location.threee .animal-over a {
+		margin-top: 0px;
+	}
+	.animal-live-area .location.threee .animal-over p {
+		font-size: 14px;
+		margin-bottom: 2px;
+	}
+	.planning-list-area {
+		padding: 30px 0 20px;
+	}
+	.planning-list-area .section-title h2 {
+	  margin: 30px 0px;
+	}
+  .breadcumb-area{
+    padding: 150px 0 20px;
+  }
+  footer .main-footer{
+    text-align: center;
+  }
+  .about-us-area{
+    padding: 50px 0;
+  }
+}
+/* small mobile :320px. */
+
+@media (max-width: 320px) {
+  header .header-top {
+    margin: 0;
+  }
+  header .header-top .logo-area,
+  header .header-top .header-top-right,
+  header .main-header {
+    display: none;
+  }
+  .mobile-menu-area {
+    display: block;
+  }
+  .slider-area {
+    text-align: center;
+  }
+  .slider-area .slide-one h2, .slider-area .slide-two h2{
+    font-size: 48px;
+  }
+  .slider-area .slide-one,
+  .slider-area .slide-two {
+    padding: 150px 0;
+  }
+  .slider-area .slide-one h2,
+  .slider-area .slide-two h2 {
+    font-size: 60px;
+  }
+  .slider-area .slide-one h2:after,
+  .slider-area .slide-two h2:after {
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .home-plan-area .single-plan {
+    margin: 0 0 30px;
+  }
+  .our-live-camp-area .total-camp .single-camp ul {
+    text-align: center;
+    width: 100%;
+  }
+  .our-live-camp-area .total-camp .single-camp ul li {
+    padding: 5px;
+    margin-right: 0;
+    width: 50%;
+  }
+  .our-live-camp-area .total-camp .single-camp ul li.margin-none {
+    margin-right: 0;
+  }
+  .our-live-camp-area .our-live-camp-title h1 {
+    font-size: 35px;
+  }
+  .our-live-camp-area .our-live-camp-title h1 img {
+    width: 30px;
+    height: 30px;
+    margin-top: -10px;
+  }
+  .our-live-camp-area .our-live-camp-title {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  .contact-form .contact {
+    padding: 0 10px;
+  }
+  .our-video-content-area .single-video a iframe {
+    width: 250px;
+    height: 120px;
+  }
+  .contact-form .contact{
+    padding: 0;
+  }
+  .openning-area .opening-hours {
+     padding: 50px 0px;
+   }
+   .openning-area .opening-hours ul li b{
+	   font-size:15px;
+   }
+   .under-camp-area .single-under-camp .image .camp-image {
+	   height: 130px;
+   }
+   .animal-details .animal-content .statas ul.statas-list li{
+	   margin: 0 8px 0px 0px;
+	   font-size: 13px;
+   }
+   .animal-details .animal-content .statas ul.statas-list li:last-child {
+		font-size: 13px;
+	}
+}

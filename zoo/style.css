@@ -1,0 +1,2833 @@
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Lato:300,400,700,900');
+/*-------------------------------------
+
+Template Name: Zooks - Zoo, Cinema, Museum, Comedy Club, Circus & Aquarium HTML5 Responsive Template
+
+Template URI: http://envalab.com/
+Description: Zooks is a  HTML5 Responsive Template especially made for Zoos, Cinemas, Museums, Comedy Clubs, Circus & Aquariums.
+Author: ENVALAB
+Author URI: http://envalab.com/
+Version: 1.0
+---------------------------------------
+CSS INDEX
+=======================================
+1. Theme Default CSS (body, link color, section etc)
+---------------------------------------*/
+/*-------------------------------------*/
+/*  1.  Theme default CSS
+        1.1 Template Reset Variable
+    2.Header Start Here
+    3.Slider Area Start Here
+    4.Home Services Start Here
+    5.Home Services End Here
+    6.Our live camp start Here
+      6.1 Our camp Under Area Start Here 
+    7.About Us Area Start Here
+    8. Our Animal Start Here
+    9.Our Latest Video Area Start Here
+      9.1 Our Video Content Area Start Here 
+    10.Zooks Contact Start Here 
+      10.1 Twiiter Post Area Start Here
+    11.Footer Start Here
+    12.Breadcumb Area Start Here
+    13.Opening Hours Start Here
+    14.Map Of the Zoo Start Here
+    15.Where Is animal Live Start Here
+    16.Remember Start Here
+    17. Advertise Start Here
+    18.Book Online and Save Start Here
+    19.Select Your Ticket Start Here
+    20.Donate Start Here
+    21.Where We Are Start Here
+    22.Form Area Start Here
+    23.Planning List Start Here
+    24. Sponer Area Start Here
+    25. Animal details Area Start Here 
+/*-------------------------------------*/
+html,
+body {
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+  color: #414141;
+  font-size: 15px;
+  line-height: 24px;
+  vertical-align: baseline;
+}
+/* ------------------------------------
+1.1 Template Reset Variable 
+---------------------------------------*/
+.floatleft {
+  float: left;
+}
+.floatright {
+  float: right;
+}
+.alignleft {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 24px;
+}
+.alignright {
+  float: right;
+  margin-left: 15px;
+  margin-bottom: 24px;
+}
+.aligncenter {
+  display: block;
+  margin: 0 auto 24px;
+}
+a:focus {
+  outline: 0px solid;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.fix {
+  overflow: hidden;
+}
+p {
+  margin: 0 0 24px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 24px;
+  font-weight: 500;
+  font-family: 'Raleway', sans-serif;
+}
+a {
+  transition: all 0.5s ease 0s;
+  text-decoration: none;
+}
+a:hover {
+  color: #1969d6;
+  text-decoration: none;
+}
+a:active,
+a:hover {
+  outline: 0 none;
+  color: #0849a3;
+}
+ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+.clear {
+  clear: both;
+}
+::-moz-selection {
+  background: #1969d6;
+  text-shadow: none;
+}
+::selection {
+  background: #1969d6;
+  text-shadow: none;
+}
+.browserupgrade {
+  margin: 26px  0;
+  background: #1969d6;
+  color: #333333;
+  padding: 26px 0;
+}
+.acurate {
+  margin: 0;
+  padding: 0;
+}
+.padding {
+  padding: 30px;
+}
+.padding-top {
+  padding-top: 30px;
+}
+.padding-bottom {
+  padding-bottom: 30px;
+}
+.padding1 {
+  padding: 60px;
+}
+.padding-top1 {
+  padding-top: 60px;
+}
+.padding-bottom1 {
+  padding-bottm: 60px;
+}
+.mobile-menu-area {
+  display: none;
+}
+.mean-container .mean-nav {
+  position: absolute;
+  top: 100%;
+}
+/* ------------------------------------
+2.Header Start Here 
+---------------------------------------*/
+header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 9;
+}
+header .header-top {
+  clear: both;
+  margin-top: 25px;
+}
+header .header-top .logo-area a {
+  display: block;
+}
+header .header-top .logo-area a img {
+  text-align: center;
+}
+header .header-top .header-top-right {
+  border-bottom: 2px solid #736558;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+header .header-top .header-top-right ul {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+header .header-top .header-top-right ul li {
+  display: inline-block;
+}
+header .header-top .header-top-right ul li a {
+  display: block;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  color: #ffffff;
+  padding: 10px 15px;
+}
+header .header-top .header-top-right ul li.schedule {
+  background: rgba(0, 0, 0, 0) url("images/btn.png") no-repeat scroll 0 0;
+  margin: 0 2px 0 40px;
+  padding: 0 15px;
+}
+header .main-header ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+header .main-header ul li {
+  display: inline-block;
+}
+header .main-header ul li.active a {
+  color: #ffffff;
+}
+header .main-header ul li a {
+  display: block;
+  text-decoration: none;
+  font-family: 'Architects Daughter', cursive;
+  color: #ffffff;
+  padding: 20px 35px;
+  font-size: 22px;
+  color: #dcd794;
+  transition: all 0.3s;
+}
+header .main-header ul li a:hover {
+  color: #ffffff;
+}
+header .search-box-area {
+  display: none;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin: 0px auto;
+}
+header .search-box-area .search-form input {
+  border-radius: 0;
+  border: 1px solid #dddddd;
+  height: 40px;
+  color: #333333;
+}
+header .search-box-area .search-form a {
+  position: absolute;
+  right: 30px;
+  top: 8px;
+}
+/* ------------------------------------ 
+3.Slider Area Start Here 
+---------------------------------------*/
+.slider-area {
+  color: #ffffff;
+}
+.slider-area .slide-one {
+  background: url(images/slider/1.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 300px 0;
+}
+.slider-area .slide-one h2 {
+  font-size: 120px;
+  font-family: 'Architects Daughter', cursive;
+  color: #dcd794;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  position: relative;
+}
+.slider-area .slide-one h2:after {
+  background: #dcd794;
+  height: 5px;
+  width: 400px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: "";
+}
+.slider-area .slide-one p {
+  font-size: 24px;
+  color: #ffffff;
+}
+.slider-area .slide-one a {
+  margin-top: 20px;
+  background: url(images/slider/slider-btn.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 15px 20px;
+  color: #ffffff;
+  font-size: 20px;
+  display: inline-block;
+}
+.slider-area .slide-two {
+  background: url(images/slider/2.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 300px 0;
+}
+.slider-area .slide-two h2 {
+  font-size: 120px;
+  font-family: 'Architects Daughter', cursive;
+  color: #dcd794;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  position: relative;
+}
+.slider-area .slide-two h2:after {
+  background: #dcd794;
+  height: 5px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  content: "";
+}
+.slider-area .slide-two p {
+  font-size: 24px;
+  color: #ffffff;
+}
+.slider-area .slide-two a {
+  margin-top: 20px;
+  background: url(images/slider/slider-btn.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 15px 20px;
+  color: #ffffff;
+  font-size: 20px;
+  display: inline-block;
+}
+/* ------------------------------------
+4.Home Services Start Here 
+---------------------------------------*/
+.home-services-area {
+  background: #f0ebe5;
+  padding: 70px 0;
+}
+.home-services-area .single-services h2 {
+  color: #a09833;
+  font-size: 24px;
+  border-bottom: 1px solid #a09833;
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+  font-family: 'Architects Daughter', cursive;
+  text-align: center;
+}
+.home-services-area .single-services .services-image {
+  position: relative;
+  overflow: hidden;
+}
+.home-services-area .single-services .services-image:hover .overley {
+  opacity: 1;
+}
+.home-services-area .single-services .services-image a {
+  display: block;
+}
+.home-services-area .single-services .services-image a img {
+  width: 100%;
+}
+.home-services-area .single-services .services-image .overley {
+  position: absolute;
+  left: 15px;
+  right: 15px;
+  top: 15px;
+  bottom: 15px;
+  margin: auto;
+  text-align: center;
+  background: url(images/services/overley.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  content: "";
+  transition: all 0.3s;
+  opacity: 0;
+}
+.home-services-area .single-services .services-image .overley .services-details {
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+  text-align: center;
+}
+.home-services-area .single-services .services-image .overley .services-details h4 {
+  margin-bottom: 0;
+}
+.home-services-area .single-services .services-image .overley .services-details h4 a {
+  color: #ffffff;
+}
+.home-services-area .single-services .services-image .overley .services-details .services-botton {
+  background: url(images/services/btn.png) no-repeat;
+  background-position: center;
+}
+.home-services-area .single-services .services-image .overley .services-details .services-botton a {
+  color: #FB8B40;
+  display: block;
+  padding: 10px;
+  margin: 10px;
+}
+/* ------------------------------------
+5.Home Services End Here 
+---------------------------------------*/
+.home-plan-area {
+  padding: 100px 0;
+}
+.home-plan-area.services-page {
+  background: #f0ebe5;
+}
+.home-plan-area .section-title h2 {
+  font-size: 80px;
+  font-family: 'Architects Daughter', cursive;
+  color: #fb8b40;
+  margin-bottom: 60px;
+  position: relative;
+}
+.home-plan-area .section-title h2:before {
+  position: absolute;
+  left: 0;
+  width: 250px;
+  content: "";
+  height: 2px;
+  background: #fb8b40;
+  top: 40px;
+}
+.home-plan-area .section-title h2:after {
+  position: absolute;
+  right: 0;
+  width: 250px;
+  content: "";
+  height: 2px;
+  background: #fb8b40;
+  top: 40px;
+}
+.home-plan-area .single-plan {
+  text-align: center;
+}
+.home-plan-area .single-plan .plan-icon {
+  background: rgba(0, 0, 0, 0);
+  background-image: url("images/plan/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 160px;
+  line-height: 150px;
+  margin: auto auto 40px;
+  max-width: 100%;
+  padding: 10px;
+  width: 160px;
+  transition: all 0.3s;
+}
+.home-plan-area .single-plan .plan-icon:hover {
+  background: rgba(0, 0, 0, 0);
+  background-image: url("images/plan/hover.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home-plan-area .single-plan .plan-icon i {
+  font-size: 60px;
+  color: #ffffff;
+  font-weight: 300;
+}
+.home-plan-area .single-plan .plan-details h3 {
+  margin-bottom: 10px;
+}
+.home-plan-area .single-plan .plan-details h3 a {
+  display: block;
+  font-size: 24px;
+  color: #a09833;
+  font-family: 'Architects Daughter', cursive;
+  font-weight: bold;
+}
+.home-plan-area .single-plan .plan-details p {
+  color: #414141;
+}
+.home-plan-area .single-plan .plan-details .read-more a {
+  border-bottom: 2px solid #fb8b40;
+  color: #fb8b40;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 1px;
+  padding-bottom: 1px;
+  transition: all 0.3s ease 0s;
+}
+.home-plan-area .single-plan .plan-details .read-more a:hover {
+  border-bottom: 2px solid #a09833;
+  color: #a09833;
+}
+/* ------------------------------------
+6.Our live camp start Here 
+---------------------------------------*/
+.our-live-camp-area {
+  background: url(images/camp/bg.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 70px 0;
+  overflow: hidden;
+}
+.our-live-camp-area .total-camp .single-camp ul li {
+  color: #ffffff;
+  float: left;
+  margin-right: 30px;
+  text-align: center;
+  width: 165px;
+}
+.our-live-camp-area .total-camp .single-camp ul li.margin-none {
+  margin-right: 0;
+}
+.our-live-camp-area .total-camp .single-camp ul li h4 {
+  margin: 15px 0;
+}
+.our-live-camp-area .total-camp .single-camp ul li .single-live-camp {
+  position: relative;
+  overflow: hidden;
+}
+.our-live-camp-area .total-camp .single-camp ul li .single-live-camp .image {
+  overflow: hidden;
+  position: relative;
+}
+.our-live-camp-area .total-camp .single-camp ul li .single-live-camp .image:hover .overley {
+  opacity: 1;
+}
+.our-live-camp-area .total-camp .single-camp ul li .single-live-camp .image a {
+  display: block;
+}
+.our-live-camp-area .total-camp .single-camp ul li .single-live-camp .image a img {
+  width: 100%;
+}
+.our-live-camp-area .total-camp .single-camp ul li .single-live-camp .image span {
+  -moz-transform: rotate(-50deg);
+  -webkit-transform: rotate(-50deg);
+  -o-transform: rotate(-50deg);
+  -ms-transform: rotate(-50deg);
+  transform: rotate(-50deg);
+  color: #ffffff;
+  font-size: 14px;
+  left: -40px;
+  padding: 2px 35px;
+  position: absolute;
+  top: 20px;
+  z-index: 999;
+  background: #fb8b40;
+}
+.our-live-camp-area .total-camp .single-camp ul li .single-live-camp .image .overley {
+  background: rgba(0, 0, 0, 0);
+  background-image: url("images/services/overley.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+  margin: auto;
+  opacity: 0;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  text-align: center;
+  transition: all 0.3s;
+  border-radius: 5px;
+}
+.our-live-camp-area .total-camp .single-camp ul li .single-live-camp .image .overley .button {
+  background: url(images/services/btn.png) no-repeat;
+  background-position: center;
+  position: relative;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.our-live-camp-area .total-camp .single-camp ul li .single-live-camp .image .overley .button a {
+  color: #fb8b40;
+  display: inline-block;
+  margin: 2px;
+  padding: 5px 10px;
+}
+.our-live-camp-area .our-live-camp-title {
+  padding: 100px 50px;
+}
+.our-live-camp-area .our-live-camp-title h1 {
+  border-bottom: 5px solid;
+  color: #dcd794;
+  font-family: "Lato", sans-serif;
+  font-size: 84px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.our-live-camp-area .our-live-camp-title p {
+  text-align: center;
+  font-size: 24px;
+  color: #ffffff;
+}
+.our-live-camp-area .our-live-camp-title .slid-btn {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.our-live-camp-area .our-live-camp-title .slid-btn a {
+  color: #fb8b40;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0;
+  margin: 0 4px;
+  font-size: 24px;
+  border-bottom: 2px solid #fb8b40;
+  transition: all 0.3s;
+}
+.our-live-camp-area .our-live-camp-title .slid-btn a:hover {
+  color: #dcd794;
+  border-bottom: 2px solid #dcd794;
+}
+/* ------------------------------------
+6.1 Our camp Under Area Start Here  
+---------------------------------------*/
+.under-camp-area {
+  background: #f0ebe5;
+  padding: 70px 0;
+}
+.under-camp-area.single-page {
+  padding: 70px 0 0 0;
+}
+.under-camp-area.services-area {
+  background: #ffffff !important;
+}
+.under-camp-area .section-title h2 {
+  font-size: 80px;
+  font-family: 'Architects Daughter', cursive;
+  color: #fb8b40;
+  margin-bottom: 60px;
+  position: relative;
+}
+.under-camp-area .section-title h2:before {
+  position: absolute;
+  left: 0;
+  width: 250px;
+  content: "";
+  height: 2px;
+  background: #fb8b40;
+  top: 40px;
+}
+.under-camp-area .section-title h2:after {
+  position: absolute;
+  right: 0;
+  width: 250px;
+  content: "";
+  height: 2px;
+  background: #fb8b40;
+  top: 40px;
+}
+.under-camp-area .single-under-camp {
+  min-height: 350px;
+  border: 7px solid #e6dccf;
+}
+.under-camp-area .single-under-camp .image .camp-image {
+  display: block;
+  height: 170px;
+  overflow: hidden;
+}
+.under-camp-area .single-under-camp .image .camp-image img {
+  width: 100%;
+}
+.under-camp-area .single-under-camp .image .camp-image:hover img {
+  opacity: 0.8;
+}
+.under-camp-area .single-under-camp .image .price-camp {
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  display: inline-block;
+}
+.under-camp-area .single-under-camp .image .price-camp img {
+  height: 120px;
+  width: 120px;
+}
+.under-camp-area .single-under-camp .image .price-camp .content-price {
+  position: absolute;
+  top: 25%;
+  text-align: center;
+}
+.under-camp-area .single-under-camp .image .price-camp .content-price h2 {
+  font-size: 28px;
+  color: #fff;
+  display: inline-block;
+}
+.under-camp-area .single-under-camp .image .price-camp .content-price h2 span {
+  width: 100%;
+  display: inherit;
+}
+.under-camp-area .single-under-camp .details {
+  padding: 15px;
+}
+.under-camp-area .single-under-camp .details h4 {
+  margin-bottom: 5px;
+}
+.under-camp-area .single-under-camp .details h4 a {
+  color: #a09833;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 24px;
+}
+.under-camp-area .single-under-camp .details p {
+  margin-bottom: 10px;
+}
+.under-camp-area .single-under-camp .details .read-more a {
+  border-bottom: 2px solid #fb8b40;
+  color: #fb8b40;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 1px;
+  padding-bottom: 1px;
+  transition: all 0.3s ease 0s;
+}
+.under-camp-area .single-under-camp .details .read-more a:hover {
+  border-bottom: 2px solid #a09833;
+  color: #a09833;
+}
+/* ------------------------------------
+7.About Us Area Start Here 
+---------------------------------------*/
+.about-us-area {
+  background: url(images/about/bg.png) no-repeat;
+  padding: 150px 0;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin: 0 0 -60px;
+}
+.about-us-area .about-content h2 {
+  color: #a09833;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 48px;
+}
+.about-us-area .about-content ul li {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.about-us-area .about-content ul li i {
+  color: #a09833;
+  font-size: 20px;
+  margin-right: 20px;
+}
+.about-us-area .about-content .about-botton ul li {
+  margin-bottom: 0px;
+  font-size: 18px;
+  display: inline-block;
+  margin-right: 20px;
+}
+.about-us-area .about-content .about-botton ul li a {
+  border-bottom: 2px solid #fb8b40;
+  color: #fb8b40;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 1px;
+  padding-bottom: 1px;
+  transition: all 0.3s ease 0s;
+}
+.about-us-area .about-content .about-botton ul li a:hover {
+  border-bottom: 2px solid #a09833;
+  color: #a09833;
+}
+/* ------------------------------------
+8. Our Animal Start Here 
+---------------------------------------*/
+.our-animal-area {
+  background: #f0ebe5;
+  padding: 70px 0;
+}
+.our-animal-area .section-title h2 {
+  font-size: 48px;
+  font-family: 'Architects Daughter', cursive;
+  color: #fb8b40;
+  margin-bottom: 30px;
+  position: relative;
+}
+.our-animal-area .section-title h2:before {
+  position: absolute;
+  left: 0;
+  width: 250px;
+  content: "";
+  height: 2px;
+  background: #fb8b40;
+  top: 40px;
+}
+.our-animal-area .section-title h2:after {
+  position: absolute;
+  right: 0;
+  width: 250px;
+  content: "";
+  height: 2px;
+  background: #fb8b40;
+  top: 40px;
+}
+.our-animal-area .total-area .singla-animal {
+  padding: 0 15px;
+  width: 100%;
+  display: inline-block;
+}
+.our-animal-area .total-area .singla-animal h4 {
+  margin: 10px 0;
+  text-align: center;
+}
+.our-animal-area .total-area .singla-animal h4 a {
+  display: block;
+  color: #a09833;
+}
+.our-animal-area .total-area .singla-animal .image {
+  overflow: hidden;
+  position: relative;
+}
+.our-animal-area .total-area .singla-animal .image:hover .overley {
+  opacity: 1;
+}
+.our-animal-area .total-area .singla-animal .image a {
+  display: block;
+}
+.our-animal-area .total-area .singla-animal .image a img {
+  width: 100%;
+}
+.our-animal-area .total-area .singla-animal .image .overley {
+  background: rgba(0, 0, 0, 0);
+  background-image: url("images/services/overley.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+  height: 100%;
+  left: 0;
+  margin: auto;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  transition: all 0.3s ease 0s;
+  width: 100%;
+  border-radius: 5px;
+}
+.our-animal-area .total-area .singla-animal .image .overley .button {
+  background: url(images/services/btn.png) no-repeat;
+  background-position: center;
+  position: relative;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.our-animal-area .total-area .singla-animal .image .overley .button a {
+  color: #fb8b40;
+  display: inline-block;
+  margin: 2px;
+  padding: 5px 10px;
+}
+.our-animal-area .total-area .owl-controls .owl-buttons .owl-prev {
+  background: transparent;
+  border-radius: 0;
+  color: #ffffff;
+  height: 50px;
+  line-height: 50px;
+  margin: 0 1px;
+  opacity: 1;
+  padding: 0;
+  position: absolute;
+  left: -100px;
+  top: 35%;
+  font-size: 22px;
+  transition: all 0.3s;
+  width: 48px;
+  border-radius: 100%;
+  background: url(images/btm.png) no-repeat;
+}
+.our-animal-area .total-area .owl-controls .owl-buttons .owl-prev i {
+  padding: 0;
+}
+.our-animal-area .total-area .owl-controls .owl-buttons .owl-prev:hover {
+  background: url(images/btn-hover.png) no-repeat;
+}
+.our-animal-area .total-area .owl-controls .owl-buttons .owl-next {
+  background: transparent;
+  border-radius: 0;
+  color: #ffffff;
+  height: 50px;
+  line-height: 50px;
+  margin: 0 1px;
+  opacity: 1;
+  padding: 0;
+  position: absolute;
+  right: -100px;
+  top: 35%;
+  font-size: 22px;
+  transition: all 0.3s;
+  width: 48px;
+  border-radius: 100%;
+  background: url(images/btm.png) no-repeat;
+}
+.our-animal-area .total-area .owl-controls .owl-buttons .owl-next:hover {
+  background: url(images/btn-hover.png) no-repeat;
+}
+/* ------------------------------------
+9.Our Latest Video Area Start Here 
+---------------------------------------*/
+.our-latest-video-area {
+  background: url(images/video/bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0 150px;
+}
+.our-latest-video-area .section-title {
+  color: #ffffff;
+}
+.our-latest-video-area .section-title h2 {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+.our-latest-video-area .video-tab {
+  text-align: center;
+  border: 1px solid transparent;
+}
+.our-latest-video-area .video-tab ul {
+  text-align: center;
+  border: 1px solid transparent;
+}
+.our-latest-video-area .video-tab ul li {
+  display: inline-block;
+  float: inherit !important;
+  padding: 0 5px;
+}
+.our-latest-video-area .video-tab ul li.active a {
+  background: transparent;
+  border: 1px solid transparent;
+}
+.our-latest-video-area .video-tab ul li.active a img {
+  opacity: 1;
+}
+.our-latest-video-area .video-tab ul li a {
+  display: block;
+  border: 1px solid transparent;
+  padding: 0;
+  background: #fff;
+}
+.our-latest-video-area .video-tab ul li a img {
+  width: 100%;
+  display: block;
+  opacity: 0.5;
+}
+/* ------------------------------------
+9.1 Our Video Content Area Start Here  
+---------------------------------------*/
+.our-video-content-area {
+  background: #f0ebe5;
+  padding-bottom: 100px;
+  z-index: 99;
+}
+.our-video-content-area .single-video {
+  text-align: center;
+  margin-top: -100px;
+}
+.our-video-content-area .single-video iframe{
+  width: 100%;
+}
+.our-video-content-area .single-video a {
+  display: block;
+}
+.our-video-content-area .single-video a img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.our-video-content-area .single-video h3 a {
+  color: #a09833;
+  font-size: 24px;
+  transition: all 0.3s;
+}
+.our-video-content-area .single-video h3 a:hover {
+  color: #dcd794;
+}
+.our-video-content-area .save-the-lion-area {
+  background: rgba(0, 0, 0, 0) url("images/save.png") no-repeat scroll center center;
+  color: #ffffff;
+  padding: 180px;
+  text-align: center;
+}
+.our-video-content-area .save-the-lion-area h2 {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 55px;
+  margin-bottom: 0;
+  text-align: center;
+  margin-right: 50px;
+}
+.our-video-content-area .save-the-lion-area p {
+  display: inline-block;
+  margin-right: -110px;
+}
+.our-video-content-area .save-the-lion-area .button {
+  background: rgba(0, 0, 0, 0) url("images/donate-bg.png") no-repeat scroll 0 0;
+  display: inline-block;
+  height: 95px;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+.our-video-content-area .save-the-lion-area .button a {
+  color: #ffffff;
+  display: block;
+  font-size: 42px;
+  font-weight: lighter;
+  padding: 30px;
+}
+.our-video-content-area .latest-news .section-title h2 {
+  font-size: 45px;
+  font-family: 'Architects Daughter', cursive;
+  color: #fb8b40;
+  margin-bottom: 60px;
+  position: relative;
+}
+.our-video-content-area .latest-news .section-title h2:before {
+  position: absolute;
+  left: 0;
+  width: 250px;
+  content: "";
+  height: 2px;
+  background: #fb8b40;
+  top: 40px;
+}
+.our-video-content-area .latest-news .section-title h2:after {
+  position: absolute;
+  right: 0;
+  width: 250px;
+  content: "";
+  height: 2px;
+  background: #fb8b40;
+  top: 40px;
+}
+.our-video-content-area .latest-news .single-news-area {
+  min-height: 280px;
+  border: 5px solid #e6dccf;
+}
+.our-video-content-area .latest-news .single-news-area .media:hover .pull-left a img {
+  opacity: 0.5;
+}
+.our-video-content-area .latest-news .single-news-area .media .pull-left {
+  background: #dcd794;
+  padding-right: 0;
+}
+.our-video-content-area .latest-news .single-news-area .media .pull-left a img {
+  width: 100%;
+  opacity: 1;
+  transition: all 0.3s;
+}
+.our-video-content-area .latest-news .single-news-area .media .media-body {
+  padding: 25px;
+}
+.our-video-content-area .latest-news .single-news-area .media .media-body h4 {
+  margin-bottom: 30px;
+}
+.our-video-content-area .latest-news .single-news-area .media .media-body h4 a {
+  font-size: 28px;
+  font-family: 'Architects Daughter', cursive;
+  color: #a09833;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.our-video-content-area .latest-news .single-news-area .media .media-body h4 a:hover {
+  border-bottom: 2px solid #dcd794;
+  color: #dcd794;
+}
+.our-video-content-area .latest-news .single-news-area .media .media-body p {
+  margin-bottom: 30px;
+  color: #414141;
+}
+.our-video-content-area .latest-news .single-news-area .media .media-body .read-more a {
+  border-bottom: 2px solid #fb8b40;
+  color: #fb8b40;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 1px;
+  padding-bottom: 1px;
+  transition: all 0.3s ease 0s;
+}
+.our-video-content-area .latest-news .single-news-area .media .media-body .read-more a:hover {
+  border-bottom: 2px solid #dcd794;
+  color: #dcd794;
+}
+.our-video-content-area .latest-news .all-news {
+  display: inline-block;
+  background: url(images/blog/btn.png) no-repeat;
+  background-position: center;
+}
+.our-video-content-area .latest-news .all-news a {
+  display: block;
+  color: #ffffff;
+  padding: 10px;
+  margin: 22px;
+}
+.our-video-content-area .latest-news .all-news a:hover {
+  color: #fb8b40;
+}
+/* ------------------------------------
+10.Zooks Contact Start Here 
+---------------------------------------*/
+.zooks-connact-area {
+  padding: 70px 0;
+}
+.zooks-connact-area .section-title h2 {
+  font-size: 45px;
+  font-family: 'Architects Daughter', cursive;
+  color: #fb8b40;
+  margin-bottom: 60px;
+  position: relative;
+}
+.zooks-connact-area .section-title h2:before {
+  position: absolute;
+  left: 0;
+  width: 250px;
+  content: "";
+  height: 2px;
+  background: #fb8b40;
+  top: 40px;
+}
+.zooks-connact-area .section-title h2:after {
+  position: absolute;
+  right: 0;
+  width: 250px;
+  content: "";
+  height: 2px;
+  background: #fb8b40;
+  top: 40px;
+}
+.zooks-connact-area .zooks-social-connect-area {
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
+.zooks-connact-area .zooks-social-connect-area ul {
+  margin: 0;
+  padding: 0;
+}
+.zooks-connact-area .zooks-social-connect-area ul li {
+  display: inline-block;
+  margin: 3px;
+}
+.zooks-connact-area .zooks-social-connect-area ul li a {
+  display: block;
+  background: url(images/social/bg.png) no-repeat;
+  transition: all 0.3s;
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  text-align: center;
+  line-height: 60px;
+  color: #ffffff;
+}
+.zooks-connact-area .zooks-social-connect-area ul li a:hover {
+  background: url(images/social/hover.png) no-repeat;
+}
+.zooks-connact-area p {
+  padding: 0 250px;
+}
+/* ------------------------------------
+10.1 Twiiter Post Area Start Here 
+---------------------------------------*/
+.twitter-post-area {
+  overflow: hidden;
+}
+.twitter-post-area .single-post {
+  float: left;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  width: 20%;
+}
+.twitter-post-area .single-post:hover .overley {
+  opacity: 1;
+}
+.twitter-post-area .single-post a {
+  display: block;
+}
+.twitter-post-area .single-post a img {
+  width: 100%;
+}
+.twitter-post-area .single-post .overley {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  top: 10px;
+  bottom: 10px;
+  margin: auto;
+  text-align: center;
+  background: url(images/services/overley.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  content: "";
+  transition: all 0.3s;
+  opacity: 0;
+}
+.twitter-post-area .single-post .overley .services-details {
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+  text-align: center;
+}
+.twitter-post-area .single-post .overley .services-details p {
+  color: #ffffff;
+}
+.twitter-post-area .single-post .overley .services-details span {
+  color: #ffffff;
+}
+/* ------------------------------------
+11.Footer Start Here 
+---------------------------------------*/
+footer .footer-top {
+  background: url(images/footer-top.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 100px 0 0px;
+}
+footer .footer-top .apps-area img {
+  display: block;
+}
+footer .footer-top .apps-area img:hover {
+  opacity: .9;
+}
+footer .footer-top .footer-top-content h2 {
+  font-family: 'Architects Daughter', cursive;
+  color: #a09833;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+footer .footer-top .footer-top-content strong {
+  margin-bottom: 20px;
+}
+footer .footer-top .footer-top-content p {
+  margin-top: 20px;
+}
+footer .footer-top .footer-top-content .about-botton ul li {
+  margin-bottom: 0px;
+  font-size: 18px;
+  display: inline-block;
+  margin-right: 20px;
+}
+footer .footer-top .footer-top-content .about-botton ul li a {
+  border-bottom: 2px solid #fb8b40;
+  color: #fb8b40;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 1px;
+  padding-bottom: 1px;
+  transition: all 0.3s ease 0s;
+}
+footer .footer-top .footer-top-content .about-botton ul li a:hover {
+  border-bottom: 2px solid #a09833;
+  color: #a09833;
+}
+footer .main-footer {
+  padding: 50px 0;
+  border-bottom: 1px solid #dddddd;
+}
+footer .main-footer .widget h2.widget-title {
+  color: #a09833;
+  font-size: 24px;
+  font-family: 'Architects Daughter', cursive;
+  margin-bottom: 20px;
+}
+footer .main-footer .widget ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+footer .main-footer .widget ul li {
+  display: block;
+  margin-bottom: 10px;
+}
+footer .main-footer .widget ul li a {
+  display: block;
+  color: #414141;
+  font-size: 16px;
+}
+footer .main-footer .widget ul li a:hover {
+  color: #000000;
+}
+footer .main-footer .widget ul li a img {
+  margin-right: 0px;
+}
+footer .main-footer .widget ul li a i {
+  color: #a09833;
+}
+footer .main-footer .widget ul li a span {
+  color: #a09833;
+}
+footer .main-footer .widget ul.gallery li {
+  display: inline-block !important;
+  margin: 2px;
+}
+footer .main-footer .widget ul.gallery li .normal-sp {
+  display: block;
+}
+footer .main-footer .widget ul.gallery li .hover-sp {
+  display: none;
+}
+footer .main-footer .widget ul.gallery li:hover .normal-sp {
+  display: none;
+}
+footer .main-footer .widget ul.gallery li:hover .hover-sp {
+  display: block;
+}
+footer .main-footer .widget ul.gallery-sp li {
+  display: inline-block !important;
+  margin: 2px;
+}
+footer .main-footer .widget ul.gallery-sp li .normal-sp {
+  display: block;
+}
+footer .main-footer .widget ul.gallery-sp li .hover-sp {
+  display: none;
+}
+footer .main-footer .widget ul.gallery-sp li:hover .normal-sp {
+  display: none;
+}
+footer .main-footer .widget ul.gallery-sp li:hover .hover-sp {
+  display: block;
+}
+footer .footer-bottom {
+  margin-top: 20px;
+}
+footer .footer-bottom .widget .footer-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+footer .footer-bottom .widget .footer-menu ul li {
+  display: inline-block;
+  margin: 0 5px;
+}
+footer .footer-bottom .widget .footer-menu ul li a {
+  display: block;
+  color: #333333;
+  font-size: 16px;
+}
+footer .footer-bottom .widget .footer-menu ul li a:hover {
+  color: #a09833;
+}
+footer .footer-bottom .widget .copyright p {
+  color: #414141;
+}
+footer .footer-bottom .widget .copyright p i {
+  color: red;
+}
+.mfp-bottom-bar {
+  display: none;
+}
+/* ------------------------------------
+12.Breadcumb Area Start Here
+---------------------------------------*/
+.breadcumb-area {
+  background: url(images/breadcumb.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 350px 0 20px;
+}
+.breadcumb-area.two {
+  background: url(images/breadcumb2.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.breadcumb-area.three {
+  background: url(images/breadcum3.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.breadcumb-area.four {
+  background: url(images/breadcumb3.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.breadcumb-area.five {
+  background: url(images/breadcumb4.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.breadcumb-area.six {
+  background: url(images/breadcumb5.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.breadcumb-area.seven {
+  background: url(images/breadcumb6.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.breadcumb-area.eight {
+  background: url(images/breadcumb6.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.breadcumb-area h2 {
+  color: #ffffff;
+  font-size: 45px;
+  font-family: 'Architects Daughter', cursive;
+  position: relative;
+}
+.breadcumb-area h2:before {
+  background: #ffffff none repeat scroll 0 0;
+  content: "";
+  height: 4px;
+  left: 0;
+  position: absolute;
+  bottom: 0px;
+  width: 280px;
+}
+/* ------------------------------------
+13.Opening Hours Start Here 
+---------------------------------------*/
+.openning-area {
+  padding: 100px 0;
+  background: #f0ebe5;
+}
+.openning-area .section-title h2 {
+  font-size: 40px;
+  font-family: 'Architects Daughter', cursive;
+  color: #fb8b40;
+  margin-bottom: 30px;
+  position: relative;
+}
+.openning-area .section-title h2:before {
+  position: absolute;
+  left: 0;
+  width: 350px;
+  content: "";
+  height: 2px;
+  background: #e9e1d6;
+  top: 40px;
+}
+.openning-area .section-title h2:after {
+  position: absolute;
+  right: 0;
+  width: 350px;
+  content: "";
+  height: 2px;
+  background: #e9e1d6;
+  top: 40px;
+}
+.openning-area .opening-hours {
+  padding: 50px;
+}
+.openning-area .opening-hours ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.openning-area .opening-hours ul li {
+  float: left;
+  width: 33%;
+}
+.openning-area .opening-hours ul li b {
+  font-size: 18px;
+  color: #93826e;
+}
+.openning-area .opening-hours ul li th {
+  font-weight: 600;
+}
+.openning-area .opening-hours ul li .date-area {
+  width: 100%;
+  display: block;
+}
+.openning-area .opening-hours ul li .date-area ul li {
+  float: left;
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e9e1d6;
+}
+.openning-area .opening-hours ul li .date-area ul li.last-child {
+  border: 0px;
+}
+.openning-area .opening-hours ul li .ticket-area {
+  width: 100%;
+  padding: 0;
+  display: block;
+}
+.openning-area .opening-hours ul li .ticket-area ul li {
+  float: left;
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e9e1d6;
+}
+.openning-area .opening-hours ul li .ticket-area ul li.last-child {
+  border: 0px;
+}
+.openning-area .opening-hours ul li .grounds-area {
+  width: 100%;
+  display: block;
+}
+.openning-area .opening-hours ul li .grounds-area ul li {
+  float: left;
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e9e1d6;
+}
+.openning-area .opening-hours ul li .grounds-area ul li.last-child {
+  border: 0px;
+}
+.openning-area .booking-area {
+  padding: 50px 0;
+  text-align: right;
+}
+.openning-area .booking-area h2 {
+  background: #fb8b40;
+  padding: 10px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
+  display: inline-block;
+}
+.openning-area .booking-area .speedy-box {
+  background: #fff ;
+  border-top: 7px solid #e6dccf;
+  border-left: 7px solid #e6dccf;
+  border-right: 7px solid #e6dccf;
+  border-bottom: 7px solid #e6dccf;
+  margin: 0;
+  padding: 30px 15px 0 15px;
+  text-align: left;
+}
+.openning-area .booking-area .speedy-box:before {
+  content: '';
+  position: absolute;
+  right: 27px;
+  background: url(images/tiger.png) no-repeat;
+  background-size: cover;
+  background-position: right;
+  bottom: 25px;
+  float: right;
+  width: 170px;
+  height: 170px;
+}
+.openning-area .booking-area .speedy-box h3 {
+  font-weight: 400;
+  font-size: 24px;
+  color: #a09833;
+  margin-bottom: 10px;
+  position: relative;
+}
+.openning-area .booking-area .speedy-box p {
+  font-size: 15px;
+}
+.openning-area .booking-area .speedy-box p span {
+  color: #fb8b40;
+  font-weight: 600;
+  position: relative;
+}
+.openning-area .booking-area .speedy-box .all-news {
+  display: inline-block;
+  background: url(images/blog/btn.png) no-repeat;
+  background-position: center;
+  position: relative;
+}
+.openning-area .booking-area .speedy-box .all-news a {
+  display: block;
+  color: #ffffff;
+  padding: 10px;
+  margin: 22px 6px;
+}
+.openning-area .booking-area .speedy-box .all-news a:hover {
+  color: #fb8b40;
+}
+/* ------------------------------------
+14.Map Of the Zoo Start Here 
+---------------------------------------*/
+.map-of-the-zoo-area {
+  padding: 100px 0;
+}
+.map-of-the-zoo-area .section-title h2 {
+  font-size: 40px;
+  font-family: 'Architects Daughter', cursive;
+  color: #fb8b40;
+  margin-bottom: 30px;
+  position: relative;
+}
+.map-of-the-zoo-area .section-title h2:before {
+  position: absolute;
+  left: 0;
+  width: 350px;
+  content: "";
+  height: 2px;
+  background: #e9e1d6;
+  top: 40px;
+}
+.map-of-the-zoo-area .section-title h2:after {
+  position: absolute;
+  right: 0;
+  width: 350px;
+  content: "";
+  height: 2px;
+  background: #e9e1d6;
+  top: 40px;
+}
+.map-of-the-zoo-area .map-image {
+  border: 8px solid #e6dccf;
+  margin: 20px 0;
+}
+.map-of-the-zoo-area .map-image .bgmap-img:after {
+  content: '';
+  position: absolute;
+  background: rgba(121, 66, 30, 0.5) no-repeat;
+  left: 20px;
+  right: 20px;
+  top: 20px;
+  bottom: 25px;
+}
+.map-of-the-zoo-area .map-image .price-content {
+  position: absolute;
+  top: 15%;
+  right: 5%;
+  display: inline-block;
+}
+.map-of-the-zoo-area .map-image .price-content img {
+  position: relative;
+  width: 130px;
+  height: 130px;
+}
+.map-of-the-zoo-area .map-image .price-content h2 {
+  position: absolute;
+  top: 25%;
+  color: #fff;
+  text-align: center;
+  left: 0;
+  right: 0;
+  font-size: 26px;
+  font-weight: 700;
+}
+.map-of-the-zoo-area .map-image .price-content h2 span {
+  width: 100%;
+  display: inherit;
+}
+.map-of-the-zoo-area .map-content {
+  position: absolute;
+  bottom: 90px;
+  left: 80px;
+}
+.map-of-the-zoo-area .map-content h2 {
+  color: #fff;
+  margin: 0 0 5px;
+  font-family: 'Architects Daughter', cursive;
+}
+.map-of-the-zoo-area .map-content p {
+  margin: 0 0 14px;
+  color: #fff;
+}
+.map-of-the-zoo-area .map-content a {
+  color: #fff;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #fb8b40;
+  line-height: 2em;
+}
+.map-of-the-zoo-area .total-area .singla-animal {
+  padding: 0 15px;
+  width: 100%;
+  display: inline-block;
+}
+.map-of-the-zoo-area .total-area .singla-animal h4 {
+  margin: 10px 0;
+  text-align: center;
+}
+.map-of-the-zoo-area .total-area .singla-animal h4 a {
+  display: block;
+  color: #a09833;
+}
+.map-of-the-zoo-area .total-area .singla-animal .image {
+  overflow: hidden;
+  position: relative;
+}
+.map-of-the-zoo-area .total-area .singla-animal .image:hover .overley {
+  opacity: 1;
+}
+.map-of-the-zoo-area .total-area .singla-animal .image a {
+  display: block;
+}
+.map-of-the-zoo-area .total-area .singla-animal .image a img {
+  width: 100%;
+}
+.map-of-the-zoo-area .total-area .singla-animal .image .overley {
+  background: rgba(0, 0, 0, 0);
+  background-image: url("images/services/overley.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+  left: 10px;
+  right: 10px;
+  top: 10px;
+  bottom: 10px;
+  margin: auto;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  transition: all 0.3s ease 0s;
+  border-radius: 5px;
+}
+.map-of-the-zoo-area .total-area .singla-animal .image .overley .button {
+  background: url(images/services/btn.png) no-repeat;
+  background-position: center;
+  position: relative;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.map-of-the-zoo-area .total-area .singla-animal .image .overley .button a {
+  color: #fb8b40;
+  display: inline-block;
+  margin: 2px;
+  padding: 5px 10px;
+}
+.map-of-the-zoo-area .total-area .owl-controls .owl-buttons .owl-prev {
+  background: transparent;
+  border-radius: 0;
+  color: #ffffff;
+  height: 50px;
+  line-height: 50px;
+  margin: 0 1px;
+  opacity: 1;
+  padding: 0;
+  position: absolute;
+  left: -100px;
+  top: 35%;
+  font-size: 22px;
+  transition: all 0.3s;
+  width: 48px;
+  border-radius: 100%;
+  background: url(images/btm.png) no-repeat;
+}
+.map-of-the-zoo-area .total-area .owl-controls .owl-buttons .owl-prev i {
+  padding: 0;
+}
+.map-of-the-zoo-area .total-area .owl-controls .owl-buttons .owl-prev:hover {
+  background: url(images/btn-hover.png) no-repeat;
+}
+.map-of-the-zoo-area .total-area .owl-controls .owl-buttons .owl-next {
+  background: transparent;
+  border-radius: 0;
+  color: #ffffff;
+  height: 50px;
+  line-height: 50px;
+  margin: 0 1px;
+  opacity: 1;
+  padding: 0;
+  position: absolute;
+  right: -100px;
+  top: 35%;
+  font-size: 22px;
+  transition: all 0.3s;
+  width: 48px;
+  border-radius: 100%;
+  background: url(images/btm.png) no-repeat;
+}
+.map-of-the-zoo-area .total-area .owl-controls .owl-buttons .owl-next:hover {
+  background: url(images/btn-hover.png) no-repeat;
+}
+/* ------------------------------------
+15.Where Is animal Live Start Here 
+---------------------------------------*/
+.animal-live-area {
+  padding: 100px 0;
+  background: #f0ebe5;
+  background-position: center;
+  background-size: cover;
+}
+.animal-live-area .section-title h2 {
+  font-size: 40px;
+  font-family: 'Architects Daughter', cursive;
+  color: #fb8b40;
+  margin-bottom: 30px;
+  position: relative;
+}
+.animal-live-area .section-title h2:before {
+  position: absolute;
+  left: 0;
+  width: 350px;
+  content: "";
+  height: 2px;
+  background: #e9e1d6;
+  top: 40px;
+}
+.animal-live-area .section-title h2:after {
+  position: absolute;
+  right: 0;
+  width: 350px;
+  content: "";
+  height: 2px;
+  background: #e9e1d6;
+  top: 40px;
+}
+.animal-live-area .location img {
+  width: 100%;
+}
+.animal-live-area .location ul {
+  margin: 60px 0 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+.animal-live-area .location ul li {
+  display: inline-block;
+}
+.animal-live-area .location ul li.active a {
+  display: block;
+  padding: 0 10px;
+  color: #a09833;
+  border-bottom: 1px solid #a09833;
+}
+.animal-live-area .location ul li a {
+  display: block;
+  padding: 0 10px;
+  color: #fb8b40;
+  border-bottom: 1px solid #fb8b40;
+}
+.animal-live-area .location ul li a:hover {
+  color: #a09833;
+  border-bottom: 1px solid #a09833;
+}
+/* ------------------------------------
+16.Remember Start Here 
+---------------------------------------*/
+.remember-area {
+  padding: 100px 0;
+  background: #f0ebe5;
+}
+.remember-area .section-title h2 {
+  font-size: 40px;
+  font-family: 'Architects Daughter', cursive;
+  color: #fb8b40;
+  margin-bottom: 30px;
+  position: relative;
+}
+.remember-area .section-title h2:before {
+  position: absolute;
+  left: 0;
+  width: 350px;
+  content: "";
+  height: 2px;
+  background: #e9e1d6;
+  top: 40px;
+}
+.remember-area .section-title h2:after {
+  position: absolute;
+  right: 0;
+  width: 350px;
+  content: "";
+  height: 2px;
+  background: #e9e1d6;
+  top: 40px;
+}
+.remember-area .remember-content {
+  margin-top: 30px;
+}
+.remember-area .remember-content ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.remember-area .remember-content ul li {
+  display: inline-block;
+  margin-bottom: 10px;
+  border: 2px solid #dbd1c5;
+  background: #e3dbd1;
+  padding: 10px;
+}
+.remember-area .remember-content ul li span {
+  background: rgba(0, 0, 0, 0) url("images/btm.png") no-repeat scroll 0 0;
+  color: #ffffff;
+  display: inline-block;
+  float: left;
+  height: 50px;
+  line-height: 50px;
+  margin: auto 20px auto auto;
+  text-align: center;
+  width: 50px;
+  font-size: 24px;
+  font-family: 'Architects Daughter', cursive;
+}
+.remember-area .remember-content ul li p {
+  padding-top: 10px;
+  margin: 0;
+  display: table;
+}
+.remember-area .image {
+  padding: 50px 0 0;
+  display: block;
+}
+.remember-area .image .image-content {
+  position: absolute;
+  right: 12%;
+  top: 50%;
+  display: inline-block;
+  text-align: left;
+}
+.remember-area .image .image-content h1 {
+  font-size: 45px;
+  margin: 0;
+  color: #fb8b40;
+  font-family: 'Architects Daughter', cursive;
+}
+.remember-area .image .image-content h2 {
+  color: #a09833;
+  font-family: 'Architects Daughter', cursive;
+}
+/* ------------------------------------
+17. Advertise Start Here 
+---------------------------------------*/
+.adversite-area {
+  background: url(images/add.png) no-repeat;
+  padding: 130px 0;
+}
+.adversite-area.adversite-area-two {
+  background: url(images/animal-bg.jpg) no-repeat;
+  background-size: cover;
+}
+.adversite-area.adversite-area-three {
+  background: url(images/add3.jpg) no-repeat;
+}
+.adversite-area.adversite-area-fore {
+  background: url(images/animal-bg.jpg) no-repeat;
+}
+.adversite-area .ad-content h2 {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 45px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.adversite-area .ad-content p {
+  color: #ffffff;
+  margin-right: 600px;
+}
+.adversite-area .ad-content .read-more {
+  display: inline-block;
+  background-position: center;
+}
+.adversite-area .ad-content .read-more a {
+  display: block;
+  color: #fb8b40;
+  padding: 0;
+  margin: 15px 0 0;
+  border-bottom: 2px solid #fb8b40;
+}
+.adversite-area .ad-content .read-more a:hover {
+  color: #fb8b40;
+}
+/* ------------------------------------
+FAQ Start Here 
+---------------------------------------*/
+.faq-area .section-title h2 {
+  font-size: 40px;
+  font-family: 'Architects Daughter', cursive;
+  color: #fb8b40;
+  margin-bottom: 30px;
+  position: relative;
+}
+.faq-area .section-title h2:before {
+  position: absolute;
+  left: 0;
+  width: 250px;
+  content: "";
+  height: 2px;
+  background: #e9e1d6;
+  top: 40px;
+}
+.faq-area .section-title h2:after {
+  position: absolute;
+  right: 0;
+  width: 250px;
+  content: "";
+  height: 2px;
+  background: #e9e1d6;
+  top: 40px;
+}
+.faq-area .faq-area h2 {
+  font-weight: 800;
+  font-size: 30px;
+  color: #222222;
+  position: relative;
+  margin-bottom: 60px;
+}
+.faq-area .faq-area h2:after {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  content: "";
+  background: #dcd794;
+  width: 60px;
+  height: 3px;
+}
+.faq-area .faq-area .panel-group .panel-default {
+  margin-bottom: 5px;
+}
+.faq-area .faq-area .panel-group .panel-default .panel-heading {
+  padding: 0;
+}
+.faq-area .faq-area .panel-group .panel-default .panel-heading h4.panel-title a {
+  display: block;
+  padding: 16px 10px;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+  background: #e3dbd1;
+  color: #ffffff;
+}
+.faq-area .faq-area .panel-group .panel-default .panel-heading h4.panel-title a:after {
+  content: '\f175';
+  text-align: center;
+  transform: none !important;
+  background: url(images/btn-hover.png) no-repeat;
+  background-size: cover;
+  color: #dcd794;
+  padding: 5px 0;
+  font-size: 14px;
+  width: 30px;
+  height: 30px;
+  margin-top: -14px;
+}
+.faq-area .faq-area .panel-group .panel-default .panel-heading h4.panel-title a.collapsed {
+  display: block;
+  padding: 16px 10px;
+  background: #e3dbd1;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+  color: #222222;
+  transition: all 0.3s;
+}
+.faq-area .faq-area .panel-group .panel-default .panel-heading h4.panel-title a.collapsed:after {
+  content: '\f178';
+  text-align: center;
+  transform: none !important;
+  background: url(images/btnarrow.png) no-repeat;
+  background-size: cover;
+  color: #dcd794;
+  padding: 5px 0;
+  font-size: 14px;
+  width: 30px;
+  height: 30px;
+}
+.faq-area .faq-area .panel-group .panel-default .panel-heading h4.panel-title a.collapsed:hover {
+  background: #dcd794;
+  color: #ffffff;
+}
+.faq-area .faq-area .panel-heading [data-toggle="collapse"]:after {
+  font-family: fontawesome;
+  content: "\f0d8";
+  /* "play" icon */
+  float: right;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 22px;
+  /* rotate "play" icon from > (right arrow) to down arrow */
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+.faq-area .faq-area .panel-heading [data-toggle="collapse"].collapsed:after {
+  /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  color: #222222;
+}
+.faq-area .faq-image-area {
+  overflow: hidden;
+}
+.faq-area .faq-image-area a {
+  display: block;
+}
+.faq-area .faq-image-area a img {
+  width: 100%;
+  transition: all 0.3s;
+}
+.faq-area .faq-image-area a img:hover {
+  background: rgba(1, 177, 215, 0.5);
+}
+/* ------------------------------------
+18.Book Online and Save Start Here 
+---------------------------------------*/
+.online-book-save-area {
+  padding: 100px 0;
+}
+.online-book-save-area .section-title h2 {
+  font-size: 40px;
+  font-family: 'Architects Daughter', cursive;
+  color: #fb8b40;
+  margin-bottom: 30px;
+  position: relative;
+}
+.online-book-save-area .section-title h2:before {
+  position: absolute;
+  left: 10%;
+  width: 250px;
+  content: "";
+  height: 2px;
+  background: #e9e1d6;
+  top: 30px;
+}
+.online-book-save-area .section-title h2:after {
+  position: absolute;
+  right: 10%;
+  width: 250px;
+  content: "";
+  height: 2px;
+  background: #e9e1d6;
+  top: 30px;
+}
+.online-book-save-area .section-title p {
+  padding: 0 38%;
+}
+.online-book-save-area .section-title p span {
+  font-weight: bold;
+}
+.online-book-save-area .claenderall {
+  overflow: scroll;
+}
+.online-book-save-area .wrapper {
+  /* just a temp margin */
+  border: 0.1em solid #ccc;
+  /* wrap the calendar inside a box */
+  min-width: 750px;
+  /* define a width for the box */
+  height: auto;
+  /* define a height for the box */
+  margin-top: 10px;
+}
+.online-book-save-area .header {
+  background-color: #a09833;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 800;
+  margin: 0 !important;
+  padding: 30px;
+  text-align: left;
+}
+.online-book-save-area .header p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.online-book-save-area .calendar-body {
+  overflow: hidden;
+}
+.online-book-save-area .calendar-body .col-xs-1 {
+  width: 14%;
+  /* give each column a fixed width */
+  text-align: center;
+  border: 1px solid #dddddd;
+  color: #ccc;
+  padding: 10px 20px;
+  /* align text in the center */
+}
+.online-book-save-area .header p {
+  /* vertical centering */
+  text-transform: uppercase;
+  /* all caps text  */
+}
+.online-book-save-area .inactive {
+  color: #ccc;
+}
+.online-book-save-area .weekdays .col-xs-1 {
+  padding: 0px 0;
+  background: #fb8b40;
+  border: 1px solid #fb8b40;
+}
+.online-book-save-area .weekdays .col-xs-1.today {
+  background: #f0ebe5 !important;
+}
+.online-book-save-area .weekdays .col-xs-1 p {
+  text-align: center !important;
+}
+.online-book-save-area .calendar-body .col-xs-1.today {
+  background: #fff ;
+  border: 1px solid #fb8b40;
+}
+.online-book-save-area .calendar-body .col-xs-1.today p {
+  text-align: left;
+}
+.online-book-save-area .calendar-body .col-xs-1.today:before {
+  content: '';
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background: url(images/check.png) no-repeat;
+  width: 50px;
+  height: 50px;
+}
+.online-book-save-area .weekdays {
+  padding: 0px 0;
+  background: #fb8b40;
+}
+.online-book-save-area .weekdays p {
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.online-book-save-area .line {
+  /* a gray line separator  */
+  height: 0.1em;
+  border: 0.1em solid #EEEEEE;
+}
+.online-book-save-area .current-date {
+  /* styling the current date section  */
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0.7em;
+}
+.online-book-save-area .current-date a {
+  display: inline-block;
+  margin: 0 30px 11px;
+  color: #fb8b40;
+}
+.online-book-save-area .calendar-body .row .col-xs-1 a {
+  color: #2f2f2f;
+}
+.online-book-save-area .calendar-body .row .col-xs-1 p {
+  text-align: right;
+}
+.online-book-save-area .calendar-body .row .col-xs-1 p span {
+  text-align: left;
+  display: block;
+}
+.online-book-save-area .calendar-body .row .col-xs-1 p:hover {
+  color: #4778a6;
+  /* hover state on all dates  */
+}
+/* ------------------------------------
+19.Select Your Ticket Start Here 
+---------------------------------------*/
+.ticket-area {
+  padding: 100px 0 80px;
+  background: #f0ebe5;
+}
+.ticket-area .section-title h2 {
+  font-size: 40px;
+  font-family: 'Architects Daughter', cursive;
+  color: #fb8b40;
+  margin-bottom: 30px;
+  position: relative;
+}
+.ticket-area .section-title h2:before {
+  position: absolute;
+  left: 10%;
+  width: 250px;
+  content: "";
+  height: 2px;
+  background: #e9e1d6;
+  top: 30px;
+}
+.ticket-area .section-title h2:after {
+  position: absolute;
+  right: 10%;
+  width: 250px;
+  content: "";
+  height: 2px;
+  background: #e9e1d6;
+  top: 30px;
+}
+.ticket-area .ticket {
+  margin-top: 20px;
+}
+.ticket-area .ticket tbody tr td input {
+  border-radius: 30px;
+  box-shadow: none;
+  padding-left: 8px;
+  outline: none;
+  width: 60px;
+  border: 2px solid #f0ebe5;
+}
+/* ------------------------------------
+20.Donate Start Here 
+---------------------------------------*/
+.donate-area {
+  padding-top: 70px;
+}
+.donate-area .donate-content {
+  margin: 80px 0;
+}
+.donate-area .donate-content h2 {
+  font-size: 50px;
+  font-family: 'Architects Daughter', cursive;
+  color: #fb8b40;
+  margin-bottom: 0px;
+}
+.donate-area .donate-content h4 {
+  font-size: 24px;
+  font-family: 'Architects Daughter', cursive;
+  color: #dcd794;
+  margin-bottom: 0px;
+}
+.donate-area .donate-content p {
+  margin: 20px 0;
+}
+.donate-area .donate-content .donate-botton {
+  margin-top: 50px;
+}
+.donate-area .donate-content .donate-botton ul {
+  margin: 0;
+  padding: 0;
+}
+.donate-area .donate-content .donate-botton ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+/* ------------------------------------
+21.Where We Are Start Here 
+---------------------------------------*/
+.where-we-area {
+  padding: 100px 0;
+  background: #f0ebe5;
+}
+.where-we-area .section-title h2 {
+  font-size: 40px;
+  font-family: 'Architects Daughter', cursive;
+  color: #fb8b40;
+  margin-bottom: 30px;
+  position: relative;
+}
+.where-we-area .section-title h2:before {
+  position: absolute;
+  left: 15%;
+  width: 250px;
+  content: "";
+  height: 2px;
+  background: #e9e1d6;
+  top: 30px;
+}
+.where-we-area .section-title h2:after {
+  position: absolute;
+  right: 15%;
+  width: 250px;
+  content: "";
+  height: 2px;
+  background: #e9e1d6;
+  top: 30px;
+}
+.where-we-area .section-title p {
+  padding: 0 15%;
+}
+.where-we-area .section-title p span {
+  font-weight: bold;
+}
+.where-we-area .map-area {
+  text-align: right;
+}
+.where-we-area .map-area .map-full {
+  border: 8px solid #e6dccf;
+}
+.where-we-area .map-area a {
+  margin: 10px 0;
+  color: #fb8b40;
+  text-align: right;
+  display: inline-block;
+}
+.where-we-area .single-contact {
+  text-align: left;
+  margin: 30px 0;
+}
+.where-we-area .single-contact .media .pull-left {
+  margin-right: 10px;
+}
+.where-we-area .single-contact .media .media-body h4 {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 24px;
+  color: #a09833;
+}
+/* ------------------------------------
+22.Form Area Start Here 
+---------------------------------------*/
+.contact-form {
+  padding: 100px 0;
+}
+.contact-form .section-title h2 {
+  font-size: 40px;
+  font-family: 'Architects Daughter', cursive;
+  color: #fb8b40;
+  margin-bottom: 30px;
+  position: relative;
+}
+.contact-form .section-title h2:before {
+  position: absolute;
+  left: 15%;
+  width: 250px;
+  content: "";
+  height: 2px;
+  background: #e9e1d6;
+  top: 30px;
+}
+.contact-form .section-title h2:after {
+  position: absolute;
+  right: 15%;
+  width: 250px;
+  content: "";
+  height: 2px;
+  background: #e9e1d6;
+  top: 30px;
+}
+.contact-form .section-title p {
+  padding: 0 15%;
+}
+.contact-form .section-title p span {
+  font-weight: bold;
+}
+.contact-form .contact {
+  padding: 0 250px;
+}
+.contact-form .contact fieldset {
+  margin-top: 20px;
+  margin-left: -15px;
+}
+.contact-form .contact fieldset input {
+  border: 2px solid #dddddd;
+  background: #ededed;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  height: 45px;
+  margin-right: 20px;
+}
+.contact-form .contact fieldset input:focus {
+  box-shadow: none;
+}
+.contact-form .contact fieldset textarea {
+  border: 2px solid #dddddd;
+  background: #ededed;
+  border-radius: 15px;
+  margin-right: 20px;
+}
+.contact-form .contact fieldset textarea:focus {
+  box-shadow: none;
+}
+.contact-form .contact fieldset .btn-send {
+  background: rgba(0, 0, 0, 0) url("images/c-btn.png") no-repeat scroll 0 0;
+  border: 0 none;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: normal;
+  margin-top: 0;
+  padding: 9px 56px;
+  transition: all 0.3s ease 0s;
+}
+.contact-form .contact fieldset select {
+  height: 50px;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+.contact-form .contact fieldset select:focus {
+  outline: none;
+  box-shadow: none;
+  border: 1px solid #ddd;
+}
+.remember-area.plan-area .faq-area h2 {
+  font-weight: 800;
+  font-size: 30px;
+  color: #222222;
+  position: relative;
+  margin-bottom: 60px;
+}
+.remember-area.plan-area .faq-area h2:after {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  content: "";
+  background: #dcd794;
+  width: 60px;
+  height: 3px;
+}
+.remember-area.plan-area .faq-area .panel-group .panel-default {
+  margin-bottom: 5px;
+}
+.remember-area.plan-area .faq-area .panel-group .panel-default .panel-heading {
+  padding: 0;
+}
+.remember-area.plan-area .faq-area .panel-group .panel-default .panel-heading h4.panel-title a {
+  display: block;
+  padding: 16px 10px;
+  text-decoration: none;
+  font-size: 18px;
+  background: #e1d7cb;
+  color: #93826e;
+}
+.remember-area.plan-area .faq-area .panel-group .panel-default .panel-heading h4.panel-title a:after {
+  content: '\f175';
+  text-align: center;
+  transform: none !important;
+  background: url(images/btn-hover.png) no-repeat;
+  background-size: cover;
+  color: #dcd794;
+  padding: 5px 0;
+  font-size: 14px;
+  width: 30px;
+  height: 30px;
+  margin-top: -5px;
+}
+.remember-area.plan-area .faq-area .panel-group .panel-default .panel-heading h4.panel-title a.collapsed {
+  display: block;
+  padding: 16px 10px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #93826e;
+  transition: all 0.3s;
+}
+.remember-area.plan-area .faq-area .panel-group .panel-default .panel-heading h4.panel-title a.collapsed:hover {
+  background: #e1d7cb;
+  color: #93826e;
+}
+.remember-area.plan-area .faq-area .panel-group .panel-default .panel-heading h4.panel-title a.collapsed:after {
+  content: '\f178';
+  text-align: center;
+  transform: none !important;
+  background: url(images/btnarrow.png) no-repeat;
+  background-size: cover;
+  color: #dcd794;
+  padding: 5px 0;
+  font-size: 14px;
+  width: 30px;
+  height: 30px;
+}
+.remember-area.plan-area .faq-area .panel-group .panel-default .panel-body {
+  background: #f0ebe5;
+}
+.remember-area.plan-area .faq-area .panel-group .panel-default .panel-body ul li {
+  border-bottom: 1px solid #eae1d7;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+.remember-area.plan-area .faq-area .panel-group .panel-default .panel-body ul li a {
+  display: block;
+  text-decoration: none;
+  color: #93826e;
+}
+.remember-area.plan-area .faq-area .panel-group .panel-default .panel-body ul li a span {
+  float: right;
+  color: #fb8b40;
+}
+.remember-area.plan-area .faq-area .panel-heading [data-toggle="collapse"]:after {
+  font-family: fontawesome;
+  content: "\f0d8";
+  /* "play" icon */
+  float: right;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 22px;
+  /* rotate "play" icon from > (right arrow) to down arrow */
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+.remember-area.plan-area .faq-area .panel-heading [data-toggle="collapse"].collapsed:after {
+  /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  color: #222222;
+}
+/* ------------------------------------
+23.Planning List Start Here 
+---------------------------------------*/
+.planning-list-area {
+  padding: 70px 0 0;
+}
+.planning-list-area .section-title h2 {
+  font-size: 40px;
+  font-family: 'Architects Daughter', cursive;
+  color: #fb8b40;
+  margin-bottom: 60px;
+  position: relative;
+}
+.planning-list-area .section-title h2:after {
+  position: absolute;
+  right: 0;
+  left: 0;
+  width: 250px;
+  content: "";
+  height: 2px;
+  background: #e9e1d6;
+  top: 60px;
+  margin: auto;
+}
+.planning-list-area .section-title p {
+  padding: 0 15%;
+}
+.planning-list-area .section-title p span {
+  font-weight: bold;
+}
+.planning-list-area .planning-list .media .media-body a {
+  font-family: 'Architects Daughter', cursive;
+  color: #a09833;
+  font-size: 24px;
+  display: block;
+}
+.planning-list-area .planning-list .read-more a {
+  border-bottom: 2px solid #fb8b40;
+  color: #fb8b40;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 1px;
+  padding-bottom: 1px;
+  transition: all 0.3s ease 0s;
+}
+.planning-list-area .planning-list .read-more a:hover {
+  border-bottom: 2px solid #a09833;
+  color: #a09833;
+}
+.early-morning-area {
+  padding: 50px 0!important;
+  background: #f0ebe5;
+}
+.early-morning-area .early-morning {
+  margin: 90px 0 0;
+}
+.early-morning-area .early-morning .section-title h2 {
+  font-size: 40px;
+  font-family: 'Architects Daughter', cursive;
+  color: #a09833;
+  position: relative;
+}
+.early-morning-area .early-morning .section-title h2 span {
+  display: block;
+  color: #fa9350;
+  font-size: 35px;
+}
+.early-morning-area .early-morning .section-title h2:before {
+  display: none;
+}
+.early-morning-area .early-morning .section-title h2:after {
+  display: none;
+}
+.early-morning-area .early-morning .section-title p {
+  padding: 0%;
+}
+.early-morning-area .early-morning .section-title p span {
+  font-weight: bold;
+}
+.early-morning-area .early-morning .about-botton ul li {
+  margin-bottom: 0px;
+  font-size: 18px;
+  display: inline-block;
+  margin-right: 20px;
+}
+.early-morning-area .early-morning .about-botton ul li a {
+  border-bottom: 2px solid #fb8b40;
+  color: #fb8b40;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 1px;
+  padding-bottom: 1px;
+  transition: all 0.3s ease 0s;
+}
+.early-morning-area .early-morning .about-botton ul li a:hover {
+  border-bottom: 2px solid #a09833;
+  color: #a09833;
+}
+/* ------------------------------------
+24. Sponer Area Start Here 
+---------------------------------------*/
+.sponser-area {
+  padding: 40px 20px 0;
+}
+.sponser-area .single-sponser {
+  margin-top: 30px;
+}
+.sponser-area .single-sponser .media .pull-left a {
+  margin-right: 10px;
+}
+.sponser-area .single-sponser .media .pull-left a i {
+  color: #cc9d62;
+  font-size: 80px;
+  line-height: 1;
+  transition: all 0.3s;
+}
+.sponser-area .single-sponser .media .pull-left a i:hover {
+  color: #8d8d8d;
+}
+.sponser-area .single-sponser .media .media-body h4.media-heading {
+  margin-bottom: 30px;
+}
+.sponser-area .single-sponser .media .media-body h4.media-heading a {
+  color: #000000;
+  font-size: 24px;
+  font-family: 'Architects Daughter', cursive;
+}
+.sponser-area .single-sponser .media .media-body h4.media-heading a span {
+  display: inline-block;
+  padding: 5px 10px;
+  background: #cc9d62;
+  color: #ffffff;
+  transition: all 0.3s;
+}
+.sponser-area .single-sponser .media .media-body h4.media-heading a span:hover {
+  background: #000000;
+}
+.sponser-area .single-sponser .media .media-body ul li {
+  display: block;
+  margin-bottom: 10px;
+}
+.sponser-area .single-sponser .media .media-body ul li span {
+  color: #000000;
+  font-weight: bold;
+}
+.sponser-area .single-sponser .media .media-body ul li img {
+  margin-right: 10px;
+}
+/* ------------------------------------
+25. Animal details Area Start Here 
+---------------------------------------*/
+.animal-details {
+  padding: 100px 0;
+  background: #f0ebe5;
+}
+.animal-details .animal-content p span {
+  font-weight: 700;
+}
+.animal-details .animal-content .statas {
+  display: block;
+  position: relative;
+  margin-top: 40px;
+}
+.animal-details .animal-content .statas:before {
+  content: '';
+  position: absolute;
+  left: -150px;
+  background-color: #fff;
+  top: -20px;
+  bottom: -20px;
+  right: 0;
+}
+.animal-details .animal-content .statas h1 {
+  z-index: 999;
+  position: relative;
+  font-family: 'Architects Daughter', cursive;
+  color: #a09833;
+}
+.animal-details .animal-content .statas ul.statas-list {
+  z-index: 999;
+  position: relative;
+  margin: 0 0 10px;
+}
+.animal-details .animal-content .statas ul.statas-list li {
+  display: inline-block;
+  color: #a09833;
+  padding: 4px 15px;
+  background: #dcd794;
+  margin: 0 2px;
+  font-size: 16px;
+}
+.animal-details .animal-content .statas ul.statas-list li:last-child {
+  background: #fb8b40;
+  color: #fff;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.animal-details .animal-content .statas p {
+  color: #414141;
+  z-index: 999;
+  position: relative;
+  margin: 0;
+}
+.animal-details .animal-content .statas ul.button {
+  z-index: 999;
+  position: relative;
+}
+.animal-details .animal-content .statas ul.button li {
+  display: inline-block;
+}
+.animal-details .animal-content .statas ul.button li:first-child {
+  display: inline-block;
+  background: url(images/blog/btn.png) no-repeat;
+  background-position: center;
+}
+.animal-details .animal-content .statas ul.button li a {
+  display: block;
+  color: #ffffff;
+  padding: 10px;
+  margin: 22px;
+}
+.animal-details .animal-content .statas ul.button li:last-child a {
+  color: #fb8b40;
+  display: inline-block;
+  border-bottom: 2px solid #e1dbd4;
+  padding: 0;
+  margin: 0 22px;
+}
+.animal-details .animal-content .statas-content {
+  margin-top: 40px;
+}
+.animal-details .animal-content .statas-content h1 {
+  font-family: 'Architects Daughter', cursive;
+  color: #a09833;
+}
+.animal-details .animal-content .statas-content ul li {
+  display: inline-block;
+}
+.animal-details .animal-content .statas-content ul li a {
+  color: #fb8b40;
+  display: inline-block;
+  border-bottom: 2px solid #e1dbd4;
+  padding: 2px;
+  margin: 0 10px;
+}
+.animal-details .image-content {
+  position: absolute;
+  right: 10%;
+  top: 30%;
+  display: inline-block;
+  text-align: left;
+}
+.animal-details .image-content h1 {
+  font-size: 40px;
+  margin: 0;
+  color: #fb8b40;
+  font-family: 'Architects Daughter', cursive;
+}
+.animal-details .image-content h2 {
+  color: #a09833;
+  font-family: 'Architects Daughter', cursive;
+}

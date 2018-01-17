@@ -1,0 +1,451 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Zoo | Cinema Single Show</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"> 
+        <link rel="apple-touch-icon" href="images/favicon.ico">
+        <!-- Place favicon.ico in the root directory -->
+        <!-- all css here -->
+        <!-- bootstrap v3.3.6 css -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- animate css -->
+        <link rel="stylesheet" href="css/animate.css">
+        <!-- flaticon css -->
+        <link rel="stylesheet" href="css/flaticon.css">
+        <!-- jquery-ui.min css -->
+        <link rel="stylesheet" href="css/jquery-ui.min.css">
+        <!-- meanmenu css -->
+        <link rel="stylesheet" href="css/meanmenu.min.css">
+        <!-- owl.carousel css -->
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <!-- font-awesome css -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <!-- style css -->
+        <link rel="stylesheet" href="style.css">
+        <!-- responsive css -->
+        <link rel="stylesheet" href="css/responsive.css">
+        <!-- modernizr css -->
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!-- Header Start Here -->
+        <header id="header">
+            <div class="header-area">
+                <div class="container">
+                    <div class="row">
+                      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="user-area">
+                          <ul>
+                            <li><a href="#" data-toggle="modal" data-target=".registerpage"> Register</a></li>
+                            <li><a href="#" data-toggle="modal" data-target=".loginpage"> Login</a></li>
+                          </ul>
+                          <!--Register page-->
+                          <div class="modal fade registerpage" tabindex="-1" role="dialog">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-body registerpage-body  text-center">
+                                  <span class="close-form close" data-dismiss="modal"><i class="fa fa-close"></i></span>
+                                  <h1>Register To <span>Zooks</span></h1>
+                                  <p>Already a member? <a href="#"> Sign In</a></p>
+                                  <div class="btn-login-with">
+                                    <span><i class="fa fa-facebook"></i></span>
+                                    <a href="#">Register with Facebook</a>
+                                  </div>
+                                  <form>
+                                    <fieldset>
+                                      <input type="email" placeholder="E-mail Address"/>
+                                      <input type="password" placeholder="Password"/>
+                                      <label>At least 6 characters.</label>
+                                      <button type="submit">Register <span><i class="fa fa-chevron-circle-right"></i></span></button>
+                                    </fieldset>
+                                  </form>
+                                  <img src="images/register.jpg" alt=""/>
+                                  <div class="form-footer">
+                                    <p>Continue and create account after <i class="fa fa-chevron-circle-right"></i></p>
+                                  </div>
+                              </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!--End: Register page-->
+                          <!--login page-->
+                          <div class="modal fade loginpage" tabindex="-1" role="dialog">
+                            <div class="modal-dialog modal-lg">
+                              <div class="modal-content">
+                                <div class="modal-body loginpage-body  text-center">
+                                  <span class="close-form close" data-dismiss="modal"><i class="fa fa-close"></i></span>
+                                  <h1>Sign In To <span>Zooks</span> Cinema</h1>
+                                  <p>In order to buy your entries please sign in</p>
+                                  <div class="login-left">
+                                    <div class="btn-login-with">
+                                      <span><i class="fa fa-facebook"></i></span>
+                                      <a href="#">Connect with Facebook</a>
+                                    </div>
+                                    <form>
+                                      <fieldset>
+                                        <input type="email" placeholder="E-mail Address"/>
+                                        <input type="password" placeholder="Password"/>
+                                        <button type="submit">Register <span><i class="fa fa-chevron-circle-right"></i></span></button>
+                                        <a href="#" class="short-link">Forgot Password?</a>
+                                      </fieldset>
+                                    </form>
+                                    <a href="#" class="short-link">Not a member already?</a>
+                                    <div class="btn-login-with">
+                                      <span><i class="fa fa-facebook"></i></span>
+                                      <a href="#">Register with Facebook</a>
+                                    </div>
+                                    <form>
+                                      <fieldset>
+                                        <button type="submit">Register <span><i class="fa fa-chevron-circle-right"></i></span></button>
+                                      </fieldset>
+                                    </form>
+                                  </div>
+                                  <div class="login-right">
+                                    <img src="images/login.jpg" alt="login">
+                                  </div>
+                                  <div class="form-footer">
+                                    <p>Continue and create account after <i class="fa fa-chevron-circle-right"></i></p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!--End: login page-->
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                            <div class="logo-area">
+                                <a href="index.html"><img src="images/logo.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-11 col-xs-11">
+                            <div class="main-menu">
+                                <nav>
+                                    <ul>
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="trailers.html">Trailers</a></li>
+                                        <li><a href="shows.html">Shows</a></li>
+                                        <li><a href="rent.html">Rent The Cinema</a></li>
+                                        <li class="active"><a href="#">Pages</a>
+                                            <ul>
+                                                <li><a href="show-details.html">Show Details</a></li>
+                                                <li><a href="buy-movie-ticket.html">Purchase Your Entry</a></li>
+                                                <li><a href="calender.html">Movie Calender</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-xs-1">
+                            <div class="header-right">            
+                                <div class="search-area"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="mobile-menu-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                             <div class="mobile-menu">
+                                <nav id="dropdown">
+                                    <ul>
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="trailers.html">Trailers</a></li>
+                                        <li><a href="shows.html">Shows</a></li>
+                                        <li><a href="rent.html">Rent The Cinema</a></li>
+                                        <li class="active"><a href="#">Pages</a>
+                                            <ul>
+                                                <li><a href="show-details.html">Show Details</a></li>
+                                                <li><a href="buy-movie-ticket.html">Purchase Your Entry</a></li>
+                                                <li><a href="calender.html">Movie Calender</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </div>          
+                        </div>
+                    </div>
+                </div>
+            </div>            
+            <div class="search-box-area">
+                <div class="container">
+                      <div class="row">                          
+                          <div class="search-form">
+                              <form>
+                                  <div class="col-sm-12">
+                                      <div class="form-group">
+                                          <input type="text" class="form-control" placeholder="Search Here...">
+                                          <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                                      </div>
+                                  </div>
+                              </form>
+                          </div>
+                      </div>
+                  </div>              
+            </div>
+        </header>
+        <!-- Header End Here -->
+        <!-- Breadcumb Area Start Here -->
+        <div class="breadcumb-area">
+            <div class="container-fluid acurate">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <div class="breadcumb">
+                            <ul>
+                                <li><a href="index.html">Home <i class="fa fa-angle-right" aria-hidden="true"></i> </a></li>
+                                <li>Movie Single Post</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Breadcumb Area End Here -->
+        <!-- Single Movie Show Start Here -->
+        <div class="single-movie-show-area siix">
+          <div class="container">
+            <div class="row">              
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                  <div class="movies-show-title">
+                      <h2>Great Panda - Movie Trailer</h2>
+                  </div>
+              </div>
+            </div>
+            <div class="row single-movie-show">              
+              <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                <div class="movies-promo">
+                  <div class="image">
+                    <img src="images/sidebar-img.jpg" alt="">
+                    <div class="movies-image-head">
+                      <h2>Great Panda</h2>
+                      <p>The Most Beloved Of All</p>
+                    </div>
+                  </div>
+                  <div class="details">
+                    <h3>Great Panda - The Most Beloved Of All</h3>
+                    <ul>
+                      <li><span>Duration :</span> 128 mins</li>
+                      <li><span>Country :</span> Japan</li>
+                      <li><span>Genre :</span>Comedy, Art</li>
+                      <li><span>Director :</span> Aron Lehmannt</li>
+                      <li><span>Actors :</span> Christoph Maria Her,Adam Bousdoukos</li>
+                      <li><span>Screenwriters : </span> Arnd Schimk, Aron Lehmann</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
+                <div class="movie-details">
+                    <div class="video">
+                      <iframe src="https://player.vimeo.com/video/199030826" allowfullscreen></iframe>
+                    </div>
+                    <div class="movie-description">
+                      <h3>Movie Details & Trailer</h3>
+                      <p>The film revolves around the journey that a German official named Jörg Geissner performed at a small island 
+                       in the Aegean to certify that sent money has been used to build a hospital and a power plant .</p>
+                       <p>But when it comes to the island he realizes that there is nothing built and attends stunned a festival of whole deception , simulations and misunderstandings. However , gradually the place where all problems.</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                 <div class="movie-selection-area fouur">
+                 <form>
+                   <fieldset>
+                     <div class="col-sm-12">
+                       <div class="form-group">                                                
+                         <select>
+                           <option selected="selected">Select Cinema Location</option>
+                           <option>Cinema Location</option>
+                           <option>Select Cinema Place</option>
+                         </select>
+                       </div>
+                     </div>
+                     <div class="col-sm-12">
+                       <div class="form-group">                                                
+                         <select>
+                           <option selected="selected">Select Day</option>
+                           <option>Select Day</option>
+                           <option>Select Day</option>
+                         </select>
+                       </div>
+                     </div>
+                   </fieldset>
+                 </form>
+                 </div>
+               </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 col-mg-12 col-sm-12 col-xs-12">
+                <div class="movie-time-area fouur">
+                  <div class="title">
+                    <p>Great Panda - The Most Beloved Of All</p>
+                  </div>
+                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                      <div class="movie-time">
+                          <ul>
+                              <li class="movies-title"><p>Digital Movie</p></li>
+                              <li>13:00</li>
+                              <li>15:30</li>
+                              <li>17:45</li>
+                              <li>19:15</li>
+                              <li>21:00</li>
+                          </ul>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Single Movie Show End Here -->
+        <!-- Zooks Promos Start Here -->
+        <div class="zooks-promos-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="section-title">
+                            <h2><span>Zooks</span> Promos</h2>
+                            <p>Weekly Zooks <strong>promotional</strong> ads!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="total-promos-area">
+                            <div class="single-promos">
+                                <a href="#"><img src="images/promos/1.jpg" alt=""></a>
+                            </div>
+                            <div class="single-promos">
+                                <a href="#"><img src="images/promos/2.jpg" alt=""></a>
+                            </div>
+                            <div class="single-promos">
+                                <a href="#"><img src="images/promos/3.jpg" alt=""></a>
+                            </div>
+                            <div class="single-promos">
+                                <a href="#"><img src="images/promos/1.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Zooks Promos End Here -->
+        <!-- Footer Start Here -->
+        <footer>
+            <div class="footer-top-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 text-center">                            
+                            <div class="widget">
+                                <div class="footer-one">
+                                    <a href="index.html"><img src="images/footer-logo.png" alt=""></a>
+                                    <p>38 Ruckman Road Oklahoma City, OK </p>
+                                    <p>Ph: <strong>(123) 456-2120</strong> </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12">                            
+                            <div class="widget">
+                                <div class="footer-two">
+                                    <div class="widget-title">Zooks Cinema</div>
+                                    <ul>
+                                        <li><a href="trailers.html">Trailers</a></li>
+                                        <li><a href="shows.html">Movies & Shows</a></li>
+                                        <li><a href="rent.html">Rent the Theatre</a></li>
+                                        <li><a href="show-details.html">Movie Single Post</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12">                            
+                            <div class="widget">
+                                <div class="footer-three">
+                                    <div class="widget-title">Our App</div>
+                                    <ul>
+                                        <li><a href="#"><img src="images/icon/1.png" alt=""> <span>iPhone</span> App</a></li>
+                                        <li><a href="#"><img src="images/icon/2.png" alt=""> <span>Androd</span> App</a></li>
+                                        <li><a href="#"><img src="images/icon/3.png" alt=""> <span>iPad</span> App</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">                            
+                            <div class="widget">
+                                <div class="footer-four">
+                                    <div class="widget-title">Follow Us</div>
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></li>
+                                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+                                        <li><a href="#"><i class="fa fa-flickr" aria-hidden="true"></i> Fliker</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">                            
+                            <div class="widget">
+                                <div class="footer-five">
+                                    <div class="widget-title">Flickr Feed</div>
+                                    <ul>
+                                        <li><a href="#"><img src="images/fliker/1.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="images/fliker/2.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="images/fliker/3.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="images/fliker/4.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="images/fliker/5.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="images/fliker/6.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="images/fliker/7.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="images/fliker/8.jpg" alt=""></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                            <div class="footer-text">
+                                <p>Zooks <i class="flaticon-shapes"></i> by envalab</p>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer End Here -->
+        <!-- all js here -->
+        <!-- jquery latest version -->
+        <script src="js/vendor/jquery-1.12.0.min.js"></script>
+        <!-- bootstrap js -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- owl.carousel js -->
+        <script src="js/owl.carousel.min.js"></script>
+        <!-- meanmenu js -->
+        <script src="js/jquery.meanmenu.js"></script>
+        <!-- jquery-ui js -->
+        <script src="js/jquery-ui.min.js"></script>
+        <!-- wow js -->
+        <script src="js/wow.min.js"></script>
+        <!-- plugins js -->
+        <script src="js/plugins.js"></script>
+        <!-- main js -->
+        <script src="js/main.js"></script>
+    </body>
+</html>

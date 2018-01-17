@@ -1,0 +1,217 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .slider-area .slider .slider-content{
+  	padding: 30px 40px;
+  }
+  .header-top .single-header-top ul li a{padding: 10px 2px;}
+  .slider-area .slider-title{
+    padding: 50px 168px;
+  }
+  .calendar-area .wrapper .calendar-body .col-xs-1{padding: 0px 40px;}
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .header-top{
+    display: none;
+  }
+  .main-header-area .logo-area{
+    padding: 10px 0 0;
+  }
+  .main-header-area .buy-ticket a{
+    padding: 10px 30px;
+  }
+  .slider-area .slider-title h2{
+    font-size: 60px;
+  }
+  .main-header-area .main-menu ul li a{
+    font-size: 16px;
+    padding: 30px 6px;
+  }
+  .main-header-area,
+  .main-header-area .main-menu ul {
+    text-align: center;
+  }
+  .slider-area .social-media {
+    display: none;
+  }
+  .slider-area .slider-title {
+    padding: 50px 100px;
+    margin-right:0;
+  }
+  .slider-area .slider .slider-content{
+  	padding: 30px 40px;
+  	width: 100%;
+  }
+	.calendar-area .calender {
+		margin-left: 0px;
+	}
+	.calendar-area .wrapper .calendar-body .col-xs-1 {
+		padding: 0px 30px;
+	}
+	.calendar-area .wrapper .calendar-body .col-xs-1 a p {
+		margin: 0 0px 20px;
+	}
+	.video-area .video-image {
+		margin-top: 20px;
+	}
+	.footer-image ,.footer-form{
+		margin-top: 25px;
+	}
+	.activities-form-area form {
+		margin: 30px 50px;
+	}
+	.contact-area .contact-form {
+		padding: 10px 0px;
+	}
+	.venues-area .venues-image a img {
+		width: 75%;
+		margin: auto;
+		display: block;
+	}
+}
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 767px) {
+  .activities-area{
+
+  }
+  .contact-area .contact-title{margin-top: 30px;text-align: center;}
+  .video-area{
+    padding: 40px 0;
+  }
+  .section-title {
+    padding: 30px 0px;
+  }
+  .activities-area{padding: 0 0 50px ;}
+  .header-top .single-header-top {
+    text-align: center;
+  }
+  .ticket-area .ticket-image{padding-top: 0;}
+  .header-top .social-top,
+  .header-top .leng-top {
+    display: none;
+  }
+  .main-header-area{
+    display: none;
+  }
+  .mobile-menu-area{
+    display: block;
+  }
+  .slider-area .slider-title {
+    padding: 50px;
+    text-align: center;
+  }
+  .slider-area .slider-title h2{
+  	font-size: 60px;
+  }
+  .slider-area .slider .slider-image{
+  	display: none;
+  	text-align: center;
+  }
+  .testimonial-area .testimonial-all{
+  	width: 100%;
+  }
+  .testimonial-area .nav-tabs li{
+  	width: 50%;
+  }
+  .testimonial-area .nav-tabs li a img,
+  .testimonial-area .nav-tabs li.active a img{
+  	width: 100%;
+  }
+  .testimonial-area .testimonial-title p{
+    padding: 0px 20px; 
+  }
+  .calendar-area .calender{
+  	margin-top: 20px ;
+  	padding-bottom: 50px; 
+  }
+  .video-area .video-image{
+  	text-align: center;
+  }
+  .footer-area .map-image,
+  .footer-area .footer-form,
+  .footer-area .footer-title,
+  .footer-area .footer-details,
+  .footer-area .button-area,
+  .footer-area .footer-image{
+  	text-align: center;
+  }
+  .footer-area .footer-details p strong{
+  	float: inherit;
+  }
+  .footer-area .map-image,
+  .footer-area .footer-details,
+  .footer-area .button-area{
+  	margin: 0 0 50px;
+  }
+  .footer-area .map-image h2:after,
+  .footer-area .footer-title h2:after,
+  .footer-area .footer-form h2:after,
+  .footer-area .footer-image h2:after{
+  	display: none !important;
+  }
+  .footer-area .footer-bottom-area,
+  .footer-area .footer-bottom-area .copyright{
+  	text-align: center;
+  }
+	.testimonial-area .testimonial-title {
+		padding: 79px 0px;
+	}
+	.ticket-area .ticket-details .single-ticket {
+		margin-bottom: 50px;
+	}
+	.footer-area .footer-details p {
+		text-align: center;
+	}
+	.calendar-area .wrapper .calendar-body .col-xs-1 {
+		font-size: 14px;
+	}
+	.calendar-area .wrapper .calendar-body .col-xs-1 a p i {
+		padding: 0px 2px;
+	}
+	.section-title h2 {
+		font-size: 25px;
+	}
+	.section-title h2 span {
+		font-size: 23px;
+	}
+	.section-title::after {
+		width: 265px;
+		left: 0%;
+		top: 100px;
+	}
+	.video-area .section-title h2 span {
+		right: -77%;
+	}
+	.ticket-area .section-title::after {
+		width: 245px;
+	}
+	.video-area .video-image iframe {
+		height: 300px;
+	}
+	.activities-form-area form {
+		margin: 30px 0 0;
+	}
+	.activities-slider .activities-slider .activities-text .activities-content p {
+		padding: 0;
+	}
+	.venues-area .venues-image a img {
+		width: 100%;
+	}
+}
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 479px) {
+  .slider-area .slider-title {
+    padding: 20px;
+  }
+  .slider-area .slider-title h2{
+  	font-size: 42px;
+  	line-height: 48px;
+  }
+}
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 320px) {
+  
+}

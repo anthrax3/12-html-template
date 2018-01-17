@@ -1,0 +1,219 @@
+/* Extra Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1600px) {
+  
+}
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {
+	.features-area .tab-button ul.nav.nav-tabs li{
+		padding: 0px 15px;
+	}
+	.sidebar-area .widget h2{
+		font-size: 28px;
+	}
+}
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {
+	.main-header ul li {
+		padding: 10px;
+	}
+	.header-top .header-right ul li{
+		margin-left: 20px;
+	}
+	.features-area .tab-button ul.nav.nav-tabs li{
+		width: 50%;
+		float: left;
+	}
+	.advertise-area .advertise h1{
+		font-size: 38px;
+	}
+	.our-Partner-area .our-Partner .single-partner{
+		text-align: center;
+	}
+	.widget {
+		margin-top: 20px;
+	}
+	footer .widget h2 {
+		padding: 0 10px 10px;
+		display: inline-block;
+	}
+	.breadcumb-area::after {
+		width: 39%;
+	}
+	.breadcumb-area.threee::after {
+		width: 34%;
+	}
+	.breadcumb-area.sixx::after {
+		width: 35%;
+	}
+	.breadcumb-area.twoo::after {
+		width: 44%;
+	}
+	.breadcumb-area.fourrr::after {
+		width: 47%;
+	}
+	.breadcumb-area.fiveee::after {
+		width: 41%;
+	}
+}
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+	.header-top .header-left,
+	.header-top .header-right {
+		text-align: center;
+	}
+	.header-top .header-right ul li {
+		margin: 0 20px;
+	}
+	.main-header,
+	.header-middle{
+		display: none;
+	}
+	.mobile-menu-area {
+		display: block;
+	}
+	.slider-area .single-text{
+		padding: 100px 0;
+	}
+	.features-area .tab-content .content-fetures .owl-controls{
+		margin-bottom: 30px;
+	}
+	.features-area .tab-button ul.nav.nav-tabs li{
+		width: 50%;
+		float: left;
+	}
+	.sidebar-area{
+		margin-top: 30px;
+	}
+	.advertise-area .advertise h1{
+		font-size: 32px;
+	}
+	.advertise-area .advertise p{
+		padding: 0 50px;
+	}
+	.twitter-slider .twitter-slide .single-twit{
+		padding: 10px 20px;
+	}
+	.client-testimonial-area .testimonial .tab-content .tab-pane .testimonial-content p{
+		padding: 0 10px;
+	}
+	footer .footer-top{
+		text-align: center;
+	}
+	footer .widget .latest-post{
+		text-align: left;
+	}
+	footer .footer-bottom-area .footer-bottom .footer-social ul,
+	footer .footer-bottom-area .footer-bottom .copyright{
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.our-Partner-area h2 {
+		padding-left: 10px;
+	}
+	.about-circus-area{
+		background: #f6f6f6;
+		padding: 50px 0;
+	}
+	.twitter-slider h2 {
+		font-size: 27px;
+	}
+	.about-circus-area .about-text h1 {
+		font-size: 32px;
+	}
+	footer .footer-top .footer-address ul li p {
+		text-align: left;
+	}
+	.breadcumb-area {
+		border-bottom: 2px solid #eee;
+	}
+	.breadcumb-area::after {
+		display: none;
+	}
+	.pagination > li:first-child > a {
+		padding-right: 10px;
+	}
+	.pagination > li:last-child > a {
+		padding-left: 10px;
+	}
+	.upcomming-show-area .upcomming-content h2 {
+		font-size: 24px;
+	}
+	.calender-area.threee .news-letter .subscribe {
+		margin-top: 15px;
+	}	
+	.show-shedule-table .btn-brown {
+		margin: 21px 0 30px;
+	}	
+	.social-share > span {
+		margin: 7px 0px;
+	}
+	.slider-area .single-text .slider-content h1{
+  	font-size: 48px;
+  }
+  .slider-area .single-text .slider-content h3{
+  	font-size: 24px;
+  }
+  .slider-area .single-text .slider-content p{padding-left: 20%;}
+  .slider-area .single-text .slider-content .ticket a{padding:12px 20px;}
+  .features-area .tab-content{padding: 30px 0;}
+  .portfolio-one-area .portfolio-menu ul li{margin: 2px 0;}
+  .client-testimonial-area h1{font-size: 26px;}
+  .sidebar-area,
+  .upcomming-show-area .upcomming-content .upcomming-events-slider .single-upcoming .upcomming-details{text-align: center;}
+  .upcomming-show-area.upcomming-page.threee .single-upcoming-events-slider-area .single-upcoming{margin: 30px 0 0 !important;}
+  .upcomming-show-area,
+  .features-area,
+  .our-Partner-area,
+  .portfolio-one-area,
+  .twitter-slider,
+  .client-testimonial-area,
+  .advertise-area,
+  .upcomming-show-area.upcomming-page.threee,
+  .calender-area{padding: 50px 0;}
+  footer .footer-top{
+  	padding: 50px 0 30px;
+  }
+  .page-container{text-align: center;}
+  .contact-form-join{margin: 0;}
+}
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) {
+  .slider-area .single-text .slider-content p{
+  	padding-left: 20%;
+  }
+  .about-circus-area .about-text{text-align: center;}
+  .about-circus-area .about-text h1,
+  .about-circus-area .about-text span{font-size: 18px;}
+  .client-testimonial-area h1{font-size: 16px;}
+  .features-area .tab-button ul.nav.nav-tabs li{
+  	width: 100%;
+  }
+  .portfolio-one-area .portfolio-menu ul li{
+  	margin: 10px;
+  }
+  .header-top .header-right ul li{
+  	margin: 5px 10px;
+  }
+  .slider-area .single-text{
+  	text-align: center;
+  }
+  .slider-area .single-text .slider-content h1{font-size: 30px;}
+  .slider-area .single-text .slider-content h3{font-size: 20px;}
+  .slider-area .single-text .slider-content p{padding: 0 10px;}
+  .advertise-area .advertise h1{font-size: 16px;}
+  .advertise-area .advertise p{padding: 0 10px;}
+  .advertise-area .advertise .ticket{margin-top: 15px;}
+}
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 320px) {
+	.page-title h2, .page-title h3{
+		margin: 0 0 25px;
+	}
+}

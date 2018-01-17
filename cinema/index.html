@@ -1,0 +1,795 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Zoo | Cinema</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"> 
+        <link rel="apple-touch-icon" href="images/favicon.ico">
+        <!-- Place favicon.ico in the root directory -->
+        <!-- all css here -->
+        <!-- bootstrap v3.3.6 css -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- animate css -->
+        <link rel="stylesheet" href="css/animate.css">
+        <!-- flaticon css -->
+        <link rel="stylesheet" href="css/flaticon.css">
+        <!-- jquery-ui.min css -->
+        <link rel="stylesheet" href="css/jquery-ui.min.css">
+        <!-- meanmenu css -->
+        <link rel="stylesheet" href="css/meanmenu.min.css">
+        <!-- owl.carousel css -->
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <!-- font-awesome css -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <!-- style css -->
+        <link rel="stylesheet" href="style.css">
+        <!-- responsive css -->
+        <link rel="stylesheet" href="css/responsive.css">
+        <!-- modernizr css -->
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!-- Header Start Here -->
+        <header>
+            <div class="header-area">
+                <div class="container">
+                    <div class="row">
+                      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="user-area">
+                          <ul>
+                            <li><a href="#" data-toggle="modal" data-target=".registerpage"> Register</a></li>
+                            <li><a href="#" data-toggle="modal" data-target=".loginpage"> Login</a></li>
+                          </ul>
+                          <!--Register page-->
+                          <div class="modal fade registerpage" tabindex="-1" role="dialog">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-body registerpage-body  text-center">
+                                  <span class="close-form close" data-dismiss="modal"><i class="fa fa-close"></i></span>
+                                  <h1>Register To <span>Zooks</span></h1>
+                                  <p>Already a member? <a href="#"> Sign In</a></p>
+                                  <div class="btn-login-with">
+                                    <span><i class="fa fa-facebook"></i></span>
+                                    <a href="#">Register with Facebook</a>
+                                  </div>
+                                  <form>
+                                    <fieldset>
+                                      <input type="email" placeholder="E-mail Address"/>
+                                      <input type="password" placeholder="Password"/>
+                                      <label>At least 6 characters.</label>
+                                      <button type="submit">Register <span><i class="fa fa-chevron-circle-right"></i></span></button>
+                                    </fieldset>
+                                  </form>
+                                  <img src="images/register.jpg" alt=""/>
+                                  <div class="form-footer">
+                                    <a href="#"><p>Continue and create account after <i class="fa fa-chevron-circle-right"></i></p></a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!--End: Register page-->
+                          <!--login page-->
+                          <div class="modal fade loginpage" tabindex="-1" role="dialog">
+                            <div class="modal-dialog modal-lg">
+                              <div class="modal-content">
+                                <div class="modal-body loginpage-body  text-center">
+                                  <span class="close-form close" data-dismiss="modal"><i class="fa fa-close"></i></span>
+                                  <h1>Sign In To <span>Zooks</span> Cinema</h1>
+                                  <p>In order to buy your entries please sign in</p>
+                                  <div class="login-left">
+                                    <div class="btn-login-with">
+                                      <span><i class="fa fa-facebook"></i></span>
+                                      <a href="#">Connect with Facebook</a>
+                                    </div>
+                                    <form>
+                                      <fieldset>
+                                        <input type="email" placeholder="E-mail Address"/>
+                                        <input type="password" placeholder="Password"/>
+                                        <button type="submit">Sign In To <span><i class="fa fa-chevron-circle-right"></i></span></button>
+                                        <a href="#" class="short-link">Forgot Password?</a>
+                                      </fieldset>
+                                    </form>
+                                    <a href="#" class="short-link">Not a member already?</a>
+                                    <div class="btn-login-with">
+                                      <span><i class="fa fa-facebook"></i></span>
+                                      <a href="#">Register with Facebook</a>
+                                    </div>
+                                    <form>
+                                      <fieldset>
+                                        <button type="submit">Register <span><i class="fa fa-chevron-circle-right"></i></span></button>
+                                      </fieldset>
+                                    </form>
+                                  </div>
+                                  <div class="login-right">
+                                    <img src="images/login.jpg" alt="login" />
+                                  </div>
+                                  <div class="form-footer">
+                                    <a href="#"><p>Continue and create account after <i class="fa fa-chevron-circle-right"></i></p></a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!--End: login page-->
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                            <div class="logo-area">
+                                <a href="index.html"><img src="images/logo.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-11 col-xs-11">
+                            <div class="main-menu">
+                                <nav>
+                                    <ul>
+                                        <li class="active"><a href="index.html">Home</a></li>
+                                        <li><a href="trailers.html">Trailers</a></li>
+                                        <li><a href="shows.html">Shows</a></li>
+                                        <li><a href="rent.html">Rent The Cinema</a></li>
+                                        <li><a href="#">Pages</a>
+                                            <ul>
+                                                <li><a href="show-details.html">Show Details</a></li>
+                                                <li><a href="buy-movie-ticket.html">Purchase Your Entry</a></li>
+                                                <li><a href="calender.html">Movie Calender</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-xs-1">
+                            <div class="header-right">            
+                                <div class="search-area"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="mobile-menu-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                             <div class="mobile-menu">
+                                <nav id="dropdown">
+                                    <ul>
+                                        <li class="active"><a href="index.html">Home</a></li>
+                                        <li><a href="trailers.html">Trailers</a></li>
+                                        <li><a href="shows.html">Shows</a></li>
+                                        <li><a href="rent.html">Rent The Cinema</a></li>
+                                        <li><a href="#">Pages</a>
+                                            <ul>
+                                                <li><a href="show-details.html">Show Details</a></li>
+                                                <li><a href="buy-movie-ticket.html">Purchase Your Entry</a></li>
+                                                <li><a href="calender.html">Movie Calender</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </div>          
+                        </div>
+                    </div>
+                </div>
+            </div>            
+            <div class="search-box-area">
+                <div class="container">
+                      <div class="row">                          
+                          <div class="search-form">
+                              <form>
+                                  <div class="col-sm-12">
+                                      <div class="form-group">
+                                          <input type="text" class="form-control" placeholder="Search Here...">
+                                          <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                                      </div>
+                                  </div>
+                              </form>
+                          </div>
+                      </div>
+                  </div>              
+            </div>
+        </header>
+        <!-- Header End Here -->
+        <!-- Slider Area Start Here -->
+        <div class="slider-area">
+            <div class="slider-bg">
+              <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="slider-content">
+                            <div class="single-slide-content">
+                                <h1 class="wow zoomIn text-uppercase text-white  animated" data-wow-duration="0.3s" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 0.3s; animation-delay: 0.3s; animation-name: zoomIn;">Kids Can Also</h1>
+                                <h2 class="wow zoomIn text-white text-uppercase  animated" data-wow-duration="0.5s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: zoomIn;">Watch 3D</h2>
+                                <p>From May, your kids can also watch movies on 3D!</p>
+                                <a href="#">Get Your CineCard</a>
+                            </div>
+                            <div class="single-slide-content">
+                                <h1 class="wow zoomIn text-uppercase text-white  animated" data-wow-duration="0.3s" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 0.3s; animation-delay: 0.3s; animation-name: zoomIn;">Kids Can Also</h1>
+                                <h2 class="wow zoomIn text-white text-uppercase  animated" data-wow-duration="0.5s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: zoomIn;">Watch 3D</h2>
+                                <p>From May, your kids can also watch movies on 3D!</p>
+                                <a href="#">Get Your CineCard</a>
+                            </div>
+                            <div class="single-slide-content">
+                                <h1 class="wow zoomIn text-uppercase text-white  animated" data-wow-duration="0.3s" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 0.3s; animation-delay: 0.3s; animation-name: zoomIn;">Kids Can Also</h1>
+                                <h2 class="wow zoomIn text-white text-uppercase  animated" data-wow-duration="0.5s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: zoomIn;">Watch 3D</h2>
+                                <p>From May, your kids can also watch movies on 3D!</p>
+                                <a href="#">Get Your CineCard</a>
+                            </div>
+                            <div class="single-slide-content">
+                                <h1 class="wow zoomIn text-uppercase text-white  animated" data-wow-duration="0.3s" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 0.3s; animation-delay: 0.3s; animation-name: zoomIn;">Kids Can Also</h1>
+                                <h2 class="wow zoomIn text-white text-uppercase  animated" data-wow-duration="0.5s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: zoomIn;">Watch 3D</h2>
+                                <p>From May, your kids can also watch movies on 3D!</p>
+                                <a href="#">Get Your CineCard</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            
+        </div>
+        <!-- Slider Area End Here -->
+        <!-- Home Page Services Area Here -->
+        <div class="home-services-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="section-title">
+                            <h2>Welcome to <span>Zooks</span> Cinema</h2>
+                            <p>These are some of the benefits you’ll get</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
+                        <div class="single-services">
+                            <a href="#"><i class="flaticon-time-1"></i></a>
+                            <p>All your entries are much cheaper than before!</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
+                        <div class="single-services">
+                            <a href="#"><i class="flaticon-sofa"></i></a>
+                            <p>Sit down freely on VIP seats from monday to friday.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
+                        <div class="single-services">
+                            <a href="#"><i class="flaticon-tool"></i></a>
+                            <p>Exclusive promotions each month:2x1 tickets for you!</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
+                        <div class="single-services">
+                            <a href="#"><i class="flaticon-null"></i></a>
+                            <p>Earn points to use on free entries,popcorn, drinks, etc.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="advertise-area">
+                            <img src="images/add/1.jpg" alt="">
+                            <div class="advertise-content">
+                                <h1>Upcoming Movie</h1>
+                                <h3>Great Panda - The Beginning of a New Era</h3>
+                                <a href="#"><span class="flaticon-tickets"> Pre-Purchase</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Home Page Services End Here -->
+        <!-- Upcoming Movie Start here -->
+        <div class="site-table-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="table-responsive movie">
+                            <table class="table"> 
+                                <thead class="table-header"> 
+                                    <tr> 
+                                        <th><span class="promo">Movies</span>pre-Purchase Tickets</th>
+                                        <th>&nbsp;</th>
+                                        <th class="last">for Upcoming Movies</th> 
+                                    </tr> 
+                                </thead>
+                                <tbody class="table-body-area">
+                                    <tr>                                         
+                                        <td>Great Panda - The Beginning of a New Era</td> 
+                                        <td>Upcoming: <span>23/07/2016</span></td> 
+                                        <td class="child-last"><a href="buy-movie-ticket.html">Hours & Tickets</a></td>
+                                    </tr>
+                                    <tr>                                         
+                                        <td>Captain America: Civil War</td> 
+                                        <td>Upcoming: <span>20/06/2016</span></td> 
+                                        <td class="child-last"><a href="buy-movie-ticket.html">Hours & Tickets</a></td>
+                                    </tr>
+                                    <tr>                                         
+                                        <td>The Angry Bird Movie</td> 
+                                        <td>Upcoming: <span>18/06/2016</span></td> 
+                                        <td class="child-last"><a href="buy-movie-ticket.html">Hours & Tickets</a></td>
+                                    </tr>
+                                    <tr>                                         
+                                        <td>X-Men: Apocalypse Cyclops & Jean Grey</td> 
+                                        <td>Upcoming: <span>13/06/2016</span></td> 
+                                        <td class="child-last"><a href="buy-movie-ticket.html">Hours & Tickets</a></td>
+                                    </tr>  
+                                </tbody> 
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="site-table-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="table-responsive movie">
+                            <table class="table"> 
+                                <thead class="table-header"> 
+                                    <tr> 
+                                        <th><span class="promo">Events</span>pre-Purchase Tickets</th> 
+                                        <th>&nbsp;</th>
+                                        <th class="last">for Upcoming Movies</th> 
+                                    </tr> 
+                                </thead>
+                                <tbody class="table-body-area">
+                                    <tr>                                         
+                                        <td>The King of Apocalipse</td> 
+                                        <td>Upcoming: <span>23/07/2016</span></td> 
+                                        <td class="child-last"><a href="buy-movie-ticket.html">Hours & Tickets</a></td>
+                                    </tr>
+                                    <tr>                                         
+                                        <td>Murder of Jessica Knowles From the Mansion</td> 
+                                        <td>Upcoming: <span>20/06/2016</span></td> 
+                                        <td class="child-last"><a href="buy-movie-ticket.html">Hours & Tickets</a></td>
+                                    </tr>  
+                                </tbody> 
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Upcoming Movie End here -->
+        <!-- Watching Movies Details Start Here -->
+        <div class="watching-movie-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="topbar-left">
+                            <select class="selectpicker">
+                              <option>Friday, 27 May, 2016</option>
+                              <option>Saturday, 28 May, 2016</option>
+                              <option>Sunday, 28 May, 2016</option>
+                              <option>Monday, 29 May, 2016</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="topbar-right">
+                            <ul>
+                                <li class="one">4+</li>
+                                <li class="two">7+</li>
+                                <li class="threee">12+</li>
+                                <li class="fivee">16+</li>
+                                <li class="four">18+</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="single-movie-details-area">
+                            <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                                <div class="movie-details">
+                                    <div class="media">
+                                      <a class="pull-left" href="show-details.html">
+                                        <img class="media-object" src="images/movie/1.jpg" alt="Generic placeholder image">
+                                        <span class="text-align">3D Movie</span>
+                                      </a>
+                                      <div class="media-body">
+                                        <h4 class="media-heading"><a href="show-details.html">Waiting for the king (2016)</a></h4>
+                                        <div class="movie-info">
+                                            <ul>
+                                                <li class="info-one three">12+</li>
+                                                <li> 86 min - Comedy | History</li>
+                                            </ul>
+                                        </div>
+                                        <p><span>Director:</span> Liza Jhonsons<br/><span>Actors:</span> Michael Shannon, Kevin Spacey, Alex Pettyfer, Johnny Knoxville</p>
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="movie-time">
+                                                <ul>
+                                                    <li>13:00</li>
+                                                    <li>15:30</li>
+                                                    <li>17:45</li>
+                                                    <li>19:15</li>
+                                                    <li>21:00</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                                <div class="movie-details-text">
+                                    <p>A failed American businessman looks to recoup his losses by traveling to Saudi Arabia and selling his idea to a wealthy monarch. A very interesting movie!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-movie-details-area">
+                            <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                                <div class="movie-details">
+                                    <div class="media">
+                                      <a class="pull-left" href="show-details.html">
+                                        <img class="media-object" src="images/movie/2.jpg" alt="Generic placeholder image">
+                                        <span class="text-align">Animation</span>
+                                      </a>
+                                      <div class="media-body">
+                                        <h4 class="media-heading"><a href="show-details.html">Old McDonald’s Had a Farm (2016)</a></h4>
+                                        <div class="movie-info">
+                                            <ul>
+                                                <li class="info-one">4+</li>
+                                                <li>103 min - Animation for Kids</li>
+                                            </ul>
+                                        </div>
+                                        <p><span>Director:</span> Tom Tykwer<br/><span>Actors:</span>  Tom Hanks, Alexander Black, Sarita Choudhury, Dave Egger</p>
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="movie-time">
+                                                <ul>
+                                                    <li>13:00</li>
+                                                    <li>17:45</li>
+                                                    <li>21:00</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                                <div class="movie-details-text">
+                                    <p>From the bitter quest of the Queen of Longtrel, to 2 mysterious sisters who provoke the passion of a king, to all the Kings of Highhills obsessed with a giant Flea.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-movie-details-area">
+                            <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                                <div class="movie-details">
+                                    <div class="media">
+                                      <a class="pull-left" href="show-details.html">
+                                        <img class="media-object" src="images/movie/3.jpg" alt="Generic placeholder image">
+                                        <span class="text-align">3D Movie <br/> Digital Movie</span>
+                                      </a>
+                                      <div class="media-body">
+                                        <h4 class="media-heading"><a href="show-details.html">Popstar: Never Stop Never Stopping (2016)</a></h4>
+                                        <div class="movie-info">
+                                            <ul>
+                                                <li class="info-one two">7+</li>
+                                                <li>126 min - Drama | Comedy</li>
+                                            </ul>
+                                        </div>
+                                        <p><span>Director:</span> Kirk Jones<br/><span>Actors:</span> Nia Vardalos, John Corbett, Michael Constantine, Lainie Kaza</p>
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="movie-time">
+                                                <ul>
+                                                    <li>11:00</li>
+                                                    <li>12:55</li>
+                                                    <li>15:45</li>
+                                                    <li>21:15</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                                <div class="movie-details-text">
+                                    <p>A first-person action film from the of Henry, who's resurrected from death with no memory. He must save his wife from a very telekinetic warlord with a plan to bio-engineer soldiers.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-movie-details-area">
+                            <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                                <div class="movie-details">
+                                    <div class="media">
+                                      <a class="pull-left" href="show-details.html">
+                                        <img class="media-object" src="images/movie/4.jpg" alt="Generic placeholder image">
+                                        <span class="text-align">Digital Movie</span>
+                                      </a>
+                                      <div class="media-body">
+                                        <h4 class="media-heading"><a href="show-details.html">Alice Through the Looking Glass (2016)</a></h4>
+                                        <div class="movie-info">
+                                            <ul>
+                                                <li class="info-one threee">16+</li>
+                                                <li>101 min - Action | Adventure | Sci-Fi</li>
+                                            </ul>
+                                        </div>
+                                        <p><span>Director:</span> Robert Schwentke<br/><span>Actors:</span> Shailene Woodley, Theo James, Jeff Daniels, Naomi Watts</p>
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="movie-time">
+                                                <ul>
+                                                    <li>10:45</li>
+                                                    <li>12:55</li>
+                                                    <li>15:45</li>
+                                                    <li>17:15</li>
+                                                    <li>19:45</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                                <div class="movie-details-text">
+                                    <p>A young girl suffering from a rare digestive disorder finds herself miraculously cured after surviving a terrible accident.Very good movie!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-movie-details-area">
+                            <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                                <div class="movie-details">
+                                    <div class="media">
+                                      <a class="pull-left" href="show-details.html">
+                                        <img class="media-object" src="images/movie/5.jpg" alt="Generic placeholder image">
+                                        <span class="text-align">Digital Movie</span>
+                                      </a>
+                                      <div class="media-body">
+                                        <h4 class="media-heading"><a href="show-details.html">Battle of the young lions (2016)</a></h4>
+                                        <div class="movie-info">
+                                            <ul>
+                                                <li class="info-one four">18+</li>
+                                                <li>128 min - Action | Adventure | Mystery | Sci-Fi | Thriller</li>
+                                            </ul>
+                                        </div>
+                                        <p><span>Director:</span> Ilya Naishuller<br/><span>Actors:</span> Sharlto Copley, Tim Roth, Haley Bennett, Danila Kozlovsky</p>
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="movie-time">
+                                                <ul>
+                                                    <li>11:45</li>
+                                                    <li>15:25</li>
+                                                    <li>17:00</li>
+                                                    <li>19:15</li>
+                                                    <li>19:45</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                                <div class="movie-details-text">
+                                    <p>After getting in a car accident, a woman is held in a shelter with two men, who claim the outside world is affected by a very widespread chemical attack.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-movie-details-area">
+                            <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                                <div class="movie-details">
+                                    <div class="media">
+                                      <a class="pull-left" href="show-details.html">
+                                        <img class="media-object" src="images/movie/6.jpg" alt="Generic placeholder image">
+                                        <span class="text-align">3D Movie</span>
+                                      </a>
+                                      <div class="media-body">
+                                        <h4 class="media-heading"><a href="show-details.html">The Room From Badmintom Hotel (2016)</a></h4>
+                                        <div class="movie-info">
+                                            <ul>
+                                                <li class="info-one five">12+</li>
+                                                <li>106 min - Drama | Thriller | War</li>
+                                            </ul>
+                                        </div>
+                                        <p><span>Director:</span>  Gavin Hood<br/><span>Actors:</span> John Goodman, Mary Elizabeth Winstead, John Gallagher</p>
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="movie-time">
+                                                <ul>
+                                                    <li>13:00</li>
+                                                    <li>15:30</li>
+                                                    <li>17:45</li>
+                                                    <li>19:15</li>
+                                                    <li>21:00</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                                <div class="movie-details-text">
+                                    <p>Col. Katherine Powell, a military officer in command of an new operation to capture terrorists in Kenya, sees her missions to escalate when a girl enters the kill zone triggering.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-movie-details-area">
+                            <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                                <div class="movie-details">
+                                    <div class="media">
+                                      <a class="pull-left" href="show-details.html">
+                                        <img class="media-object" src="images/movie/7.jpg" alt="Generic placeholder image">
+                                        <span class="text-align">Animation</span>
+                                      </a>
+                                      <div class="media-body">
+                                        <h4 class="media-heading"><a href="show-details.html">Spy eye directly from the sky (2016)</a></h4>
+                                        <div class="movie-info">
+                                            <ul>
+                                                <li class="info-one one">4+</li>
+                                                <li> 156 min - Comedy | Animation</li>
+                                            </ul>
+                                        </div>
+                                        <p><span>Director:</span> Peter Atencio<br/><span>Actors:</span> Keegan-Michael Key, Jordan Peele, Will Forte, Nia Long</p>
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="movie-time">
+                                                <ul>
+                                                    <li>11:25</li>
+                                                    <li>13:50</li>
+                                                    <li>15:45</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                                <div class="movie-details-text">
+                                    <p>It's been a long time since we enjoyed a trailer as much as this one while simultaneously wondering aloud whether the movie could sustain the laughter for 100 minutes. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Watching Movies Details End Here -->
+        <!-- Zooks Promos Start Here -->
+        <div class="zooks-promos-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="section-title">
+                            <h2><span>Zooks</span> Promos</h2>
+                            <p>Weekly Zooks <strong>promotional</strong> ads!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="total-promos-area">
+                            <div class="single-promos">
+                                <a href="#"><img src="images/promos/1.jpg" alt=""></a>
+                            </div>
+                            <div class="single-promos">
+                                <a href="#"><img src="images/promos/2.jpg" alt=""></a>
+                            </div>
+                            <div class="single-promos">
+                                <a href="#"><img src="images/promos/3.jpg" alt=""></a>
+                            </div>
+                            <div class="single-promos">
+                                <a href="#"><img src="images/promos/1.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Zooks Promos End Here -->
+        <!-- Footer Start Here -->
+        <footer>
+            <div class="footer-top-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 text-center">                            
+                            <div class="widget">
+                                <div class="footer-one">
+                                    <a href="index.html"><img src="images/footer-logo.png" alt=""></a>
+                                    <p>38 Ruckman Road Oklahoma City, OK </p>
+                                    <p>Ph: <strong>(123) 456-2120</strong> </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12">                            
+                            <div class="widget">
+                                <div class="footer-two">
+                                    <div class="widget-title">Zooks Cinema</div>
+                                    <ul>
+                                        <li><a href="trailers.html">Trailers</a></li>
+                                        <li><a href="shows.html">Movies & Shows</a></li>
+                                        <li><a href="rent.html">Rent the Theatre</a></li>
+                                        <li><a href="show-details.html">Movie Single Post</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12">                            
+                            <div class="widget">
+                                <div class="footer-three">
+                                    <div class="widget-title">Our App</div>
+                                    <ul>
+                                        <li><a href="#"><img src="images/icon/1.png" alt=""> <span>iPhone</span> App</a></li>
+                                        <li><a href="#"><img src="images/icon/2.png" alt=""> <span>Androd</span> App</a></li>
+                                        <li><a href="#"><img src="images/icon/3.png" alt=""> <span>iPad</span> App</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">                            
+                            <div class="widget">
+                                <div class="footer-four">
+                                    <div class="widget-title">Follow Us</div>
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></li>
+                                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+                                        <li><a href="#"><i class="fa fa-flickr" aria-hidden="true"></i> Fliker</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">                            
+                            <div class="widget">
+                                <div class="footer-five">
+                                    <div class="widget-title">Flickr Feed</div>
+                                    <ul>
+                                        <li><a href="#"><img src="images/fliker/1.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="images/fliker/2.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="images/fliker/3.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="images/fliker/4.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="images/fliker/5.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="images/fliker/6.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="images/fliker/7.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="images/fliker/8.jpg" alt=""></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                            <div class="footer-text">
+                                <p>Zooks <i class="flaticon-shapes"></i> by envalab</p>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer End Here -->
+        <!-- all js here -->
+        <!-- jquery latest version -->
+        <script src="js/vendor/jquery-1.12.0.min.js"></script>
+        <!-- bootstrap js -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- owl.carousel js -->
+        <script src="js/owl.carousel.min.js"></script>
+        <!-- meanmenu js -->
+        <script src="js/jquery.meanmenu.js"></script>
+        <!-- jquery-ui js -->
+        <script src="js/jquery-ui.min.js"></script>
+        <!-- wow js -->
+        <script src="js/wow.min.js"></script>
+        <!-- plugins js -->
+        <script src="js/plugins.js"></script>
+        <!-- jQuery MixedIT Up -->
+        <script src="js/jquery.mixitup.min.js" type="text/javascript"></script>
+        <!-- main js -->
+        <script src="js/main.js"></script>
+    </body>
+</html>

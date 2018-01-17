@@ -1,0 +1,23 @@
+.about-area{
+	background: #f3f4f6;
+	.conent-page{
+		display: block;
+		float: left;
+		margin-top: 100px;
+		margin-bottom: 130px;
+		position: relative;
+		z-index: 999;
+		h1{
+			color: #fff;
+		}
+		.page-content{
+			background: #fff;
+			p{
+				margin: 0;
+				padding: 50px;
+				font-size: 18px;
+				color: #252525;
+			}
+		}
+	}
+}

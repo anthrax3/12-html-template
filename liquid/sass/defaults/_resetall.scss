@@ -1,0 +1,75 @@
+/*** Reset ***/
+.p-re{
+  position: relative;
+}
+.p-ab{
+  position: absolute;
+}
+.list-inline{
+  li{
+    display: inline-block;
+  }
+}
+.af-be{
+  &:after{
+    content:'';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  &:before{
+    content:'';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+}
+.af{
+  &:after{
+    content:'';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+}
+.be{
+  &:before{
+    content:'';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+}
+.bg-img{
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+}
+.floatleft{
+  float: left;
+}
+.floatright{
+  float: right;
+}
+.alignleft{
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 26px;
+}
+.alignright{
+  float: right;
+  margin-left: 15px;
+  margin-bottom: 26px;
+}
+.aligncenter{
+  display: block;
+  margin: 0 auto 26px;
+}

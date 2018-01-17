@@ -1,0 +1,45 @@
+header{
+	.main-header{
+		&.breadcumb{
+			position: relative;
+			background: rgba(0, 0, 0, 0.7) !important;
+			z-index: 9999;
+		}
+		nav{
+			ul{
+				li{
+					padding: 0;
+					&:first-child{
+
+					}
+					&:last-child{
+
+					}
+					a{
+						display: block;
+						color: #fff;
+						font-size: 16px;
+						padding: 30px 10px;
+					}
+					ul{
+						margin-top: -2px !important;
+						li{
+							display: block;
+							a{
+								color: #222;
+								padding: 10px 15px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.mobile-menu-area{
+		display: none;
+		.mean-container .mean-nav {
+		    position: absolute;
+		    top: 100%;
+		}
+	}
+}

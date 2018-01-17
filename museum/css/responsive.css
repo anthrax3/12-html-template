@@ -1,0 +1,294 @@
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {
+  .section-title h2:before {
+    width: 80px;
+    left: 0;
+  }
+  .section-title h2:after {
+    width: 80px;
+    right: 0;
+  }
+  .calender-area .table-responsive .table tbody tr td {
+    margin: 12px;
+  }
+  .activities-area .tab-content .tab-pane .media {
+    height: 300px;
+  }
+	.calender-area.fiveee .table-responsive .table tbody tr td {
+		margin: 15px 9px;
+	}
+	.calender-area.fiveee .table-responsive .table tbody tr.fiveee-trr td {
+		margin: 10px 10px;
+	}
+}
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {
+  .activities-area .tab-content .tab-pane .media {
+    height: auto;
+  }
+  .header-area .main-menu ul li{
+    padding: 40px 18px;
+  }
+	.tutor-area {
+		background-size: 100% 43%;
+		padding: 0 0 200px;
+	}
+	.section-title h2::before , .section-title h2::after {
+		width: 17%;
+	}
+	.single-services-area .services-content {
+		background-position: left bottom;
+		background-size: 85% 40%;
+		padding-bottom: 180px;
+	}
+	.video-area .video {
+		margin-top: 30px;
+	}
+	.single-services-area {
+		padding: 100px 0 35px;
+	}
+
+	.activities-area .topbar-area {
+		text-align: center;
+	}
+	.activities-area .topbar-area .activities-menu ul.nav.nav-tabs {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.activities-area .tab-content .tab-pane .media .pull-left {
+		float: none !important;
+	}
+	.activities-area .tab-content .tab-pane .media .pull-left figure {
+		width: 80%;
+		margin-left: 12%;
+	}	
+	.contact-area .form-area .leave-comments-area .btn-send {
+		 margin-top: 10px;
+	}	
+	.events-area .tab-pane .single-events .images a img {
+		width: 100%;
+	}	
+	.news-letter .text h2 {
+		font-size: 23px;
+	}	
+	.sidebar-area .widget .navbar-form .form-group input {
+		width: 300px;
+		margin-top: 20px;
+	}	
+	.single-events-area {
+		padding: 100px 0 0px;
+	}
+	.slider-area .single-slider h2{
+		font-size: 48px;
+		text-align: center;
+	}
+	.slider-area .single-slider{
+		text-align: center;
+	}
+}
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 767px) {
+  .header-area .logo-area{
+    padding: 30px 0;
+  }
+  .mobile-menu-area{
+    display:block;
+  }
+  .header-area .main-menu {
+    display: none;
+  }
+  .slider-area .single-slider {
+    padding: 120px 0;
+  }
+  .slider-area .single-slider h2 {
+    font-size: 60px;
+  }
+  .reason-to-come-zoo-area {
+    text-align: center;
+  }
+  .section-title h2:before,
+  .section-title h2:after {
+    display: none;
+  }
+  .exhibition-content-area .exhibition-details ul li {
+    margin: 0;
+  }
+  .exhibition-content-area .exhibition-details ul li span {
+    display: block;
+    margin: 0 30px 0 0;
+  }
+  .exhibition-content-area .exhibition-details h2 span {
+    float: inherit;
+  }
+  .news-letter .text h2 {
+    text-align: center;
+    margin: 0 0 20px;
+  }
+  .footer-bottom-area .footer-menu,
+  .footer-bottom-area .copyright {
+    text-align: center;
+  }
+  .tutor-area .tutor-content .import-notice .color-area:before {
+    height: 70px;
+  }
+  .events-area .tab-pane .single-events .images a img {
+    width: 100%;
+  }
+  .membership-area {
+    text-align: center;
+  }
+  .membership-area .membership .price h2:after {
+	right: 0;
+	margin: 0 auto 10px;
+  }
+  .contact-area .contact-text {
+    text-align: center;
+  }
+  .calender-area .table-responsive .table tbody tr td {
+    margin: 8px;
+    padding: 10px 0;
+  }
+	.video-area .video iframe {
+		width: 100%;
+		height: 340px;
+	}
+	.meseum-cafe-area .meseum-cafe-food {
+		margin-top: 30px;
+	}
+	.tutor-area {
+		background-size: 150% 30%;
+		background-position: right bottom;
+	}
+	.pulication-area .single-publication {
+		margin-right: 0px;
+		margin-top: 30px;
+	}
+	.slider-area .single-slider h2 {
+		font-size: 45px;
+	}
+	.events-area .topbar-area .activities-menu ul.nav.nav-tabs li a {
+		padding: 3px 15px 5px;
+		margin-bottom: 15px;
+	}
+
+	.events-area .tab-pane .single-events .events-details .events-informations ul li {
+		width: 100%;
+	}
+	.sidebar-area .widget .navbar-form .form-group i {
+		top: 47%;
+	}
+	.single-events-area.thrre .events-area .next-prev-button ul li a {
+		width: 135px;
+		padding: 5px 0px 5px 0px;
+	}
+	.reason-to-come-zoo-area,
+	.showcase-area,
+	.video-area,
+	.recent-zooks-photo-area{
+		padding: 50px 0;
+	}
+	.opening-price-area,
+	.events-area,
+	.membership-area,
+	.activities-area,
+	.single-events-area{
+		padding: 50px 0 0;
+	}
+}
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 479px) {
+	.section-title h2,
+	.video-area .video-content h2{
+		font-size: 24px;
+	}
+	.opening-price-area .meseum-openning-area h2{
+		font-size: 28px;
+	}
+	.showcase-area .showcase-slider .owl-buttons {
+		display: none;
+	}
+	.slider-area .single-slider h2{
+		font-size: 28px !important;
+	}
+  .slider-area .single-slider {
+    padding: 70px 0;
+  }
+  .slider-area .single-slider h2 {
+    font-size: 40px;
+  }
+  .promo-area .promo-text {
+    width: 100%;
+  }
+  .calender-area .table-responsive h3 i {
+    margin: 0 10px;
+  }
+  .calender-area .table-responsive .specific ul {
+    padding: 5px;
+  }
+	.meseum-cafe-area .meseum-cafe-content h2 {
+		font-size: 40px;
+	}
+	.video-area .video iframe {
+		height: 300px;
+	}
+	.tutor-area .tutor-content .tutor-title.twooo h2 {
+		font-size: 30px;
+	}
+	.footer-bottom-area .footer-menu ul li a {
+		padding: 0px 10px;
+	}
+
+	.slider-area .single-slider h2 {
+		font-size: 35px;
+	}
+	.showcase-area .showcase-slider .single-showcase {
+		margin-right: 0px;
+	}
+	.exhibition-menu ul.nav.nav-tabs li.active a , .exhibition-menu ul.nav.nav-tabs li a {
+		padding: 5px 10px;
+	}
+	.exhibition-content-area .exhibition-details ul {
+		margin-right: 0%;
+	}
+	.exhibition-content-area .exhibition-details h2 span {
+		margin-top: 15px;
+		display: inline-block;
+	}
+	.exhibition-content-area .exhibition-details h2 {
+		font-size: 28px;
+		display: block;
+		margin: 0 0 35px;
+	}
+	.promo-area {
+		padding-top: 60px;
+	}
+	.promo-area .promo-text h2 {
+		font-size: 50px;
+	}
+	.exhibition-content-area .image-area .images {
+		height: 165px;
+	}
+	.exhibition-content-area .image-area .images img {
+		height: 100%;
+	}
+	.activities-area .topbar-area .activities-menu ul.nav.nav-tabs li.active a , .activities-area .topbar-area .activities-menu ul.nav.nav-tabs li a {
+		padding: 2px 15px 4px;
+	}
+	.contact-area .form-area .leave-comments-area .btn-send {
+		padding: 8px;
+	}
+	.sidebar-area .widget .navbar-form .form-group input {
+		width: 100%;
+	}
+}
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 320px) {
+	.exhibition-content-area .exhibition-details h2 {
+		font-size: 24px;
+	}
+}

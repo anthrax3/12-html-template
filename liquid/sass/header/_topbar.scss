@@ -1,0 +1,59 @@
+header{
+	.top-bar{
+		background: #262528;
+		position: relative;
+		z-index: 999;
+		.top-social{
+			ul{
+				padding: 5px 0;
+				li{
+					a{
+					    display: block;
+					    color: #fff;
+					    border: 2px solid #fff;
+					    border-radius: 100%;
+					    width: 25px;
+					    height: 25px;
+					    text-align: center;
+					    padding: 3px 2px;
+						i{
+							display: block;
+						}
+						&:hover{
+							background: $primary-color;
+						}
+					}
+				}
+			}
+		}
+		.contact-top{
+			ul{
+				display: inline-block;
+				transition: $transition;
+				padding: 5px 0;
+				cursor: pointer;
+				&:hover{
+					background:$primary-color;
+				}
+				li{
+					span{
+						display: block;
+						color: #fff;
+						border: 2px solid #fff;
+						border-radius: 100%;
+						width: 24px;
+						height: 24px;
+						text-align: center;
+						padding: 3px 0;
+						i{
+							display: block;
+						}
+					}
+					p{
+						color: #fff;
+					}
+				}
+			}
+		}
+	}
+}
