@@ -1,0 +1,50 @@
+/ -------------- Home 1  ---------------- /
+.slider-area .slider-single .slider-content h1{
+        -webkit-animation: bounceInUp 1000ms ease-in-out;
+    -moz-animation: bounceInUp 1000ms ease-in-out;
+    -ms-animation: bounceInUp 1000ms ease-in-out;
+    animation: bounceInUp 1000ms ease-in-out;
+}
+.slider-1 div.title2{
+        -webkit-animation: bounceInUp 2000ms ease-in-out;
+    -moz-animation: bounceInUp 2000ms ease-in-out;
+    -ms-animation: bounceInUp 2000ms ease-in-out;
+    animation: bounceInUp 2000ms ease-in-out;
+}
+.slider-1 p{
+        -webkit-animation: zoomIn 500ms ease-in-out;
+    -moz-animation: zoomIn 500ms ease-in-out;
+    -ms-animation: zoomIn 500ms ease-in-out;
+    animation: zoomIn 500ms ease-in-out;
+}
+.slider-1 div.slider-botton{
+        -webkit-animation: bounceInDown 2500ms ease-in-out;
+    -moz-animation: bounceInDown 2500ms ease-in-out;
+    -ms-animation: bounceInDown 2500ms ease-in-out;
+    animation: bounceInDown 2500ms ease-in-out;
+}
+/ -------------- Home 2  ---------------- /
+.slider-2 p{
+        -webkit-animation: zoomIn 500ms ease-in-out;
+    -moz-animation: zoomIn 500ms ease-in-out;
+    -ms-animation: zoomIn 500ms ease-in-out;
+    animation: zoomIn 500ms ease-in-out;
+}
+.slider-2 h1{
+        -webkit-animation: fadeInLeft 500ms ease-in-out;
+    -moz-animation: fadeInLeft 500ms ease-in-out;
+    -ms-animation: fadeInLeft 500ms ease-in-out;
+    animation: fadeInLeft 500ms ease-in-out;
+}
+.slider-2 div.title2{
+        -webkit-animation: fadeInRight 1500ms ease-in-out;
+    -moz-animation: fadeInRight 1500ms ease-in-out;
+    -ms-animation: fadeInRight 1500ms ease-in-out;
+    animation: fadeInRight 1500ms ease-in-out;
+}
+.slider-2  div.slider-botton{
+        -webkit-animation: bounceInDown 2500ms ease-in-out;
+    -moz-animation: bounceInDown 2500ms ease-in-out;
+    -ms-animation: bounceInDown 2500ms ease-in-out;
+    animation: bounceInDown 2500ms ease-in-out;
+}

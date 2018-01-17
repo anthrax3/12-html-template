@@ -1,0 +1,21 @@
+.breadcumb-area{
+	display: block;
+	padding: 320px 0 160px;
+	.content-area{
+		h1{
+			color: #fff;
+			font-family: $title-font;
+			font-weight: 700;
+			font-size: 50px;
+		}
+		ul{
+			li{
+				color: #fff;
+				font-weight: 700;
+				a{
+					color: #fff;
+				}
+			}
+		}
+	}
+}

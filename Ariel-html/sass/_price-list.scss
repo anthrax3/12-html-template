@@ -1,0 +1,267 @@
+.price-area{
+	background: #222428;
+	padding: 100px 0 0;
+	margin: 0 0 250px;
+	.section-heading{
+		p{
+			color: #7c7c7c;
+		}
+		h3{
+			color: #fff;
+		}
+	}
+	.single-price-list{
+		background: #2c2e32;
+		border-radius: 15px;
+		display: block;
+		padding: 50px;
+		margin: 0 0 -120px;
+		transition: $transition;
+		&:hover{
+			background:url('images/price/1.png') no-repeat center;
+			background-size: cover;
+			box-shadow: 0 13px 47px rgba(0, 0, 0, 0.1);
+			transition: $transition;
+			h4,p,strong{
+				color: #242424;
+			}
+			ul{
+				li{
+					color: #787878;
+				}
+			}
+		}
+		&.active{
+			background:url('images/price/1.png') no-repeat center;
+			background-size: cover;
+			box-shadow: 0 13px 47px rgba(0, 0, 0, 0.1);
+			margin-top: -20px;
+			transition: $transition;
+			h4,p,strong{
+				color: #242424;
+			}
+			ul{
+				li{
+					color: #787878;
+				}
+			}
+		}
+		h4{
+			color: #fff;
+			margin: 0 0 10px;
+			transition: $transition;
+		}
+		p{
+			margin: 0 0 30px;
+			color: #fff;
+			transition: $transition;
+		}
+		strong{
+			color: #fff;
+			font-family: $title-font;
+			font-weight: 700;
+			display: block;
+			margin: 0 0 50px;
+			transition: $transition;
+			i{	
+				font-size: 18px;
+				display: inline-block;
+				margin: 0px 5px 0;
+			}
+			.big{
+				font-size: 40px;
+			}
+			.sm{
+				font-size: 18px;
+			}
+		}
+		ul{
+			display: block;
+			margin: 0 0 90px;
+			li{
+				display: block;
+				color: #fff;
+				padding: 0 0 20px;
+				transition: $transition;
+			}
+		}
+		a{
+			display: inline-block;
+			padding: 10px 30px;
+			color: #fff;
+			font-size: 12px;
+			font-family: $title-font;
+			font-weight: 700;
+			background: $primary-color;
+			border-radius: 50px;
+			&:hover{
+				background:#fff;
+				color: #333;
+			}
+		}
+	}
+}
+.price-area-three{
+	padding: 100px 0 120px;
+	&.page-five{
+		padding: 100px 0 0;
+	}
+	.single-price-list{
+		background: #2c2e32;
+		border-radius: 15px;
+		display: block;
+		padding: 50px;
+		transition: $transition;
+		&:hover{
+			background:url('images/price/1.png') no-repeat center;
+			background-size: cover;
+			box-shadow: 0 13px 47px rgba(0, 0, 0, 0.1);
+			transition: $transition;
+			h4,p,strong{
+				color: #242424;
+			}
+			ul{
+				li{
+					color: #787878;
+				}
+			}
+		}
+		&.active{
+			background:url('images/price/1.png') no-repeat center;
+			background-size: cover;
+			box-shadow: 0 13px 47px rgba(0, 0, 0, 0.1);
+			margin-top: -20px;
+			transition: $transition;
+			h4,p,strong{
+				color: #242424;
+			}
+			ul{
+				li{
+					color: #787878;
+				}
+			}
+		}
+		h4{
+			color: #fff;
+			margin: 0 0 10px;
+			transition: $transition;
+		}
+		p{
+			margin: 0 0 30px;
+			color: #fff;
+			transition: $transition;
+		}
+		strong{
+			color: #fff;
+			font-family: $title-font;
+			font-weight: 700;
+			display: block;
+			margin: 0 0 50px;
+			transition: $transition;
+			i{	
+				font-size: 18px;
+				display: inline-block;
+				margin: 0px 5px 0;
+			}
+			.big{
+				font-size: 40px;
+			}
+			.sm{
+				font-size: 18px;
+			}
+		}
+		ul{
+			display: block;
+			margin: 0 0 90px;
+			li{
+				display: block;
+				color: #fff;
+				padding: 0 0 20px;
+				transition: $transition;
+			}
+		}
+		a{
+			display: inline-block;
+			padding: 10px 30px;
+			color: #fff;
+			font-size: 12px;
+			font-family: $title-font;
+			font-weight: 700;
+			background: $primary-color;
+			border-radius: 50px;
+			&:hover{
+				background:#fff;
+				color: #333;
+			}
+		}
+	}
+}
+.price-plan-area{
+	display: block;
+	padding: 130px 0 60px;
+
+	.section-heading{
+		h3{
+			&:after{
+				display:none;
+			}
+		}
+	}
+	.single-plan{
+		display: block;
+		margin: 0 0 30px;
+		width: 100%;
+		float: left;
+		.plan-img{
+			img{
+				width: 100%;
+			}
+		}
+		.plan-content{
+			display: block;
+			margin-top: 30px;
+			h2{
+				color: #333;
+				font-family: $title-font;
+				font-weight: 700;
+			}
+			.data{
+				display: block;
+				margin: 0 0 20px;
+				li{
+					transition: $transition;
+					color: #6f6f6f;
+					font-size: 12px;
+					padding-right: 10px;
+					&:hover{
+						color:$primary-color;
+					}
+				}
+			}
+			p{
+				color: #545454;
+				display: block;
+				margin:0 0 40px;
+			}
+			a{
+				display: inline-block;
+				font-style: italic;
+				font-family: $second-font;
+			}
+			.social{
+				display: inline-block;
+				padding-left: 30px;
+				li{
+					a{
+						padding: 0 10px;
+						color: #313131;
+						font-size: 16px;
+						&:hover{
+							color:$primary-color;
+						}
+					}
+				}
+			}
+		}
+	}
+}

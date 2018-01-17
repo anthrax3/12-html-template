@@ -1,0 +1,114 @@
+/***All plugins Reset***/
+#Container .mix {
+    display: none;
+}
+.mfp-title{
+	display: none;
+}
+.bx-wrapper{
+	margin:0;
+	opacity: 0;
+}
+.slider-area-two{
+	.bx-wrapper{
+		margin:0;
+		opacity: 1 !important;
+		.bx-viewport{
+			border: none;
+			box-shadow: none;
+			left: 0;
+			right: 0;
+		}
+	}
+}
+.feature-area{
+	.owl-controls{
+		.owl-page{
+			&.active{
+				span{
+					background: $primary-color !important;
+				}
+			}
+		}
+	}
+}
+.taem-area-three{
+	position: relative;
+	.owl-controls{
+		position: absolute;
+		top: 60%;
+		.owl-buttons{
+			div{
+				position: absolute;
+				left: 80px;
+				display: block;
+				width: 35px;
+				height: 35px;
+				border-radius: 100%;
+				font-size: 16px;
+				color: #fff;
+				background: rgba(255, 255, 255, 0.5);
+				transition: $transition;
+				&:hover{
+					background:$primary-color;
+				}
+				&.owl-prev{
+
+				}
+				&.owl-next{
+					margin-top: 50px;
+				}
+			}
+		}
+	}
+}
+.product-area{
+	.owl-controls{
+		.owl-buttons{
+			display: none;
+			div{
+				background: transparent;;
+				border:1px solid $primary-color;
+				color: $primary-color;
+				border-radius: 0;
+				display: inline-block;
+				width: 30px;
+				height: 30px;
+				font-size: 20px;
+				opacity: 1;
+				padding: 0;
+				-webkit-transition: $transition;
+				-moz-transition: $transition;
+				-ms-transition: $transition;
+				-o-transition: $transition;
+				transition: $transition;
+				position: absolute;
+				top: 50%;
+				&:hover{
+					background: $primary-color;
+					color: #fff;
+				}
+			}
+
+			.owl-prev{
+				left: 15px;
+			}
+			.owl-next{
+				right: 15px;
+			}
+		}
+		.owl-pagination{
+			.owl-page{
+				span{
+					background: #000;
+					opacity: 1;
+				}
+				&.active{
+					span{
+						background: $primary-color;
+					}
+				}
+			}
+		}
+	}
+}

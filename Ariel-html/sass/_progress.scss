@@ -1,0 +1,158 @@
+ .video-area{
+    .skil-bar{
+        .single-progress{
+            .progress{
+                position: relative;
+                height: 35px;
+                background: #fff;
+                border-radius: 0;
+                box-shadow: none;
+                margin-bottom: 10px;
+                overflow: visible;
+                border-radius: 10px;
+                .progress-title{
+                    position: absolute;
+                    z-index: 999;
+                    color: #fff;
+                    padding: 5px 15px;
+                    font-size: 13px;
+                    top: 0;
+                    left: 0;
+                }
+                .progress-bar{
+                    box-shadow: none;
+                    position: relative;
+                    border-radius: 10px;
+                    background: $primary-color !important;
+                    -webkit-animation: animate-positive 2s;
+                    animation: animate-positive 2s;
+                    &:after{
+                        content: "";
+                        display: block;
+                        border: 15px solid transparent;
+                        border-bottom: 21px solid transparent;
+                        position: absolute;
+                        top: -26px;
+                        right: -12px;
+                    }
+                }
+                .progress-value{
+                    font-weight: bold;
+                    color: #000;
+                    position: absolute;
+                    top: 5px;
+                    right: 15px;
+                }
+            }
+        }
+    }
+}
+.vidos-area-two{
+    .skil-bar{
+        display: block;
+        padding: 100px 0;
+        .single-progress{
+            .progress{
+                position: relative;
+                height: 20px;
+                background: #414141;
+                border-radius: 0;
+                box-shadow: none;
+                margin-bottom: 10px;
+                overflow: visible;
+                border-radius: 10px;
+                .progress-title{
+                    position: absolute;
+                    z-index: 999;
+                    color: #fff;
+                    padding: 0;
+                    font-size: 13px;
+                    top: -30px;
+                    left: 0;
+                }
+                .progress-value{
+                    font-weight: bold;
+                    color: #fff;
+                    position: absolute;
+                    top: -30px;
+                    right: 15px;
+                }
+                .progress-bar{
+                    box-shadow: none;
+                    position: relative;
+                    border-radius: 10px;
+                    background: $hover-color !important;
+                    -webkit-animation: animate-positive 2s;
+                    animation: animate-positive 2s;
+                    &:after{
+                        content: "";
+                        display: block;
+                        border: 15px solid transparent;
+                        border-bottom: 21px solid transparent;
+                        position: absolute;
+                        top: -26px;
+                        right: -12px;
+                    }
+                }
+                
+            }
+        }
+    }
+}
+.skil-bar-three{
+    display: block;
+    margin-top: 50px;
+    .single-progress{
+        margin: 0 0 50px;
+        .progress{
+            position: relative;
+            height: 10px;
+            background: #e7e7e7;
+            border-radius: 0;
+            box-shadow: none;
+            margin-bottom: 10px;
+            overflow: visible;
+            border-radius: 10px;
+            .progress-title{
+                position: absolute;
+                z-index: 999;
+                color: #373737;
+                padding: 0;
+                top: -30px;
+                left: 0;
+                font-weight: 700;
+            }
+            .progress-value{
+                font-weight: bold;
+                color: #373737;
+                position: absolute;
+                top: -30px;
+                right: 15px;
+            }
+            .progress-bar{
+                box-shadow: none;
+                position: relative;
+                border-radius: 10px;
+                background: $primary-color !important;
+                -webkit-animation: animate-positive 2s;
+                animation: animate-positive 2s;
+                &:after{
+                    content: "";
+                    display: block;
+                    border: 15px solid transparent;
+                    border-bottom: 21px solid transparent;
+                    position: absolute;
+                    top: -26px;
+                    right: -12px;
+                }
+            }
+            
+        }
+    }
+}
+@-webkit-keyframes animate-positive{
+    0% { width: 0; }
+}
+@keyframes animate-positive{
+    0% { width: 0; }
+}

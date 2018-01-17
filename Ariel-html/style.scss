@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800|Open+Sans:400,600,700,800|Playfair+Display:400,400i,700,700i');
+/*-------------------------------------
+    Template Name: Your template name 
+    Template URI: http://periodicitems.com/
+    Description: This is html5 template
+    Author: periodicitems
+    Author URI: http://periodicitems.com/
+    Version: 1.0
+---------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    1. Theme Default CSS (body, link color, section etc)
+	2. Header area start here
+	3. Slider area start here
+	4. About area start here
+	1. Banner area start here
+	1. Blog area start here
+	1. Contact area start here
+	1. Footer area start here
+	1. Breadcumb area start here
+	1. Faq area start here
+
+---------------------------------------*/
+
+/*....................................
+1.Theme default CSS
+....................................*/
+$body-font: 'Open Sans', sans-serif;
+$title-font:'Montserrat', sans-serif;
+$second-font:'Playfair Display', serif;
+$primary-color: #3366ff;
+$hover-color: #f1c00a;
+$transition: all 0.5s; 
+html,
+body {
+  font-size: 14px;
+  color: #313131;
+  font-family: $body-font;
+  vertical-align: baseline;
+  line-height: 26px;
+  font-weight: 400;
+}
+/* ....................................
+1.1 Reset CSS 
+.......................................*/
+@import 'sass/defaults/_defaults.scss';
+
+
+
+/*....................................
+2. Header area start here
+....................................*/
+@import 'sass/header/_con.scss';
+
+
+/*....................................
+3. Slider area start here
+....................................*/
+@import 'sass/slider/_slider.scss';
+
+
+/*....................................
+4. About area start here
+....................................*/
+@import 'sass/about/_about.scss';
+
+
+/*....................................
+1. Team area start here
+....................................*/
+@import 'sass/team/_team.scss';
+
+
+/*....................................
+1. Banner area start here
+....................................*/
+@import 'sass/banner/_banner.scss';
+
+
+/*....................................
+1. Blog area start here
+....................................*/
+@import 'sass/blog/_con.scss';
+
+
+/*....................................
+1. Price list area start here
+....................................*/
+@import 'sass/price-list/_pricelist.scss';
+
+
+
+/*....................................
+1. Contact area start here
+....................................*/
+@import 'sass/contact/_con.scss';
+
+
+/*....................................
+1. Footer area start here
+....................................*/
+@import 'sass/footer/_con.scss';
+
+
+/*....................................
+1. Breadcumb area start here
+....................................*/
+@import 'sass/breadcumb/_breadcumb.scss';
+
+
+/*....................................
+1. Faq area start here
+....................................*/
+@import 'sass/faq/_faq.scss';
+
+
+/*....................................
+1. Video area start here
+....................................*/
+@import 'sass/_video.scss';
+
+
+/*....................................
+1. Progress area start here
+....................................*/
+@import 'sass/_progress.scss';
+
+
+/*....................................
+1. Collection area start here
+....................................*/
+@import 'sass/_collection.scss';
+
+
+
+/*....................................
+1. Counter area start here
+....................................*/
+@import 'sass/_counter.scss';
+
+
+
+/*....................................
+1. Gallery area start here
+....................................*/
+@import 'sass/_gallery.scss';
+
+
+
+/*....................................
+1. Testimonial area start here
+....................................*/
+@import 'sass/_testimonial.scss';
+
+
+
+/*....................................
+1. Logo slider area start here
+....................................*/
+@import 'sass/_logo-slider.scss';
+
+
+
+/*....................................
+1. Product slider area start here
+....................................*/
+@import 'sass/_product.scss';
+
+
+
+/*....................................
+1. Feature slider area start here
+....................................*/
+@import 'sass/_feature.scss';
+
+
+
+/*....................................
+1. Price-list slider area start here
+....................................*/
+@import 'sass/_price-list.scss';
+
+
+
+/*....................................
+1. Mission slider area start here
+....................................*/
+@import 'sass/_mission.scss';
+
+
+
+/*....................................
+1. Sidebar slider area start here
+....................................*/
+@import 'sass/_sidebar.scss';
+
+
+
+/*....................................
+1. Shop slider area start here
+....................................*/
+@import 'sass/_shop.scss';
+
+
+/*....................................
+1. Cart area start here
+....................................*/
+@import 'sass/_cart.scss';

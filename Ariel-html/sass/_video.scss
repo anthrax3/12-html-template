@@ -1,0 +1,164 @@
+.video-area{
+	background: url(images/videos/bg-1.png) no-repeat right;
+	padding: 0 0 80px;
+	.video-content{
+		display: block;
+		background: #1a1a1a;
+		float: left;
+		margin-top: -138px;
+		.video-link{
+			padding: 30px 30px 0 30px;
+			margin: 30px 0 -30px;
+			.video-heading{
+				display: block;
+				margin: 0 0 40px;
+				span{
+					display: inline-block;
+					float: left;
+					width: 50px;
+					height: 50px;
+					background: $primary-color;
+					color: #fff;
+					margin-right: 20px;
+					border-radius: 100%;
+					text-align: center;
+					font-size: 18px;
+					padding: 12px 0px 0 4px;
+					transition: $transition;
+					cursor: pointer;
+					&:hover{
+						background: $hover-color;
+					}
+					i{
+
+					}
+				}
+				h3{
+					display: table;
+					color: #fff;
+					font-size: 20px;
+				}
+			}
+			.video-img{
+				img{
+					width: 100%;
+				}
+			}
+		}
+	}
+	.video-service{
+		padding: 75px 0 0;
+		.single-service{
+			display: block;
+			margin: 0 0 50px;
+			.service-heading{
+				span{
+					display: inline-block;
+					float: left;
+					color: #fff;
+					font-size: 18px;
+					margin-right: 10px;
+					margin-top: -5px;
+				}
+				h4{
+					display: table;
+					color: #fff;
+					margin:  0 0 15px;
+				}
+			}
+			.service-con{
+				p{	
+					color: #848484;
+					margin:  0 0 15px;
+				}
+				a{
+					color: #fff;
+					font-weight: 700;
+					&:hover{
+						color:$primary-color;
+					}
+				}
+			}
+		}
+	}
+	.video-about{
+		margin-top: 130px;
+		display: block;
+		float: left;
+		.video-skile-con{
+			h3{
+				color: #1a1a1a;
+				font-family: $title-font;
+				span{
+					font-family: $second-font;
+					display: block;
+					font-style: italic;
+				}
+			}
+			p{	
+				color: #666666;
+				font-size: 15px;
+			}
+			a{
+
+			}
+		}
+	}
+	.skil-bar{
+		margin-top: 60px;
+	}
+}
+.vidos-area-two{
+	background: #111111;
+	display: block;
+	margin-top: 120px;
+	.video-img{
+		display: block;
+		margin-right: -15px;
+		figure{
+			display: block;
+			position: relative;
+			text-align: center;
+			img{
+				width: 100%;
+				display: block;
+				height: 360px;
+				margin-top: -34px;
+				position: absolute;
+
+			}
+			span{
+				width: 50px;
+				height: 50px;
+				background: #f42267;
+				color: #fff;
+				position: absolute;
+				z-index: 999;
+				display: block;
+				text-align: center;
+				font-size: 18px;
+				padding: 12px 2px;
+				left: 0;
+				right: 0;
+				border-radius: 100%;
+				margin: 90px auto 0;
+				cursor: pointer;
+				transition: $transition;
+				&:hover{
+					background:$hover-color;
+				}
+				i{
+
+				}
+			}
+			h4{
+				position: absolute;
+				margin: 150px 55px;
+				display: block;
+				color: #ffffff;
+				font-weight: 700;
+			}
+			
+		}
+	}
+}

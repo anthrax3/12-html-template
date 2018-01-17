@@ -1,0 +1,281 @@
+.portfolio-area{
+	display: block;
+	padding: 120px 0 90px;
+	.section-heading{
+		margin: 0 0 40px;
+	}
+	.portfolio-nav{
+		margin: 0 0 50px;
+		ul{
+			li{
+				padding: 5px 25px;
+				color: #000;
+				font-weight: 600;
+				cursor: pointer;
+				&.active{
+					background: $primary-color;
+					border-radius: 50px;
+					color: #fff;
+				}
+			}
+		}
+	}
+	.single-portfolio{
+		margin:  0 0 30px;
+ 		figure{
+ 			position: relative;
+	 		&:after{
+				content:'';
+				position: absolute;
+				left: 0;
+				right: 0;
+				top: 0;
+				bottom: 0;
+				background: rgba(0, 0, 0, 0.5);
+				transition: $transition;
+				opacity: 0;
+			}
+			&:hover{
+				&:after{
+					opacity:1;
+				}
+				.img-cap{
+					opacity: 1;
+					top: 45%;
+				}
+			}
+ 			a{
+ 				z-index: 999;
+	 			.img-cap{
+	 				position: absolute;
+	 				z-index: 999;
+	 				top: 40%;
+	 				width: 30px;
+	 				margin: auto;
+	 				left: 0;
+	 				right: 0;
+	 				font-size: 24px;
+	 				color: #fff;
+	 				opacity: 0;
+	 				transition: $transition;
+	 			}
+ 			}
+			img{
+				width: 100%;
+			}
+		}
+	}
+}
+.portfolio-area-two{
+	&.portfolio-two{
+		padding: 120px 0;
+	}
+	.single-portfolio{
+		margin:  0 0 30px;
+ 		figure{
+ 			position: relative;
+	 		&:after{
+				content:'';
+				position: absolute;
+				left: 0;
+				right: 0;
+				top: 0;
+				bottom: 0;
+				background: rgba(0, 0, 0, 0.5);
+				transition: $transition;
+				opacity: 0;
+			}
+			&:hover{
+				&:after{
+					opacity:1;
+				}
+				.img-cap{
+					opacity: 1;
+					top: 45%;
+				}
+			}
+ 			a{
+ 				z-index: 999;
+	 			.img-cap{
+	 				position: absolute;
+	 				z-index: 999;
+	 				top: 40%;
+	 				width: 30px;
+	 				margin: auto;
+	 				left: 0;
+	 				right: 0;
+	 				font-size: 24px;
+	 				color: #fff;
+	 				opacity: 0;
+	 				transition: $transition;
+	 			}
+ 			}
+			img{
+				width: 100%;
+			}
+		}
+	}
+}
+.portfolio-area-three{
+	display: block;
+	padding: 120px 0 0;
+	&.portfolio-one{
+		padding: 120px 0;
+	}
+	.section-heading{
+		margin: 0 0 40px;
+	}
+	.portfolio-nav{
+		margin: 0 0 50px;
+		ul{
+			li{
+				padding: 5px 25px;
+				color: #000;
+				font-weight: 600;
+				cursor: pointer;
+				&.active{
+					background: $primary-color;
+					border-radius: 50px;
+					color: #fff;
+				}
+			}
+		}
+	}
+	.portfolio{
+ 		figure{
+ 			position: relative;
+	 		&:after{
+				content:'';
+				position: absolute;
+				left: 0;
+				right: 0;
+				top: 0;
+				bottom: 0;
+				background: rgba(0, 0, 0, 0.5);
+				transition: $transition;
+				opacity: 0;
+			}
+			&:hover{
+				&:after{
+					opacity:1;
+				}
+				h4{
+					opacity: 1;
+					top: 35%;
+				}
+				ul{
+					opacity: 1;
+					bottom: 35%;
+				}
+			}
+			img{
+				width: 100%;
+			}
+			h4{
+				position: absolute;
+				top: 25%;
+				z-index: 999;
+				left: 0;
+				right: 0;
+				color: #fff;
+				font-family: $title-font;
+				font-weight: 700;
+				transition: $transition;
+				opacity: 0;
+			}
+			ul{
+				position: absolute;
+				bottom: 25%;
+				z-index: 999;
+				left: 0;
+				right: 0;
+				transition: $transition;
+				opacity: 0;
+				li{
+					a{
+						color: #ddd;
+						&:hover{
+							color:#fff;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.portfolio-area-three-page{
+	display: block;
+	padding: 120px 0 90px;
+	.section-heading{
+		margin: 0 0 40px;
+	}
+	.portfolio-nav{
+		margin: 0 0 50px;
+		ul{
+			li{
+				color: #999;
+				font-weight: 600;
+				cursor: pointer;
+				text-transform: uppercase;
+				span{
+					width: 50px;
+					height: 2px;
+					background: #999999;
+					display: inline-block;
+					margin-right: 5px;
+				}
+				&.active{
+					color: #000;
+					span{
+						background: #000;
+					}
+				}
+			}
+		}
+	}
+	.single-portfolio{
+		margin:  0 0 30px;
+ 		figure{
+ 			position: relative;
+	 		&:after{
+				content:'';
+				position: absolute;
+				left: 0;
+				right: 0;
+				top: 0;
+				bottom: 0;
+				background: rgba(0, 0, 0, 0.5);
+				transition: $transition;
+				opacity: 0;
+			}
+			&:hover{
+				&:after{
+					opacity:1;
+				}
+				.img-cap{
+					opacity: 1;
+					top: 45%;
+				}
+			}
+ 			a{
+ 				z-index: 999;
+	 			.img-cap{
+	 				position: absolute;
+	 				z-index: 999;
+	 				top: 40%;
+	 				width: 30px;
+	 				margin: auto;
+	 				left: 0;
+	 				right: 0;
+	 				font-size: 24px;
+	 				color: #fff;
+	 				opacity: 0;
+	 				transition: $transition;
+	 			}
+ 			}
+			img{
+				width: 100%;
+			}
+		}
+	}
+}

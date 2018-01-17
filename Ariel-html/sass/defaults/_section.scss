@@ -1,0 +1,33 @@
+/*** Section ***/
+.section{
+}
+.section-heading{
+	text-align: center;
+	display: block;
+	margin: 0 0 60px;
+	p{
+		color: #7c7c7c;
+		font-size: 13px;
+		margin: 0 0 15px;
+	}
+	h3{
+		color: #000;
+		font-weight: 800;
+		font-family: $title-font;
+		position: relative;
+		padding: 0 0 20px;
+		margin: 0;
+		font-size: 40px;
+		&:after{
+			content:'';
+			position: absolute;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			height: 4px;
+			width: 50px;
+			margin: auto;
+			background: $primary-color;
+		}
+	}
+}

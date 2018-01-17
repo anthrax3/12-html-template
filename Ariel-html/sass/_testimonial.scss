@@ -1,0 +1,86 @@
+.testimonials-area{
+	.client-img{
+		width: 100%;
+		display: block;
+		a{
+			width: 10%;
+			display: inline-block;
+			margin-bottom: 70px;
+			.single-con{
+				display: none;
+				left: 0;
+				right: 0;
+				blockquote{
+					font-size: 20px;
+					border:none;
+					font-family: $second-font;
+					font-style: italic;
+					color: #111111;
+				}
+				h4{
+					font-weight: 700;
+					font-family: $title-font;
+					color: #212121;
+					margin: 0 0 5px;
+				}
+				span{
+					font-size: 13px;
+					font-family: $second-font;
+					font-style: italic;
+					color: #212121;
+				}
+			}
+			img{
+				display: block;
+				width: 70px;
+				margin: auto;
+			}
+			&.active{
+				z-index: 99;
+				width: 60%;
+				margin-bottom: 0;
+				img{
+					width: 100px;
+				}
+				.single-con{
+					display: block;
+				}
+			}
+		}
+	}
+	.client-content{
+		opacity: 0;
+	}
+}
+.testimonial-area-four{
+	padding: 100px 0;
+	position: relative;
+	&:after{
+		background:rgba(0, 0, 0, 0.6);
+	}
+	.single-testimonial{
+		position: relative;
+		z-index: 999;
+		img{
+			display: inline-block;
+			margin:0 0 15px;
+		}
+		h4{
+			font-weight: 400;
+			color: #fff;
+			font-family: $title-font;
+			margin: 0;
+		}
+		span{
+			font-style: italic;
+			display: block;
+			margin: 0 0 20px;
+			color: #fff;
+		}
+		p{
+			font-family: $second-font;
+			color: #fff;
+			font-style: italic;;
+		}
+	}
+}

@@ -1,0 +1,14 @@
+/***Button***/
+.btn1{
+	display: inline-block;
+	padding: 10px 60px;
+	background: $primary-color;
+	border-radius: 50px;
+	color: #fff;
+	font-weight: 500;
+	transition: $transition;
+	&:hover{
+		background:$hover-color;
+		color: #fff;
+	}
+}

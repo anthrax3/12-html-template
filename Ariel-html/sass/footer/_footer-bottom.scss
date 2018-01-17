@@ -1,0 +1,28 @@
+footer{
+	.footer-bottom{
+		background: #191a1b;
+		padding: 40px 0;
+		display: block;
+		.copyright-content{
+			p{
+				margin: 0;
+				color: #999999;
+				font-size: 16px;
+			}
+		}
+		.footer-social{
+			ul{
+				li{
+					padding: 0 5px;
+					a{
+						color: #999999;
+						font-size: 18px;
+						&:hover{
+							color:#fff;
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,151 @@
+.blog-area{
+	padding: 90px 0;
+	.single-blog{
+		display: block;
+		background: #fff;
+		border-radius: 5px;
+		&:hover{
+			figure{
+				img{
+					opacity:0.8;
+				}
+				.user-img{
+					img{
+						opacity:1;
+					}
+				}
+			}
+		}
+		.blog-date{
+			font-size: 12px;
+			font-family: $title-font;
+			font-weight: 400;
+			color: #c3c3c3;
+			padding: 10px 15px;
+			display: block;
+			i{
+				padding-right: 5px;
+			}
+		}
+		figure{
+			position: relative;
+			display: block;
+			margin: 0 0 40px;
+			img{
+				width: 100%;
+				transition: $transition
+			}	
+			.user-img{
+				position: absolute;
+				bottom: -17px;
+				left: 26px;
+				width: 35px;
+				height: 35px;
+				border-radius: 100%;
+				img{
+
+				}
+			}
+		}
+		article{
+			display: block;
+			padding: 0 25px;
+			margin: 0 0 40px;
+			.admin{
+				clip: #313131;
+				display: block;
+				margin: 0 0 15px;
+			}
+			h3{
+				a{
+					color: #000;
+					font-family: $title-font;
+					font-weight: 700;
+					&:hover{
+						color:$primary-color;
+					}
+				}
+			}
+			p{
+				margin: 0;
+				color: #7b7b7b;
+			}
+		}
+		.blog-buttom{
+			background: #ebebeb;
+			display: block;
+			padding: 10px;
+			ul{
+				li{
+					padding: 0 15px;
+					a{
+						color: #000;
+						&:hover{
+							color:$primary-color;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.blog-area-two{
+	display: block;
+	padding: 120px 0;
+	.single-blog{
+		&:hover{
+			figure{
+				img{
+					opacity:0.8;
+				}
+			}
+		}
+		figure{
+			display: block;
+			margin: 0 0 20px;
+			img{
+				width: 100%;
+				opacity: 1;
+				transition: $transition;
+			}
+		}
+		.post-date{
+			display: block;
+			margin: 0 0 15px;
+			ul{
+				li{
+					font-weight: 400;
+					font-family: $title-font;
+					color: #141414;
+					font-size: 13px;
+					color: #141414;
+					span{
+						color: #00abc9;
+					}
+				}
+			}
+		}
+		article{
+			h4{
+				font-family: $title-font;
+				font-weight: 700;
+				a{
+					color: #141414;
+					&:hover{
+						color:$primary-color;
+					}
+				}
+			}
+			ul{
+				li{
+					color: #6f6f6f;
+					padding-right: 10px;
+					font-family: $title-font;
+					i{
+						padding-right: 5px;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,88 @@
+.contact-area{
+	background: #ecf1f2;
+	padding: 90px 0;
+	.address{
+		display: block;
+		margin: 0 0 50px;
+		h4{
+			text-transform: uppercase;
+			font-weight: 700;
+			font-family: $title-font;
+			color: #333333;
+			font-size: 16px;
+			margin: 0 0 15px;
+		}
+		address{
+			span{
+				display: block;
+				color: #666666;
+				font-size: 13px;
+			}
+		}
+	}
+	form{
+		input{
+			width: 100%;
+			background: #fff;
+			height: 50px;
+			padding: 0 15px;
+			border-radius: 5px;
+			margin: 0 0 20px;
+			outline: none;
+			box-shadow: none;
+			border:none;
+		}
+		select{
+			width: 100%;
+			background: #fff;
+			height: 50px;
+			padding: 0 15px;
+			border-radius: 5px;
+			margin: 0 0 20px;
+			outline: none;
+			box-shadow: none;
+			border:none;;
+
+		}
+		textarea{
+			width: 100%;
+			background: #fff;
+			height: 200px;
+			padding: 10px 15px;
+			border-radius: 5px;
+			margin: 0 0 20px;
+			outline: none;
+			box-shadow: none;
+			border:none;
+
+		}
+		button{
+			width: 100%;
+			background: #69d2e7;
+			color: #fff;
+			text-transform: uppercase;
+			padding: 8px 0;
+			font-weight: 500;
+			display: block;
+			border-radius: 5px;
+			transition: $transition;
+			&:hover{
+				background:$primary-color;
+			}
+		}
+	}
+	ul{
+		li{
+			padding: 5px;
+			a{
+				color: #69d2e7;
+				margin: 0 0 26px;
+				display: block;
+			}
+			img{
+				width: 120px;
+				display: block;
+			}
+		}
+	}
+}

@@ -1,0 +1,25 @@
+.client-area{
+	padding:70px 0 100px;
+}
+.brand-area{
+	padding: 0 0 120px;
+	&.about-one{
+		padding: 120px 0;
+	}
+	.single-brand{
+		.img-normal{
+			display: block;
+		}
+		.hover-img{
+			display: none;
+		}
+		&:hover{
+			.img-normal{
+				display: none;
+			}
+			.hover-img{
+				display: block;
+			}
+		}
+	}
+}
