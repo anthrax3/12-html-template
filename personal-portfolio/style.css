@@ -1,0 +1,418 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Camera Frame Photography Portfolio Templates,
+    Template URI: http://www.themectg.com
+    Description: This is html5 template
+    Author: ThemeCTG
+    Author URI: http://themectg.com
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	0. Theme Default CSS (body, link color, section etc),
+    1. Helper Class ,
+    2. Full screen Style,
+    3. Main Menu Style,
+    4. Gellary item Style,
+    5. Blog Style,
+    6. Footer Style,
+-----------------------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500|Playfair+Display:400,700,900');
+
+/* Theme Default CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    color: #545454;
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover,
+a:focus,
+.active > a {
+    outline: none;
+    text-decoration: none;
+    box-shadow: none;
+    color: #000000;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: capitalize;
+    margin: 0;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    color: #1c1c1c;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 40px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #545454;
+    line-height: 1.6;
+    font-size: 14px;
+    background-color: #f9f9f9;
+}
+
+p {
+    font-size: 14px;
+}
+
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}
+
+
+/*------------------
+1. Helper Class
+--------------------*/
+
+.rounded-bttn {
+    background-color: #ffffff;
+    border-radius: 100px;
+    color: #545454;
+    display: inline-block;
+    padding: 0.8em 3em;
+    border: none;
+    font-size: 16px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.gray-bttn {
+    background-color: #f9f9f9;
+}
+
+.red-text {
+    color: #f81d1d;
+}
+
+.rounded-bttn:hover {
+    box-shadow: 0 5px 5px 0 #ddd;
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+
+.white-bg {
+    background-color: #ffffff;
+}
+
+
+/*---------------------
+2. Full screen Style
+----------------------*/
+
+#full_screen_btn {
+    background-color: #ffffff;
+    border: medium none;
+    border-radius: 100px;
+    bottom: 0;
+    height: 50px;
+    position: absolute;
+    right: -60px;
+    width: 50px;
+    z-index: 9999;
+}
+
+#full_screen_btn i.fa.fa-angle-up {
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+#full_screen_btn i.fa.fa-angle-down {
+    font-size: 20px;
+    left: 10px;
+    position: absolute;
+    top: 18px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+#full_screen_btn.expand i.fa.fa-angle-up {
+    right: 13px;
+    top: 12px;
+}
+
+#full_screen_btn.expand i.fa.fa-angle-down {
+    left: 13px;
+    top: 18px;
+}
+
+.maincontent {
+    display: table;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+}
+
+.v_center {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+/*-------------------
+3. Main Menu Style
+--------------------*/
+
+#mainmenu .nav.navbar-nav li a,
+li a {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.mainmenu.nav.navbar-nav li a {
+    position: relative;
+}
+
+.social_menu li a {
+    display: inline-block;
+    height: 20px;
+    text-align: center;
+    width: 20px;
+}
+
+.mainmenu.nav.navbar-nav li.active a,
+.mainmenu.nav.navbar-nav li a:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+.mainmenu.nav.navbar-nav li a:after,
+.mainmenu.nav.navbar-nav li a:before {
+    content: "\f105";
+    font-family: fontawesome;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+    -webkit-transform-origin: 1px 7px 0;
+    transform-origin: 1px 7px 0;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.mainmenu.nav.navbar-nav li a:after {
+    bottom: 0;
+    left: auto;
+    right: 0;
+    top: auto;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: -6px 13px 0;
+    transform-origin: -6px 13px 0;
+}
+
+.mainmenu.nav.navbar-nav li.active a:after,
+.mainmenu.nav.navbar-nav li.active a:before,
+.mainmenu.nav.navbar-nav li a:hover:after,
+.mainmenu.nav.navbar-nav li a:hover:before {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.logo {
+    margin-top: 10px;
+    max-width: 200px;
+    padding: 8px 20px;
+}
+
+.mainmenu-area .navbar-nav > li .contact_bttn {
+    padding: 7px 20px;
+    border: 1px solid;
+    border-radius: 100px;
+}
+
+.mainmenu-area .navbar-nav > li .contact_bttn:hover {
+    background: #000000;
+    color: #ffffff;
+    border: 1px solid #000000;
+}
+
+
+/*---------------
+4. Gellary item Style
+-----------------*/
+
+.gallery_item {
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    padding: 20px;
+    position: relative;
+}
+
+.gallery_photo img {
+    width: 100%;
+}
+
+.gallery_icon {
+    position: absolute;
+    right: 10%;
+    top: 10%;
+}
+
+.gallery_icon a {
+    display: block;
+    font-size: 20px;
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px);
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+.gallery_item:hover .gallery_icon a {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    margin: 5px 0;
+}
+
+.gallery_details {
+    bottom: 5%;
+    color: #ffffff;
+    left: 0;
+    margin: auto;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    overflow: hidden;
+    padding: 16px;
+    position: absolute;
+    right: 0;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: calc(100% - 20%);
+    z-index: 1;
+}
+
+.gallery_item:hover .gallery_details {
+    bottom: 10%;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.gallery_details span {
+    margin-left: 5px;
+}
+
+.gallery_details a {
+    color: #ffffff;
+}
+
+.gellary_heading {
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+.gallery_details:after {
+    background-color: #000000;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.gallery_single_item {
+    display: none;
+}
+
+
+/*------------------
+5. Blog Style
+--------------------*/
+
+.blog_social_button a {
+    background-color: #ddd;
+    border-radius: 50%;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 16px;
+    height: 40px;
+    line-height: 2.5;
+    margin-right: 5px;
+    text-align: center;
+    width: 40px;
+}
+
+.blog_social_button .facebook {
+    background-color: #3366ff;
+}
+
+.blog_social_button .twitter {
+    background-color: #00ccff;
+}
+
+.blog_social_button .google-plus {
+    background-color: #ff3333;
+}
+
+
+/*-----------------
+6. Footer Style
+-------------------*/
+
+.footer {
+    padding: 20px 0;
+}

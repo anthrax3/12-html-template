@@ -1,0 +1,215 @@
+.navbar.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    margin-bottom: 0;
+    padding: 10px 0;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li {
+    margin: 15px 9px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    padding: 8px 10px;
+}
+
+.breadcrumb {
+    background-color: transparent;
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.img-thumbnail {
+    border-color: #ffffff;
+    border-radius: 0;
+    padding: 20px;
+}
+
+.well {
+    background-color: #ffffff;
+    border: medium none;
+    border-radius: 2px;
+}
+
+.well.well-lg {
+    padding: 60px 50px;
+}
+.pagination > li.active > a:hover,
+.pagination > li.active > a:focus,
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover {
+    color: #545454;
+    background: none;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: #c7c7c7;
+}
+
+.pagination > li.active > a,
+.pagination > li.active > span {
+    color: #545454;
+    background: none;
+}
+
+.form-control {
+    border: medium none;
+    border-bottom: 1px solid #545454;
+    border-radius: 0;
+    color: #545454;
+    box-shadow: none;
+    height: 50px;
+    padding: 15px 20px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-bottom: 1px solid #bababa;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #545454;
+}
+
+.form-control:-moz-placeholder {
+    color: #545454;
+}
+
+.form-control::-moz-placeholder {
+    color: #545454;
+}
+
+.form-control:-ms-input-placeholder {
+    color: #545454;
+}
+
+.modal-content {
+    border-radius: 0;
+    padding: 30px 40px;
+}
+
+#contact_form .modal-dialog {
+    left: 0;
+    margin: auto;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.mainmenu-area .navbar-toggle:focus,
+.mainmenu-area .navbar-toggle {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-radius: 0;
+    margin: 9px 14px 0 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    position: relative;
+}
+
+.mainmenu-area .navbar-toggle:hover {
+    background-color: #545454;
+}
+
+.mainmenu-area .navbar-toggle .icon-bar {
+    background-color: #545454;
+    -webkit-transition: 0.3s;
+    transition: 0.3s
+}
+
+.mainmenu-area .navbar-toggle:hover .icon-bar {
+    background-color: #ffffff;
+}
+
+
+/*-------------------------------
+Owlcarousel-Slider-Control-Style
+--------------------------------*/
+
+.full_screen_slider .owl-carousel .owl-item {
+    cursor: -webkit-grab;
+    cursor: grab;
+}
+
+.full_screen_slider .owl-controls {
+    background-color: #ffffff;
+    border-radius: 100px;
+    bottom: 20px;
+    counter-reset: section;
+    left: 50%;
+    opacity: 0;
+    padding: 10px 30px;
+    position: absolute;
+    -webkit-transform: translate(-50%, 0px);
+    transform: translate(-50%, 0px);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.full_screen_slider:hover .owl-controls {
+    bottom: 40px;
+    opacity: 1;
+}
+
+.full_screen_slider .owl-dots .owl-dot::after {
+    content: counter(section, decimal);
+    counter-increment: section;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.full_screen_slider .owl-dots .owl-dot {
+    border: 1px solid transparent;
+    border-radius: 50%;
+    float: left;
+    height: 30px;
+    margin: 0 5px;
+    width: 30px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    position: relative;
+}
+
+.full_screen_slider .owl-dots .owl-dot.active {
+    border: 1px solid #cacaca;
+    background-color: #f2f2f2;
+    color: #cacaca;
+}
+
+.full_screen_slider .owl-controls .owl-nav .owl-prev,
+.full_screen_slider .owl-controls .owl-nav .owl-next {
+    color: #cacaca;
+    font-size: 20px;
+    left: 14px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.full_screen_slider .owl-controls .owl-nav .owl-next {
+    left: auto;
+    right: 14px;
+}
+
+.full_screen_slider .owl-controls .owl-nav .owl-prev:hover,
+.full_screen_slider .owl-controls .owl-nav .owl-next:hover {
+    color: #545454;
+}
